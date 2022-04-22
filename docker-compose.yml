@@ -1,0 +1,27 @@
+---
+version: "3"
+services:
+  plex:
+    image: linuxserver/plex
+    container_name: plex
+    #network_mode: host
+    environment:
+      - TZ=US
+      - PUID=998
+      - PGID=100
+      - VERSION=latest
+      - PLEX_CLAIM=claim-Jz28RpoVUBTxHbZexfgb
+    volumes:
+      - /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies:/config
+      - /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Shows:/shows
+      - /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies:/movies
+      - /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime:/anime
+      - /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime:/anime2
+      - /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Shows:/shows2
+      - /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Movies:/movies2
+      - /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies:/config2
+      - /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies:/config3
+      - /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Toonz:/GreenToonz
+    restart: unless-stopped
+    ports:
+      - 55789:32400
