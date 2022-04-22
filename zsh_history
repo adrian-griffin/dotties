@@ -1,0 +1,3706 @@
+: 1642723120:0;clear
+: 1642723122:0;ls
+: 1642723124:0;clear
+: 1642723142:0;vim ~/.zshrc
+: 1642723202:0;git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+: 1642723207:0;vim ~/.zshrc
+: 1642723313:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+: 1642723316:0;echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+: 1642723322:0;source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+: 1642723332:0;exit
+: 1642723337:0;ls
+: 1642723351:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+: 1642723359:0;echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+: 1642723365:0;source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+: 1642723369:0;vim ~/.zshrc
+: 1642723408:0;exec zsh
+: 1642723457:0;sudo apt-get install zsh-syntax-highlighting
+: 1642723463:0;exec zsh
+: 1642723465:0;exit
+: 1642723478:0;vim ~/.zshrc
+: 1642723491:0;exit
+: 1642723505:0;ls
+: 1642723532:0;vim ~/.zshrc
+: 1642723560:0;clear
+: 1642723595:0;vim ~/.zshrc
+: 1642723613:0;exit
+: 1642723631:0;ls
+: 1642723632:0;clear
+: 1642723687:0;ls
+: 1642723692:0;vim ~/.zshrc
+: 1642723707:0;exec zsh
+: 1642723708:0;ls
+: 1642723709:0;clear
+: 1642723718:0;exec zsh
+: 1642723720:0;vim ~/.zshrc
+: 1642723729:0;exec zsh
+: 1642723734:0;clear
+: 1642723739:0;ls
+: 1642723740:0;cd ..
+: 1642723742:0;ls
+: 1642723796:0;vim ~/.zshrc
+: 1642723873:0;exec zsh
+: 1642723878:0;transmission
+: 1642723919:0;exec zsh
+: 1642723921:0;transmission
+: 1642724036:0;clear
+: 1642724048:0;ls
+: 1642724049:0;cd ..
+: 1642724050:0;cd  ~
+: 1642724051:0;ls
+: 1642724059:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies
+: 1642724059:0;ls
+: 1642724080:0;cd completed
+: 1642724080:0;ls
+: 1642724096:0;cp West.Side.Story.2021.720p.HDCAM-C1NEM4.mkv /mnt/hgfs/AMA\ Cloud\ SHARED
+: 1642724220:0;ls
+: 1642724224:0;cd Harry
+: 1642724230:0;cd Harry.Potter.1-8.2001-2011.1080p.Rifftrax.6ch.2ch.Wizard.People/
+: 1642724230:0;ls
+: 1642724259:0;cp Harry.Potter.4.And.The.Goblet.Of.Fire.2005.1080p.Rifftrax.6ch.2ch.mkv /mnt/hgfs/AMA\ Cloud\ SHARED
+: 1642724358:0;docker ps -a
+: 1642724373:0;docker exec -it c06bdd416072 /bin/bash
+: 1642724405:0;clear
+: 1642725675:0;ls
+: 1642725680:0;cd ..
+: 1642725681:0;ls
+: 1642725896:0;cd ..
+: 1642725896:0;ls
+: 1642725898:0;cd Movies
+: 1642725898:0;ls
+: 1642725906:0;mkdir Harry\ Potter
+: 1642725907:0;ls
+: 1642725912:0;cd ..
+: 1642725913:0;ls
+: 1642725915:0;cd completed
+: 1642725916:0;ls
+: 1642725922:0;cd Harry.Potter.1-8.2001-2011.1080p.Rifftrax.6ch.2ch.Wizard.People/
+: 1642725922:0;ls
+: 1642725982:0;cp /*.mkv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/Harry\ Potter
+: 1642725985:0;ls
+: 1642725990:0;cdd ..
+: 1642725992:0;cd ..
+: 1642725992:0;ls
+: 1642725995:0;cd ..
+: 1642725995:0;ls
+: 1642725997:0;cd Movies
+: 1642725998:0;ls
+: 1642726000:0;cd Harry\ Potter
+: 1642726000:0;ls
+: 1642726071:0;find ./ -name '*.mkv' -exec cp -prv '{}' '/srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/Harry Potter' ';'
+: 1642726072:0;ls
+: 1642726128:0;vim ~/.zshrc
+: 1642726236:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies
+: 1642726238:0;ls
+: 1642726240:0;pwd
+: 1642726272:0;exec zsh
+: 1642726277:0;AMACD1
+: 1642726279:0;ls
+: 1642726297:0;cd Movies
+: 1642726297:0;ls
+: 1642726300:0;cd Harry\ Potter
+: 1642726301:0;ls
+: 1642726311:0;vim ~/.zshrc
+: 1642726365:0;cd ....
+: 1642726367:0;ls
+: 1642726371:0;cd AMACloudMovies
+: 1642726372:0;ls
+: 1642726373:0;clear
+: 1642726381:0;ls
+: 1642726382:0;clear
+: 1642726504:0;docker ps -a
+: 1642726517:0;docker exec -it c06bdd416072 /bin/bash
+: 1642726668:0;c06bdd416072 clear
+: 1642726671:0;clear
+: 1642726673:0;ls
+: 1642726674:0;docker ps -a
+: 1642726681:0;docker ps --help
+: 1642726703:0;docker ps -f haugene
+: 1642726723:0;man docker ps
+: 1642726728:0;sudo apt-get install man
+: 1642726775:0;man docker ps
+: 1642726819:0;docker ps -a
+: 1642726823:0;docker ps --help
+: 1642726859:0;docker ps -f haugene/transmission-openvpn:latest
+: 1642726893:0;docker ps -f transmission-openvpn
+: 1642726917:0;clear
+: 1642726952:0;docker ps -aqf "name=transmission-openvpn"
+: 1642726959:0;docker ps -aqf "name=transmission-openvpn" | bash
+: 1642727078:0;docker ps -aqf "name=transmission-openvpn" | docker exec -it 
+: 1642727085:0;docker ps -aqf "name=transmission-openvpn" | docker exec -it /bin/bash
+: 1642727251:0;docker ps -aqf "name=transmission-openvpn" | transmission_id_current = "" && docker exec -it $transmission_id_current /bin/bash
+: 1642727421:0;transmission_id_current=$(docker ps -aqf "name=transmission-openvpn")
+: 1642727428:0;echo transmission_id_current
+: 1642727438:0;echo $transmission_id_current
+: 1642727461:0;transmission_id_current=$(docker ps -aqf "name=transmission-openvpn") && docker exec -it $transmission_id_current /bin/bash
+: 1642727478:0;vim ~/.zshrc
+: 1642727510:0;exec zsh
+: 1642727523:0;ls
+: 1642727526:0;cd Movies
+: 1642727526:0;ls
+: 1642727528:0;cd Harry\ Potter
+: 1642727528:0;ls
+: 1642727531:0;cd ....
+: 1642727532:0;ls
+: 1642727535:0;cd AMACloudMovies
+: 1642727536:0;ls
+: 1642727564:0;cd completed/Harry.Potter.1-8.2001-2011.1080p.Rifftrax.6ch.2ch.Wizard.People/
+: 1642727564:0;ls
+: 1642727622:0;cp *.mkv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/Harry\ Potter
+: 1642728157:0;ls
+: 1642728161:0;cd Movies
+: 1642728161:0;ls
+: 1642728163:0;cd Harry\ Potter
+: 1642728163:0;ls
+: 1642729436:0;cd ..
+: 1642729437:0;ls
+: 1642729438:0;cd ..
+: 1642729439:0;ls
+: 1642729446:0;cd completed
+: 1642729446:0;ls
+: 1642729462:0;rm -rf Harry.Potter.1-8.2001-2011.1080p.Rifftrax.6ch.2ch.Wizard.People
+: 1642729467:0;cd Harry\ Potter\ 20th\ Anniversary\ Return\ To\ Hogwarts\ \(2022\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\]
+: 1642729467:0;ls
+: 1642729491:0;cp *.mp4 /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/Harry\ Potter/Extras
+: 1642729764:0;cd ..
+: 1642729765:0;ls
+: 1642729771:0;cd Movies/Harry\ Potter/
+: 1642729772:0;ls
+: 1642729798:0;cd Extras
+: 1642729801:0;cd ..
+: 1642729839:0;ls
+: 1642729843:0;cd ....
+: 1642729844:0;ls
+: 1642729847:0;cd dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27
+: 1642729848:0;ls
+: 1642729850:0;cd AMACloudMovies
+: 1642729850:0;ls
+: 1642729852:0;cd completed
+: 1642729856:0;ls
+: 1642730161:0;ls /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/Harry\ Potter
+: 1642730166:0;ls /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/Harry\ Potter/Extras
+: 1642730180:0;cd Movies/Harry\ Potter/
+: 1642730183:0;pwd
+: 1642730191:0;cd ..
+: 1642730191:0;ls
+: 1642730194:0;cd Movies/Harry\ Potter/
+: 1642730195:0;ls
+: 1642730202:0;rm Extras
+: 1642730205:0;cd ..
+: 1642730205:0;l
+: 1642730207:0;ls
+: 1642730210:0;cd ..
+: 1642730210:0;ls
+: 1642730215:0;cd completed
+: 1642730216:0;ls
+: 1642730220:0;cd Harry\ Potter\ 20th\ Anniversary\ Return\ To\ Hogwarts\ \(2022\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\]
+: 1642730220:0;ls
+: 1642730253:0;cp Harry.Potter.20th.Anniversary.Return.To.Hogwarts.2022.1080p.WEBRip.x264.AAC5.1-\[YTS.MX\].mp4 /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/Harry\ Potter/Extras/
+: 1642730269:0;mkdir /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/Harry\ Potter/Extras
+: 1642730271:0;cp Harry.Potter.20th.Anniversary.Return.To.Hogwarts.2022.1080p.WEBRip.x264.AAC5.1-\[YTS.MX\].mp4 /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/Harry\ Potter/Extras/
+: 1642730440:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies
+: 1642730441:0;ls
+: 1642730444:0;cd Movies/Harry\ Potter/
+: 1642730445:0;ls
+: 1642730447:0;cd Extras
+: 1642730448:0;ls
+: 1642730479:0;mv Harry.Potter.20th.Anniversary.Return.To.Hogwarts.2022.1080p.WEBRip.x264.AAC5.1-\[YTS.MX\].mp4 HarryPotter20thAnniversary.ReturntoHogwarts
+: 1642730480:0;ls
+: 1642730496:0;mv HarryPotter20thAnniversary.ReturntoHogwarts HarryPotter20thAnniversary.ReturntoHogwarts.mp4
+: 1642730497:0;ls
+: 1642730509:0;cp HarryPotter20thAnniversary.ReturntoHogwarts.mp4 /mnt/hgfs/AMA\ Cloud\ SHARED
+: 1642736192:0;clear
+: 1642736193:0;ls
+: 1642736197:0;cd ..
+: 1642736198:0;ls
+: 1642736226:0;cd ..
+: 1642736228:0;ls
+: 1642736236:0;cd ..
+: 1642736237:0;ls
+: 1642736240:0;cd ..
+: 1642736242:0;ls
+: 1642736251:0;cd Anime
+: 1642736253:0;ls
+: 1642736648:0;cd SteinsGate
+: 1642736649:0;ls
+: 1642736653:0;cd SteinsGate2
+: 1642736662:0;cd SteinsgateS2
+: 1642736664:0;ls
+: 1642737068:0;cd ..
+: 1642737069:0;ls
+: 1642737070:0;cd ..
+: 1642737071:0;ls
+: 1642737072:0;cd ..
+: 1642737076:0;cd completed
+: 1642737078:0;ls
+: 1642737081:0;cd Around.the.World.in.80.Days.2021.S01.1080p.iP.WEBRip.AAC2.0.x264-PEPES\[eztv.re\]
+: 1642737082:0;ls
+: 1642737096:0;cp Around.the.World.in.80.Days.2021.S01E04.Episode.4.1080p.iP.WEB-DL.AAC2.0.H.264-PEPES\[eztv.re\].mkv /mnt/hgfs/AMA\ Cloud\ SHARED
+: 1642737269:0;ls
+: 1642737271:0;cd ..
+: 1642737272:0;ls
+: 1642737282:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies
+: 1642737283:0;ls
+: 1642737285:0;cd Shows
+: 1642737287:0;ls
+: 1642737288:0;pwd
+: 1642737296:0;ls
+: 1642737299:0;cd  Around.the.World.in.80.Days.2021.S01.1080p.iP.WEBRip.AAC2.0.x264-PEPES\[eztv.re\]
+: 1642737300:0;ls
+: 1642737328:0;mkdir AroundtheWorldin80Days
+: 1642737336:0;cp *.mkv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Shows/AroundtheWorldin80Days
+: 1642738082:0;ls
+: 1642738086:0;cd AroundtheWorldin80Days
+: 1642738086:0;ls
+: 1642738087:0;cd ..
+: 1642738090:0;ls
+: 1642738092:0;cd ..
+: 1642738159:0;history
+: 1642738268:0;rsync ls Gdrive:Deathnote
+: 1642738271:0;rsync ls Gdrive:DeathNote
+: 1642738279:0;rclone ls Gdrive:DeathNote
+: 1642738378:0;rclone copy Gdrive:Deathnote /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime/DeathNote
+: 1642738398:0;mkdir /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime/DeathNote
+: 1642738400:0;rclone copy Gdrive:Deathnote /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime/DeathNote
+: 1642738412:0;rclone copy Gdrive:DeathNote /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime/DeathNote
+: 1642738426:0;ls
+: 1642738445:0;AMACD1
+: 1642738447:0;ls
+: 1642738450:0;cd Shows
+: 1642738457:0;cd ..
+: 1642738461:0;cd Shows && ls
+: 1642738465:0;cd AroundtheWorldin80Days
+: 1642738466:0;ls
+: 1642738486:0;AMACD1
+: 1642738618:0;ls
+: 1642738619:0;cd Anime
+: 1642738620:0;ls
+: 1642738623:0;cd DeathNote
+: 1642738624:0;ls
+: 1642738767:0;sudo apt-get install rename
+: 1642738876:0;ls
+: 1642738878:0;cd Anime
+: 1642738879:0;ls
+: 1642738882:0;cd TokyoGhoul
+: 1642738882:0;ls
+: 1642738887:0;cd TGS1
+: 1642738888:0;ls
+: 1642739010:0;mkdir /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime/DeathNote/Specials
+: 1642739018:0;rclone copy Gdrive:DeathNote /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime/DeathNote/Specials
+: 1642739190:0;cd ..
+: 1642739191:0;ls
+: 1642739196:0;mkdir FMA_B
+: 1642739342:0;rclone copy Gdrive:FMAB /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime/FMA_B
+: 1642739359:0;ls
+: 1642739362:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies
+: 1642739363:0;ls
+: 1642739369:0;cd completed
+: 1642739370:0;ls
+: 1642739373:0;cd 2001\ A\ Space\ Odyssey\ \(1968\)\ \[BluRay\]\ \[1080p\]\ \[YTS.AM\]
+: 1642739375:0;ls
+: 1642739393:0;vim ~/.zshrc
+: 1642739421:0;exec zsh
+: 1642739422:0;l
+: 1642739475:0;mkdir /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/2001ASpaceOdyssey
+: 1642739497:0;cp 2001.A.Space.Odyssey.1968.1080p.BluRay.x264-\[YTS.AM\].mp4 /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/2001ASpaceOdyssey
+: 1642739805:0;cd ~
+: 1642739807:0;ls
+: 1642739811:0;mkdir Plex
+: 1642739814:0;cd Transmission
+: 1642739814:0;ls
+: 1642739816:0;cd ..
+: 1642739817:0;cd Plex
+: 1642739818:0;ls
+: 1642739825:0;touch docker-compose.yml
+: 1642739828:0;ls
+: 1642739831:0;vim docker-compose.yml
+: 1642739847:0;nano docker-compose.yml
+: 1642739858:0;vim docker-compose.yml
+: 1642739878:0;cd ..
+: 1642739879:0;cd Transmission
+: 1642739884:0;vim docker-compose.yml
+: 1642739891:0;cd ..
+: 1642739893:0;cd Plex
+: 1642739895:0;vim docker-compose.yml
+: 1642739927:0;cd ~
+: 1642739933:0;AMACD1
+: 1642739933:0;ls
+: 1642739943:0;pwd
+: 1642739962:0;cd Shows
+: 1642739963:0;ls
+: 1642739964:0;pwd
+: 1642739976:0;cd ..
+: 1642739977:0;ls
+: 1642739978:0;cd Movies
+: 1642739980:0;pwd
+: 1642740030:0;vim docker-compose.yml
+: 1642740073:0;docker-compose up
+: 1642740188:0;vim docker-compose.yml
+: 1642740199:0;docker-compose up
+: 1642742768:0;ls
+: 1642742771:0;cd Harry\ Potter
+: 1642742774:0;ls
+: 1642742802:0;cp Extras /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/
+: 1642742810:0;cp -r Extras /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/
+: 1642743182:0;ls
+: 1642743185:0;cd ..
+: 1642743186:0;ls
+: 1642743188:0;cd Extras
+: 1642743188:0;ls
+: 1642743201:0;rm HarryPotter20thAnniversary.ReturntoHogwarts.mp4
+: 1642743202:0;ls
+: 1642743203:0;cd ..
+: 1642743207:0;rm -rf Extras
+: 1642743209:0;ls
+: 1642743213:0;mkdir Extras
+: 1642743214:0;ls
+: 1642743218:0;cd Harry\ Potter
+: 1642743218:0;ls
+: 1642743221:0;cd Extras
+: 1642743221:0;ls
+: 1642743239:0;cp HarryPotter20thAnniversary.ReturntoHogwarts.mp4 /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/Extras
+: 1642744253:0;cd ..
+: 1642744253:0;ls
+: 1642744255:0;cd ..
+: 1642744256:0;ls
+: 1642744262:0;rm -rf Harry\ Potter
+: 1642744312:0;ls
+: 1642744314:0;cd ..
+: 1642744314:0;ls
+: 1642744316:0;cd Anime
+: 1642744317:0;ls
+: 1642744319:0;cd Monster
+: 1642744320:0;ls
+: 1642744406:0;find ./ -name '*.mkv' -exec cp -prv '{}' '/mnt/hgfs/AMA\ Cloud\ SHARED' ';'
+: 1642745743:0;ls /mnt/hgfs/AMA\ Cloud\ SHARED
+: 1642745744:0;ls
+: 1642745750:0;pwd
+: 1642745759:0;cd /mnt/hgfs
+: 1642745760:0;ls
+: 1642745770:0;cd AMA\ Cloud\ SHARED
+: 1642745771:0;ls
+: 1642745772:0;cd ..
+: 1642745781:0;cd 'AMA Cloud SHARED\
+ls
+: 1642745789:0;ls
+: 1642745803:0;cd AMA\ Cloud\ SHARED
+: 1642745804:0;ls
+: 1642745808:0;cd ..
+: 1642745832:0;cd 'AMA\ Cloud\ SHARED'
+: 1642745846:0;cd AMA\\ Cloud\\ SHARED
+: 1642745856:0;ls
+: 1642745864:0;cd 'AMA Cloud SHARED/'
+: 1642745865:0;ls
+: 1642745869:0;cd ..
+: 1642745886:0;rm -rf 'AMA\ Cloud\ Shared'
+: 1642745888:0;ls
+: 1642745897:0;cd AMA\ Cloud\ SHARED
+: 1642745898:0;ls
+: 1642745900:0;cd ..
+: 1642745903:0;ls
+: 1642745908:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies
+: 1642745909:0;ls
+: 1642745910:0;cd Anime
+: 1642745911:0;ls
+: 1642745913:0;cd Monster
+: 1642745913:0;ls
+: 1642745947:0;find ./ -name '*.mkv' -exec cp -prv '{}' '/mnt/hgfs/AMA Cloud Shared' ';'
+: 1642746458:0;cd /mnt/hgfs
+: 1642746459:0;ls
+: 1642746479:0;rm -rf AMA\ Cloud\ Shared
+: 1642746480:0;ls
+: 1642746499:0;rm -rf 'AMA\ Cloud\ SHARED'
+: 1642746501:0;ls
+: 1642746504:0;cd AMA\ Cloud\ SHARED
+: 1642746505:0;ls
+: 1642746506:0;cd ..
+: 1642746515:0;AMACD1
+: 1642746518:0;cd Anime/Monster
+: 1642746533:0;find ./ -name '*.mkv' -exec cp -prv '{}' '/mnt/hgfs/AMA Cloud SHARED' ';'
+: 1642747099:0;ls
+: 1642747789:0;mv 'Monster S1 (1).mkv' 'Monster S1 (01).mkv'
+: 1642747797:0;mv 'Monster S1 (2).mkv' 'Monster S1 (02).mkv'
+: 1642747802:0;mv 'Monster S1 (3).mkv' 'Monster S1 (03).mkv'
+: 1642747808:0;mv 'Monster S1 (4).mkv' 'Monster S1 (04).mkv'
+: 1642747813:0;mv 'Monster S1 (5).mkv' 'Monster S1 (05).mkv'
+: 1642747818:0;mv 'Monster S1 (6).mkv' 'Monster S1 (06).mkv'
+: 1642747825:0;mv 'Monster S1 (7).mkv' 'Monster S1 (07).mkv'
+: 1642747831:0;mv 'Monster S1 (8).mkv' 'Monster S1 (08).mkv'
+: 1642747837:0;mv 'Monster S1 (9).mkv' 'Monster S1 (09).mkv'
+: 1642747932:0;ls
+: 1642748124:0;cd ..
+: 1642748127:0;rm -rf Monster
+: 1642748128:0;ls
+: 1642748132:0;mkdir Monster
+: 1642748150:0;rclone copy Gdrive:Monster /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime/Monster
+: 1642749988:0;ls
+: 1642749994:0;mkdir BlackClover
+: 1642749995:0;ls
+: 1642749997:0;cd BlackClover
+: 1642749997:0;ls
+: 1642750271:0;rclone copy Gdrive:'.shortcut-targets-by-id\1wHe3w1wo9YpppWpIKphXj1Tj0ZAHi1eU\[Kayoanime] Black Clover 001-051 + Special [BD 1080p][HEVC x265 10bit][Dual-Audio][Multi-Subs] (Batch)' /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime/BlackClover
+: 1642750592:0;transmission
+: 1642750632:0;docker exec shell transmission
+: 1642750640:0;vim ~/.zshrc
+: 1642750689:0;exec zsh
+: 1642750695:0;docex_trans
+: 1642750701:0;vim ~/.zshrc
+: 1642750730:0;docex_trans
+: 1642750734:0;vim ~/.zshrc
+: 1642750756:0;docker ps -aqf "name=transmission-openvpn" | transmission_id_current = "" && docker exec -it $transmission_id_current /bin/bash
+: 1642750769:0;docker ps -a
+: 1642750780:0;docker exec -it c06bdd416072 /bin/bash
+: 1642752879:0;AMACD1
+: 1642752881:0;ls
+: 1642752883:0;cd completed
+: 1642752884:0;ls
+: 1642752895:0;rm -rf 2001\ A\ Space\ Odyssey\ \(1968\)\ \[BluRay\]\ \[1080p\]\ \[YTS.AM\]
+: 1642752896:0;ls
+: 1642752906:0;rm -rf Around.the.World.in.80.Days.2021.S01.1080p.iP.WEBRip.AAC2.0.x264-PEPES\[eztv.re\]
+: 1642752915:0;cd Alien\ DC\ \(1979\)\ \[1080p\]
+: 1642752916:0;ls
+: 1642752950:0;cp Alien.Directors.Cut.1979.1080p.BRrip.x264.GAZ.YIFY.mp4 /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/Alien1979
+: 1642753852:0;ls
+: 1642753854:0;cd ..
+: 1642753854:0;ls
+: 1642753856:0;cd ..
+: 1642753857:0;ls
+: 1642753880:0;cd Shows
+: 1642753881:0;ls
+: 1642753889:0;mkdir Riverdale
+: 1642754048:0;ls
+: 1642754056:0;mkdir TheGoodDoctor
+: 1642754189:0;mkdir TheMandalorian
+: 1642754300:0;mkdir TheQueensGambit
+: 1642754677:0;mkdir TheUmbrellaAcademy
+: 1642754858:0;mkdir TheHandmaidsTale
+: 1642755515:0;ls
+: 1642755519:0;cd TheMandalorian
+: 1642755521:0;ls
+: 1642755522:0;cd ..
+: 1642755524:0;ls
+: 1642755526:0;cd ..
+: 1642755526:0;ls
+: 1642755531:0;cd completed
+: 1642755532:0;ls
+: 1642755535:0;cd ..
+: 1642755536:0;ls
+: 1642755544:0;cd incomplete
+: 1642755544:0;ls
+: 1642755548:0;cd ..
+: 1642755591:0;ls
+: 1642755593:0;cd Shows
+: 1642755594:0;ls
+: 1642755699:0;cd ..
+: 1642755700:0;ls
+: 1642755702:0;cd Anime
+: 1642755702:0;ls
+: 1642755705:0;cd BlackClover
+: 1642755706:0;ls
+: 1642755787:0;rclone copy Gdrive:Black\ Clover /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime/
+: 1642756115:0;ls
+: 1642756117:0;cd ..
+: 1642756118:0;ls
+: 1642756134:0;cd 'Black Clover S1
+: 1642756136:0;cd 'Black Clover S1'
+: 1642756137:0;ls
+: 1642756145:0;cd ..
+: 1642756146:0;ls
+: 1642756152:0;cd 'Black Clover S2'
+: 1642756153:0;ls
+: 1642756198:0;cd .
+: 1642756199:0;cd ..
+: 1642756206:0;cd 'Black Clover S3'
+: 1642756207:0;ls
+: 1642756231:0;cd ..
+: 1642756232:0;ls
+: 1642756258:0;rm -rf 'Black Clover S1' 'Black Clover S2' 'Black Clover S3' 'Black Clover S4'
+: 1642756260:0;ls
+: 1642756329:0;rclone copy Gdrive:Black\ Clover/Black\ Clover\ S1 /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime/BlackClover
+: 1642756609:0;cd ..
+: 1642756610:0;ls
+: 1642756613:0;cd Shows
+: 1642756614:0;ls
+: 1642756626:0;mkdir TheWheelOfTime
+: 1642756629:0;ls
+: 1642757497:0;cd ..
+: 1642757499:0;cd completed
+: 1642757500:0;ls
+: 1642757507:0;cd Alien\ DC\ \(1979\)\ \[1080p\]
+: 1642757507:0;ls
+: 1642757518:0;cp Alien.Directors.Cut.1979.1080p.BRrip.x264.GAZ.YIFY.mp4 /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/Alien1979
+: 1642757689:0;ls
+: 1642757697:0;AMACD1
+: 1642757698:0;ls
+: 1642757701:0;cd completed
+: 1642757737:0;ls
+: 1642757739:0;cd ..
+: 1642757741:0;cd Movies
+: 1642757741:0;ls
+: 1642757750:0;mkdir Alien1979
+: 1642757754:0;rm Alien1979
+: 1642757756:0;ls
+: 1642757758:0;mkdir Alien1979
+: 1642757759:0;ls
+: 1642757765:0;cp Alien.Directors.Cut.1979.1080p.BRrip.x264.GAZ.YIFY.mp4 /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/Alien1979
+: 1642757778:0;mkdir Gravity
+: 1642757792:0;cd ..
+: 1642757792:0;ls
+: 1642757820:0;cp completed/Gravity\ \(2013\)\ \[1080p\]/Gravity.2013.1080p.BluRay.x264.YIFY.mp4 Movies/Gravity
+: 1642758126:0;ls
+: 1642758128:0;cd ..
+: 1642758133:0;ls
+: 1642758188:0;mkdir Movies/GetOut
+: 1642758191:0;ls Movies
+: 1642758195:0;cp completed/Get\ Out\ \(2017\)\ 1080p\ BrRip\ x264\ -\ VPPV/Get.Out.2017.1080p.BluRay.x264.VPPV.mkv Movies/GetOut
+: 1642758225:0;cd completed/Harry.Potter.Complete.Collection.2001-2011.1080p.BluRay.x264.DTS-ETRG
+: 1642758226:0;ls
+: 1642758230:0;cd ..
+: 1642758253:0;ls
+: 1642758268:0;mkdir Movies/HarryPotter
+: 1642758271:0;ls Movies
+: 1642758295:0;cp completed/Harry.Potter.Complete.Collection.2001-2011.1080p.BluRay.x264.DTS-ETRG/Chamber.Of.Secrets.2002.Extended.1080p.BluRay.x264.DTS-ETRG Movies/HarryPotter
+: 1642758326:0;cp completed/Harry.Potter.Complete.Collection.2001-2011.1080p.BluRay.x264.DTS-ETRG/Chamber.Of.Secrets.2002.Extended.1080p.BluRay.x264.DTS-ETRG/Chamber.Of.Secrets.2002.Extended.1080p.BluRay.x264.DTS-ETRG.mkv Movies/HarryPotter
+: 1642758940:0;mkdir Movies/TheMartian
+: 1642758943:0;cp completed/The.Martian.2015.EXTENDED.1080p.BRRip.x264.AAC-ETRG/The.Martian.2015.EXTENDED.1080p.BRRip.x264.AAC-ETRG.mp4 Movies/TheMartian
+: 1642759569:0;cp completed/Harry.Potter.Complete.Collection.2001-2011.1080p.BluRay.x264.DTS-ETRG/Sorcerer\'s.Stone.2001.Extended.1080p.BluRay.x264.DTS-ETRG/Sorcerer\'s.Stone.2001.Extended.1080p.BluRay.x264.DTS-ETRG.mkv Movies/HarryPotter
+: 1642759687:0;mv Movies/Extras Movies/HarryPotter
+: 1642759689:0;ls
+: 1642759692:0;cd Movies
+: 1642759692:0;ls
+: 1642759698:0;cd HarryPotter
+: 1642759699:0;ls
+: 1642759706:0;cd ..
+: 1642759816:0;ls
+: 1642759819:0;cd HarryPotter
+: 1642759819:0;ls
+: 1642759822:0;cd Extras
+: 1642759822:0;ls
+: 1642759824:0;cd ..
+: 1642759890:0;mv Extras/HarryPotter20thAnniversary.ReturntoHogwarts.mp4 /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/HarryPotter
+: 1642759894:0;cdls
+: 1642759895:0;ls
+: 1642759909:0;cd Extras
+: 1642759909:0;ls
+: 1642759912:0;cd ..
+: 1642759915:0;rm -rf Extras
+: 1642759916:0;ls
+: 1642759917:0;cd ..
+: 1642777625:0;ls
+: 1642777629:0;cd ..
+: 1642777631:0;ls
+: 1642777639:0;cd incomplete
+: 1642777640:0;ls
+: 1642777673:0;cd ..
+: 1642777675:0;ls
+: 1642777678:0;cd Shows
+: 1642777679:0;ls
+: 1642777682:0;cd Riverdale
+: 1642777682:0;ls
+: 1642777684:0;cd ..
+: 1642777685:0;ls
+: 1642777688:0;cd ..
+: 1642779330:0;ls
+: 1642779334:0;cd incomplete
+: 1642779335:0;ls
+: 1642779347:0;cd Tenet\ \(2020\)\ \[1080p\]\ \[BluRay\]\ \[5.1\]\ \[YTS.MX\]
+: 1642779348:0;ls
+: 1642779362:0;cd ..
+: 1642782042:0;ls
+: 1642782133:0;cd Inception\ \(2010\)\ \[1080p\]
+: 1642782135:0;ls
+: 1642792848:0;cd completed
+: 1642792849:0;ls
+: 1642793014:0;cd ..
+: 1642793015:0;ls
+: 1642793019:0;cd completed
+: 1642793020:0;ls
+: 1642793027:0;cd ~
+: 1642793313:0;ls
+: 1642793318:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies
+: 1642793319:0;ls
+: 1642793321:0;cd completed
+: 1642793322:0;ls
+: 1642793327:0;cd ..
+: 1642793329:0;cd incomplete
+: 1642793329:0;ls
+: 1642793337:0;cd Riverdale\ Season\ 
+: 1642793338:0;ls
+: 1642793345:0;cd Tenet\ \(2020\)\ \[1080p\]\ \[BluRay\]\ \[5.1\]\ \[YTS.MX\]
+: 1642793345:0;ls
+: 1642793350:0;cd ..
+: 1642793354:0;cd completed
+: 1642793355:0;ls
+: 1642793357:0;cd Get\ Out\ \(2017\)\ 1080p\ BrRip\ x264\ -\ VPPV
+: 1642793358:0;ls
+: 1642793362:0;cd ..
+: 1642793374:0;cd The.Martian.2015.EXTENDED.1080p.BRRip.x264.AAC-ETRG
+: 1642793375:0;ls
+: 1642793380:0;cd ..
+: 1642793381:0;ls
+: 1642793384:0;cd Ex\ Machina\ \(2015\)\ \[1080p\]
+: 1642793384:0;ls
+: 1642793387:0;cd ..
+: 1642793388:0;ls
+: 1642793389:0;cd ..
+: 1642793630:0;ls
+: 1642793637:0;cd Shows
+: 1642793637:0;ls
+: 1642793642:0;cd Riverdale
+: 1642793642:0;ls
+: 1642793646:0;pwd
+: 1642793650:0;cd ..
+: 1642793650:0;ls
+: 1642793653:0;cd ..
+: 1642793653:0;ls
+: 1642793658:0;cd completed
+: 1642793659:0;ls
+: 1642793661:0;pwd
+: 1642793779:0;ls
+: 1642793780:0;cd ..
+: 1642793781:0;ls
+: 1642793786:0;cd Shows/House
+: 1642793788:0;ls
+: 1642793790:0;cd House\ MD\ Complete\ series\ \(1080p\ X264\)\ with\ eng.\ subs
+: 1642793791:0;ls
+: 1642793799:0;cd ....
+: 1642793814:0;ls
+: 1642793816:0;cd Shows/House
+: 1642793817:0;l
+: 1642793819:0;ls
+: 1642793823:0;cd House\ MD\ Complete\ series\ \(1080p\ X264\)\ with\ eng.\ subs
+: 1642793824:0;ls
+: 1642793826:0;pwd
+: 1642793828:0;cd ....
+: 1642793852:0;vim ~/.zshrc
+: 1642793923:0;exec zsh
+: 1642793926:0;pwd
+: 1642793933:0;cd Shows/House/House\ MD\ Complete\ series\ \(1080p\ X264\)\ with\ eng.\ subs
+: 1642793935:0;pwd
+: 1642793955:0;cd3
+: 1642793957:0;ls
+: 1642793962:0;vim ~/.zshrc
+: 1642793982:0;exec zsh
+: 1642793986:0;cd Shows/House/House\ MD\ Complete\ series\ \(1080p\ X264\)\ with\ eng.\ subs
+: 1642793987:0;ls
+: 1642793990:0;cd3
+: 1642794016:0;cd watch
+: 1642794017:0;ls
+: 1642794019:0;cd ...
+: 1642794027:0;ls
+: 1642794032:0;cd AMACloudMovies/transmission-home
+: 1642794032:0;ls
+: 1642794042:0;vim settings.json
+: 1642794118:0;AMACD1
+: 1642794121:0;vim ~/.zshrc
+: 1642794168:0;exec zsh
+: 1642794171:0;cdamac1
+: 1642794176:0;cd completed
+: 1642794177:0;ls
+: 1642794182:0;cd ..
+: 1642794185:0;ls
+: 1642794191:0;cd Shows
+: 1642794192:0;ls
+: 1642794201:0;cd Riverdale
+: 1642794202:0;ls
+: 1642794204:0;cd ..
+: 1642794361:0;ls
+: 1642794368:0;cd Riverdale
+: 1642794369:0;ls
+: 1642794371:0;cd ..
+: 1642794375:0;cd completed
+: 1642794377:0;cd ..
+: 1642794378:0;cd completed
+: 1642794378:0;ls
+: 1642794426:0;cd ..
+: 1642794427:0;ls
+: 1642794481:0;mv completed/The\ Lord\ of\ the\ Rings\ The\ Fellowship\ of\ the\ Ring\ THEATRICAL\ EDITION\ \(2001\)\ \[1080p\]/The.Lord.of.the.Rings.The.Fellowship.of.the.Rings.THEATRICAL.EDITION.2001.1080p.BrRip.x264.BOKUTOX.YIFY.mp4 Movies/LotR/
+: 1642794483:0;ls
+: 1642794490:0;cd Movies/LotR
+: 1642794492:0;ls
+: 1642794494:0;cd ..
+: 1642794677:0;ls
+: 1642794680:0;cd ..
+: 1642794681:0;ls
+: 1642794721:0;mv completed/A.Quiet.Place.2018.1080p.BluRay.x264-SPARKS\[EtHD\]/a.quiet.place.2018.1080p.bluray.x264-sparks\[EtHD\].mkv Movies/AQuitePlace/
+: 1642794735:0;mkdir Movies/AQuietPlace
+: 1642794743:0;mv completed/A.Quiet.Place.2018.1080p.BluRay.x264-SPARKS\[EtHD\]/a.quiet.place.2018.1080p.bluray.x264-sparks\[EtHD\].mkv Movies/AQuietPlace/
+: 1642794744:0;ls
+: 1642794774:0;mv completed/Ex\ Machina\ \(2015\)\ \[1080p\]/Ex.Machina.2015.1080p.BluRay.x264.YIFY.mp4 movies/ExMachina
+: 1642794780:0;mkdir Movies/ExMachina
+: 1642794784:0;mv completed/Ex\ Machina\ \(2015\)\ \[1080p\]/Ex.Machina.2015.1080p.BluRay.x264.YIFY.mp4 movies/ExMachina
+: 1642794801:0;mv completed/Ex\ Machina\ \(2015\)\ \[1080p\]/Ex.Machina.2015.1080p.BluRay.x264.YIFY.mp4 Movies/ExMachina
+: 1642794831:0;mv completed/Harry.Potter.Complete.Collection.2001-2011.1080p.BluRay.x264.DTS-ETRG/Deathly.Hallows.Part.1.2010.1080p.BluRay.x264.DTS-ETRG Movies/HarryPotter/
+: 1642794843:0;mv completed/Harry.Potter.Complete.Collection.2001-2011.1080p.BluRay.x264.DTS-ETRG/Deathly.Hallows.Part.2.2011.1080p.BluRay.x264.DTS-ETRG Movies/HarryPotter/
+: 1642794858:0;mv completed/Harry.Potter.Complete.Collection.2001-2011.1080p.BluRay.x264.DTS-ETRG/Order.Of.The.Phoenix.2007.1080p.BluRay.x264.DTS-ETRG Movies/HarryPotter/
+: 1642794867:0;mv completed/Harry.Potter.Complete.Collection.2001-2011.1080p.BluRay.x264.DTS-ETRG/Goblet.Of.Fire.2005.1080p.BluRay.x264.DTS-ETRG Movies/HarryPotter/
+: 1642794880:0;mv completed/Harry.Potter.Complete.Collection.2001-2011.1080p.BluRay.x264.DTS-ETRG/Prisoner.Of.Azkaban.2004.1080p.BluRay.x264.DTS-ETRG Movies/HarryPotter/
+: 1642794892:0;mv completed/Harry.Potter.Complete.Collection.2001-2011.1080p.BluRay.x264.DTS-ETRG/Half.Blood.Prince.2009.1080p.BluRay.x264.DTS-ETRG Movies/HarryPotter/
+: 1642794897:0;cd completed
+: 1642794898:0;ls
+: 1642794959:0;rm -rf Alien\ DC\ \(1979\)\ \[1080p\] A.Quiet.Place.2018.1080p.BluRay.x264-SPARKS\[EtHD\] Ex\ Machina\ \(2015\)\ \[1080p\] Get\ Out\ \(2017\)\ 1080p\ BrRip\ x264\ -\ VPPV Gravity\ \(2013\)\ \[1080p\] Harry\ Potter\ 20th\ Anniversary\ Return\ To\ Hogwarts\ \(2022\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\] Harry.Potter.Complete.Collection.2001-2011.1080p.BluRay.x264.DTS-ETRG 
+: 1642794963:0;ls
+: 1642794975:0;rm -rf The\ Lord\ of\ the\ Rings\ The\ Fellowship\ of\ the\ Ring\ THEATRICAL\ EDITION\ \(2001\)\ \[1080p\] The.Martian.2015.EXTENDED.1080p.BRRip.x264.AAC-ETRG
+: 1642794978:0;ls
+: 1642794995:0;mkdir Movies/WestSideStory
+: 1642795003:0;mkdir Movies/WestSideStory/
+: 1642795013:0;cd ..
+: 1642795014:0;ls
+: 1642795019:0;mkdir Movies/WestSideStory
+: 1642795028:0;mv completed/West.Side.Story.2021.720p.HDCAM-C1NEM4.mkv Movies/WestSideStory
+: 1642795197:0;mv incomplete/Inception\ \(2010\)\ \[1080p\]/Inception.2010.1080p.BrRip.x264.YIFY.mp4 Movies/Inception
+: 1642795212:0;ls Movies/Inception
+: 1642795222:0;ls
+: 1642795224:0;cd Movies
+: 1642795225:0;ls
+: 1642795248:0;mkdir Inception
+: 1642795251:0;mkdir Inception1
+: 1642795259:0;mv Inception Inception1
+: 1642795261:0;ls
+: 1642795265:0;cd Inception1
+: 1642795265:0;ls
+: 1642795269:0;cd ..
+: 1642795272:0;rm -rf Inception1
+: 1642795274:0;ls
+: 1642795276:0;cd ..
+: 1642795280:0;ls incomplete
+: 1642795295:0;mkdir Movies/Inception
+: 1642795297:0;ls Movies
+: 1642795308:0;ls incomplete/Inception\ \(2010\)\ \[1080p\]
+: 1642795318:0;rm -rf incomplete/Inception\ \(2010\)\ \[1080p\]
+: 1642795320:0;ls
+: 1642795379:0;mkdir Movies/Tenet
+: 1642795393:0;mv incomplete/Tenet\ \(2020\)\ \[1080p\]\ \[BluRay\]\ \[5.1\]\ \[YTS.MX\]/Tenet.2020.1080p.BluRay.x264.AAC5.1-\[YTS.MX\].mp4 Movies/Tenet
+: 1642795397:0;ls Movies/Tenet
+: 1642795437:0;mv incomplete/Lost\ 2004\ Season\ 5\ Complete\ 720p\ BluRay\ x264\ \[i_c\] Shows/Lost
+: 1642795441:0;ls Shows/Lost
+: 1642795467:0;ls Shows/Lost/
+: 1642795486:0;cd Shows/Lost/Lost\ 2004\ Season\ 4\ Complete\ 720p\ BluRay\ x264\ \[i_c\]
+: 1642795489:0;ls
+: 1642795495:0;cdamac1
+: 1642795502:0;ls incomplete
+: 1642795535:0;mv incomplete/Riverdale\ Season\ 1\ Complete\ 720p\ HDTV\ x264\ \[i_c\] Shows/Riverdale
+: 1642795543:0;ls incomplete
+: 1642795554:0;ls incomplete/Tenet\ \(2020\)\ \[1080p\]\ \[BluRay\]\ \[5.1\]\ \[YTS.MX\]
+: 1642795563:0;rm -rf incomplete/Tenet\ \(2020\)\ \[1080p\]\ \[BluRay\]\ \[5.1\]\ \[YTS.MX\]
+: 1642795567:0;ls incomplete
+: 1642795598:0;mv incomplete/The\ Good\ Doctor\ Season\ 1\ Mp4\ 1080p Shows/TheGoodDoctor
+: 1642795620:0;mv incomplete/The.Handmaids.Tale.S01.COMPLETE.720p.BluRay.x264-GalaxyTV\[TGx\] Shows/TheHandmaidsTale
+: 1642795622:0;ls
+: 1642795627:0;ls incomplete
+: 1642795665:0;ls Shows/TheUmbrellaAcademy
+: 1642795683:0;mv incomplete/The.Umbrella.Academy.S01.COMPLETE.1080p.WEB.x264-STRiFE\[TGx\] Shows/TheUmbrellaAcademy
+: 1642795698:0;mv incomplete/The.Queens.Gambit.S01.COMPLETE.1080p.NF.WEBRip.DDP5.1.x264-GGWP\[TGx\] Shows/TheQueensGambit
+: 1642795702:0;ls incomplete
+: 1642795736:0;ls Shows/StrangerThings
+: 1642795752:0;ls Shows/Lost
+: 1642797767:0;ls
+: 1642797770:0;cd incomplete
+: 1642797770:0;ls
+: 1642797773:0;cd ..
+: 1642797774:0;ls
+: 1642797778:0;cd completed/
+: 1642797778:0;ls
+: 1642797781:0;cd ..
+: 1642797846:0;rclone copy Gdrive:Black\ Clover/ /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime/BlackClover/
+: 1642803478:0;docker-compose up
+: 1642803671:0;mkdir /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime/MobPsycho100
+: 1642803681:0;mkdir /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime/NeonGenesisEvangelion
+: 1642803739:0;rclone copy Gdrive:MobPsycho100 /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime/MobPsycho100
+: 1642803816:0;rclone copy Gdrive:NeonGenesis/Evangelion /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime/NeonGenesisEvangelion
+: 1642806207:0;ls
+: 1642806212:0;cdamac1
+: 1642806267:0;mkdir Movies/Evangelion
+: 1642806349:0;mv Anime/NeonGenesisEvangelion/Copy\ of\ \[Kayoanime\]\ Evangelion:\ 1.0.mkv Movies/Evangelion
+: 1642806369:0;mv Anime/NeonGenesisEvangelion/Copy\ of\ \[Kayoanime\]\ Evangelion:\ 2.0\ 1080p\ Dual\ Audio\ HEVC.mkv Movies/Evangelion
+: 1642806391:0;mv Anime/NeonGenesisEvangelion/Copy\ of\ \[Kayoanime\]\ Evangelion\ -\ 3.0+1.01\ Thrice\ Upon\ a\ Time\ \[Dual\ Audio\]\[1080p\]\[HEVC\ 10bit\ x265\]\[AAC\]\[Multi\ Sub\].mkv Movies/Evangelion
+: 1642806799:0;mkdir Anime/NeonGenesisEvangelion/Movies
+: 1642806807:0;mv Movies/Evangelion/Copy\ of\ \[Kayoanime\]\ Evangelion:\ 1.0.mkv Anime/NeonGenesisEvangelion/Movies
+: 1642806819:0;mv Movies/Evangelion/Copy\ of\ \[Kayoanime\]\ Evangelion:\ 2.0\ 1080p\ Dual\ Audio\ HEVC.mkv Anime/NeonGenesisEvangelion/Movies
+: 1642806830:0;mv Movies/Evangelion/Copy\ of\ \[Kayoanime\]\ Evangelion\ -\ 3.0+1.01\ Thrice\ Upon\ a\ Time\ \[Dual\ Audio\]\[1080p\]\[HEVC\ 10bit\ x265\]\[AAC\]\[Multi\ Sub\].mkv Anime/NeonGenesisEvangelion/Movies
+: 1642806987:0;ls Anime/NeonGenesisEvangelion/Movies/
+: 1642807582:0;ls
+: 1642807587:0;cd Anime
+: 1642807588:0;ls
+: 1642807591:0;cd NeonGenesisEvangelion
+: 1642807591:0;ls
+: 1642807594:0;cd Movies
+: 1642807594:0;ls
+: 1642807679:0;cd ..
+: 1642807681:0;ls
+: 1642807683:0;cd ..
+: 1642807683:0;ls
+: 1642807711:0;mv NeonGenesisEvangelion/Movies/Copy\ of\ \[Kayoanime\]\ Evangelion:\ 1.0.mkv NeonGenesisEvangelion
+: 1642807725:0;ls
+: 1642807738:0;mkdir NGE1
+: 1642807763:0;mv NeonGenesisEvangelion/Copy\ of\ \[Kayoanime\]\ Evangelion:\ 1.0.mkv NGE1
+: 1642807766:0;ls
+: 1642807772:0;ls NGE1
+: 1642807778:0;mkdir NGE2
+: 1642807781:0;mkdir NGE3
+: 1642807798:0;mv NeonGenesisEvangelion/Movies/Copy\ of\ \[Kayoanime\]\ Evangelion:\ 2.0\ 1080p\ Dual\ Audio\ HEVC.mkv NGE2
+: 1642807816:0;mv NeonGenesisEvangelion/Movies/Copy\ of\ \[Kayoanime\]\ Evangelion\ -\ 3.0+1.01\ Thrice\ Upon\ a\ Time\ \[Dual\ Audio\]\[1080p\]\[HEVC\ 10bit\ x265\]\[AAC\]\[Multi\ Sub\].mk NGE3
+: 1642807823:0;mv NeonGenesisEvangelion/Movies/Copy\ of\ \[Kayoanime\]\ Evangelion\ -\ 3.0+1.01\ Thrice\ Upon\ a\ Time\ \[Dual\ Audio\]\[1080p\]\[HEVC\ 10bit\ x265\]\[AAC\]\[Multi\ Sub\].mkv NGE3
+: 1642807827:0;ls
+: 1642807831:0;ls NGE2
+: 1642807836:0;ls NGE3
+: 1642808805:0;ls
+: 1642808807:0;cd Transmission
+: 1642808809:0;ls
+: 1642808822:0;vim docker-compose.yml
+: 1642808895:0;lsblk
+: 1642809066:0;mount
+: 1642809077:0;df -h
+: 1642809123:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/
+: 1642809124:0;ls
+: 1642809129:0;cd SD2
+: 1642809130:0;ls
+: 1642809132:0;cd ..
+: 1642809133:0;ls
+: 1642809134:0;pwd
+: 1642809190:0;ls
+: 1642809240:0;mkdir AMACloudMovies2
+: 1642809244:0;ls
+: 1642809246:0;cd AMACloudMovies2
+: 1642809247:0;ls
+: 1642809562:0;docker-compose up
+: 1642809610:0;ls
+: 1642809616:0;curl ifconfig.me
+: 1642809631:0;sudo apt-get update
+: 1642809637:0;sudo apt-get upgrade
+: 1642809646:0;sudo tailscale down
+: 1642809654:0;sudo apt-get install mullvadvpn
+: 1642809704:0;wget --content-disposition https://mullvad.net/download/app/deb/latest
+: 1642809741:0;ls
+: 1642809744:0;cd Plex
+: 1642809745:0;ls
+: 1642809748:0;vim docker-compose.yml
+: 1642809777:0;docker-compose up
+: 1642809892:0;vim docker-compose.yml
+: 1642809910:0;ls
+: 1642810009:0;docker ps -a
+: 1642810034:0;docker exec -it f5763ded446c /bin/bash
+: 1642810118:0;ls
+: 1642810122:0;vim docker-compose.yml
+: 1642810156:0;docker-compose up
+: 1642810170:0;cd ..
+: 1642810170:0;ls
+: 1642810187:0;rm -rf AMACloudMOvies2
+: 1642810188:0;ls
+: 1642810191:0;cd AMACloudMovies2
+: 1642810192:0;ls
+: 1642810213:0;ls /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies
+: 1642810221:0;mkdir Anime
+: 1642810235:0;mkdir completed
+: 1642810241:0;mkdir incomplete
+: 1642810253:0;ls /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Library
+: 1642810256:0;cd ..
+: 1642810268:0;ls
+: 1642810271:0;cd AMACloudMovies2
+: 1642810272:0;ls
+: 1642810283:0;mkdir Movies
+: 1642810288:0;mkdir Shows
+: 1642810342:0;ls
+: 1642810343:0;pwd
+: 1642810365:0;docker-compose up
+: 1642810372:0;vim docker-compose.yml
+: 1642810423:0;docker-compose up
+: 1642810534:0;ls
+: 1642810537:0;cd Shows
+: 1642810538:0;ls
+: 1642810543:0;mkdir TheMandalorian
+: 1642810624:0;ls
+: 1642810627:0;cd TheMandalorian
+: 1642810628:0;ls
+: 1642810631:0;cd3
+: 1642810634:0;cd AMACloudMovies2
+: 1642810634:0;ls
+: 1642810639:0;ls incomplete
+: 1642812643:0;ls
+: 1642812645:0;ls incomplete
+: 1642812649:0;ls Shows
+: 1642812649:0;ls
+: 1642812665:0;cd Shows
+: 1642812666:0;ls
+: 1642812669:0;ls TheMandalorian
+: 1642812775:0;cd ..
+: 1642812776:0;ls
+: 1642812792:0;mkdir Movies/Inception
+: 1642812795:0;ls Movies
+: 1642813317:0;ls
+: 1642813319:0;cd completed
+: 1642813320:0;ls
+: 1642813321:0;cd ..
+: 1642813324:0;cd incomplete
+: 1642813325:0;ls
+: 1642813326:0;cd ..
+: 1642813327:0;ls
+: 1642813329:0;cd Movies
+: 1642813330:0;ls
+: 1642813331:0;cd Inception
+: 1642813332:0;ls
+: 1642813415:0;pwd
+: 1642813419:0;cdamac1
+: 1642813420:0;ls
+: 1642813426:0;cd Movies
+: 1642813427:0;ls
+: 1642813429:0;cd Inception
+: 1642813430:0;ls
+: 1642813432:0;cd ..
+: 1642813432:0;ls
+: 1642813439:0;cd ..
+: 1642813439:0;ls
+: 1642813441:0;cd completed
+: 1642813441:0;ls
+: 1642813442:0;cd .
+: 1642813444:0;cd ..
+: 1642813444:0;ls
+: 1642813446:0;cd incomplete
+: 1642813446:0;ls
+: 1642813481:0;docker ps -a
+: 1642813493:0;docker exec -it 9d7cb24182d6 /bin/bash
+: 1642813799:0;ls
+: 1642813937:0;cd ..
+: 1642813945:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667
+: 1642813946:0;ls
+: 1642813949:0;cd AMACloudMovies2
+: 1642813950:0;ls
+: 1642813954:0;cd Shows
+: 1642813954:0;ls
+: 1642813974:0;mkdir NewAmsterdam
+: 1642814040:0;ls
+: 1642814042:0;cd ..
+: 1642814042:0;ls
+: 1642814045:0;cd Movies
+: 1642814046:0;ls
+: 1642814050:0;ls Inception
+: 1642814100:0;vim docker-compose.yml
+: 1642814134:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2
+: 1642814137:0;ls
+: 1642814206:0;docker-compose up
+: 1642814258:0;docker ps -a
+: 1642814270:0;docker exec -it 9d7cb24182d6 /bin/bash
+: 1642814800:0;ls
+: 1642814849:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Anime /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime
+: 1642815835:0;ls
+: 1642815838:0;cd Anime
+: 1642815839:0;ls
+: 1642815840:0;cd Anime
+: 1642815841:0;ls
+: 1642815854:0;docker-compose up
+: 1642815986:0;ls
+: 1642816006:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/
+: 1642816007:0;ls
+: 1642816011:0;ls incomplete
+: 1642816012:0;ls
+: 1642816022:0;ls completed
+: 1642816025:0;ls Anime
+: 1642816028:0;ls Anime/Anime
+: 1642816037:0;ls Anime/Anime/TokyoGhoul
+: 1642816043:0;ls Anime/Anime/TokyoGhoul/TGS1
+: 1642826423:0;ls
+: 1642826437:0;cdamac1
+: 1642826445:0;ls
+: 1642826459:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/
+: 1642826460:0;ls
+: 1642826463:0;ls Anime
+: 1642826467:0;ls Anime/Anime
+: 1642827670:0;docker-compose up
+: 1642827678:0;vim docker-compose.yml
+: 1642827703:0;docker-compose up
+: 1642838294:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/Berserk
+: 1642838331:0;rclone copy Gdrive:Berserk /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/Berserk
+: 1642838540:0;ls
+: 1642838991:0;rm /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/NGE3
+: 1642839128:0;ls
+: 1642839492:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/86
+: 1642839506:0;rclone copy Gdrive:86 /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/
+: 1642839816:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/
+: 1642840236:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime
+: 1642840236:0;ls
+: 1642840239:0;cd Anime
+: 1642840241:0;ls
+: 1642840270:0;cd 86
+: 1642840271:0;ls
+: 1642840305:0;rclone copy Gdrive:86 /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/86
+: 1642840520:0;ls
+: 1642840583:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/86
+: 1642840583:0;ls
+: 1642840587:0;ls -a
+: 1642840591:0;ls
+: 1642840592:0;cd ..
+: 1642840593:0;ls
+: 1642840599:0;ls -a
+: 1642840614:0;cd S1
+: 1642840615:0;ls
+: 1642840617:0;cd ..
+: 1642840631:0;rm -rf S1 S2 NGE1 NGE2 NGE3
+: 1642840750:0;rclone copy Gdrive:86/Specials /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/86/Specials
+: 1642897528:0;ls
+: 1642897766:0;cdamac1
+: 1642897767:0;ls
+: 1642897772:0;ls incomplete
+: 1642897792:0;ls
+: 1642897795:0;cd completed
+: 1642897795:0;ls
+: 1642897796:0;cd ..
+: 1642897798:0;cd incomplete
+: 1642897799:0;ls
+: 1642897864:0;cd ..
+: 1642897864:0;ls
+: 1642897888:0;mv incomplete/Inception\ \(2010\)\ \[1080p\] Movies
+: 1642897917:0;mv incomplete/Lucifer.S02.COMPLETE.720p.BluRay.x264-GalaxyTV\[TGx\] Shows/Lucifer
+: 1642897933:0;mv incomplete/Riverdale\ Season\ 2\ Complete\ 720p\ HDTV\ x264\ \[i_c\] Shows/Riverdale
+: 1642897948:0;mv incomplete/The\ Good\ Doctor\ Season\ 2\ Mp4\ 1080p Shows/TheGoodDoctor
+: 1642897957:0;mv incomplete/Riverdale\ US\ Season\ 4\ Complete\ 720p\ WEB-DL\ x264\ \[i_c\] Shows/Riverdale
+: 1642897970:0;mv incomplete/The.Handmaids.Tale.S02.COMPLETE.720p.BluRay.x264-GalaxyTV\[TGx\] Shows/TheHandmaidsTale
+: 1642897981:0;mv incomplete/The.Handmaids.Tale.S04.COMPLETE.720p.AMZN.WEBRip.x264-GalaxyTV\[TGx\] Shows/TheHandmaidsTale
+: 1642898020:0;ls
+: 1642898027:0;ls Shows/TheHandmaidsTale
+: 1642898232:0;ls
+: 1642898235:0;cd Shows
+: 1642898235:0;ls
+: 1642898242:0;mkdir Monk
+: 1642898243:0;ls
+: 1642898634:0;docker-compose up
+: 1642898668:0;ls
+: 1642898676:0;docker-compose up
+: 1642899627:0;cd ..
+: 1642899628:0;ls
+: 1642899631:0;cd completed
+: 1642899632:0;ls
+: 1642899633:0;cd ..
+: 1642899635:0;cd incomplete
+: 1642899635:0;ls
+: 1642899657:0;mv The.Handmaids.Tale.S03.COMPLETE.720p.HULU.WEBRip.x264-GalaxyTV\[TGx\] /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Shows/TheHandmaidsTale
+: 1642899796:0;cd ..
+: 1642899799:0;cd Movies/HarryPotter
+: 1642899800:0;ls
+: 1642900095:0;cd Goblet.Of.Fire.2005.1080p.BluRay.x264.DTS-ETRG
+: 1642900095:0;ls
+: 1642900123:0;rm ETRG.mp4 External\ AC3 Torrent\ Downloaded\ From\ ExtraTorrent.cc.txt Screenshots Goblet.Of.Fire.2005.1080p.BluRay.x264.DTS-ETRG.Sample.mkv
+: 1642900127:0;ls
+: 1642900133:0;rm -rf Screenshots External\ AC3
+: 1642900141:0;ls
+: 1642900142:0;cd ..
+: 1642900143:0;ls
+: 1642900150:0;cd Deathly.Hallows.Part.1.2010.1080p.BluRay.x264.DTS-ETRG
+: 1642900151:0;ls
+: 1642900161:0;rm -rf Screenshots External\ AC3
+: 1642900166:0;ls
+: 1642900181:0;rm Torrent\ Downloaded\ From\ ExtraTorrent.cc.txt ETRG.mp4 Deathly.Hallows.Part.1.2010.1080p.BluRay.x264.DTS-ETRG.Sample.mkv
+: 1642900182:0;ls
+: 1642900184:0;cd ..
+: 1642900185:0;ls
+: 1642900188:0;cd Deathly.Hallows.Part.2.2011.1080p.BluRay.x264.DTS-ETRG
+: 1642900189:0;ls
+: 1642900194:0;rm -rf Screenshots External\ AC3
+: 1642900215:0;rm Torrent\ Downloaded\ From\ ExtraTorrent.cc.txt Deathly.Hallows.Part.2.2011.1080p.BluRay.x264.DTS-ETRG.Sample.mkv ETRG.mp4
+: 1642900216:0;ls
+: 1642900218:0;cd ..
+: 1642900218:0;ls
+: 1642900221:0;cd Goblet.Of.Fire.2005.1080p.BluRay.x264.DTS-ETRG
+: 1642900222:0;ls
+: 1642900223:0;cd ..
+: 1642900225:0;cd Half.Blood.Prince.2009.1080p.BluRay.x264.DTS-ETRG
+: 1642900226:0;ls
+: 1642900230:0;rm -rf Screenshots External\ AC3
+: 1642900245:0;rm ETRG.mp4 Half.Blood.Prince.2009.1080p.BluRay.x264.DTS-ETRG.Sample.mkv Torrent\ Downloaded\ From\ ExtraTorrent.cc.txt
+: 1642900245:0;ls
+: 1642900247:0;cd ..
+: 1642900247:0;ls
+: 1642900253:0;cd Order.Of.The.Phoenix.2007.1080p.BluRay.x264.DTS-ETRG
+: 1642900253:0;ls
+: 1642900258:0;rm -rf Screenshots External\ AC3
+: 1642900267:0;rm ETRG.mp4 Order.Of.The.Phoenix.2007.1080p.BluRay.x264.DTS-ETRG.Sample.mkv Torrent\ Downloaded\ From\ ExtraTorrent.cc.txt
+: 1642900268:0;ls
+: 1642900269:0;cd ..
+: 1642900269:0;ls
+: 1642900278:0;cd Prisoner.Of.Azkaban.2004.1080p.BluRay.x264.DTS-ETRG
+: 1642900279:0;ls
+: 1642900285:0;rm -rf Screenshots External\ AC3
+: 1642900296:0;rm Prisoner.Of.Azkaban.2004.1080p.BluRay.x264.DTS-ETRG.Sample.mkv Torrent\ Downloaded\ From\ ExtraTorrent.cc.txt ETRG.mp4
+: 1642900298:0;ls
+: 1642900299:0;cd ..
+: 1642900512:0;ls
+: 1642900566:0;mkdir Starwars
+: 1642900568:0;cd Starwars
+: 1642900575:0;cd ..
+: 1642901543:0;ls
+: 1642901547:0;cd AMACloudMovies/
+: 1642901569:0;mv incomplete/Star\ Wars\ Episode\ I\ The\ Phantom\ Menace\ \(1999\)\ \[1080p\] Movies/Starwars
+: 1642901582:0;mv incomplete/Star.Wars.Episode.II.Attack.of.the.Clones.2002.720p.BluRay.x264-NeZu Movies/Starwars
+: 1642901590:0;ls Movies/Starwars
+: 1642901594:0;cd Movies/St
+: 1642901598:0;cd Movies/Starwars
+: 1642901598:0;ls
+: 1642901603:0;cd Star\ Wars\ Episode\ I\ The\ Phantom\ Menace\ \(1999\)\ \[1080p\]
+: 1642901604:0;ls
+: 1642901615:0;rm WWW.YIFY-TORRENTS.COM.jpg Star.Wars.Episode.1.The.Phantom.Menace.1999.1080p.BrRip.x264.BOKUTOX.YIFY.srt
+: 1642901616:0;ls
+: 1642901619:0;cd ..
+: 1642901624:0;cd Star.Wars.Episode.II.Attack.of.the.Clones.2002.720p.BluRay.x264-NeZu
+: 1642901624:0;ls
+: 1642901636:0;rm -rf Sample Screenshots 
+: 1642901640:0;ls
+: 1642901647:0;rm star.wars.episode.II.attack.of.the.clones.2002.720p.bluray.x264-nezu.nfo
+: 1642901649:0;ls
+: 1642902253:0;cd Transmission
+: 1642902254:0;ls
+: 1642902256:0;docker-compose up
+: 1642902269:0;ls
+: 1642902270:0;cd Plex
+: 1642902271:0;ls
+: 1642902273:0;docker-compose up
+: 1642902969:0;ls
+: 1642902986:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies
+: 1642902987:0;ls
+: 1642903404:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime DemonSlayer
+: 1642903435:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/
+: 1642903451:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/DemonSlayer
+: 1642903473:0;rclone copy Gdrive:Demon\ Slayer /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/DemonSlayer
+: 1642903503:0;ls
+: 1642903509:0;cdamac1
+: 1642903636:0;ls 
+: 1642903638:0;cd Movies
+: 1642903645:0;ls
+: 1642903649:0;cd ..
+: 1642903652:0;ls DemonSlayer/
+: 1642903653:0;ls
+: 1642903659:0;cd DemonSlayer
+: 1642903659:0;ls
+: 1642903660:0;cd ..
+: 1642903666:0;cd Movies/Starwars
+: 1642903666:0;ls
+: 1642903902:0;cd2
+: 1642903904:0;cd1
+: 1642903927:0;mv incomplete/Star.Wars.Episode.IX.The.Rise.of.Skywalker.2019.1080p.x264.\[ExYu-Subs\].mp4 Movies/Starwars
+: 1642903943:0;mv incomplete/Star\ Wars\ Episode\ III\ Revenge\ of\ the\ Sith\ \(2005\)\ \[1080p\] Movies/Starwars
+: 1642903954:0;mv incomplete/Star\ Wars\ Episode\ IV\ A\ New\ Hope\ \(1977\)\ \[1080p\] Movies/Starwars
+: 1642903963:0;mv incomplete/Star.Wars.Episode.VII.The.Force.Awakens.2015.1080p.BluRay.x264.DTS-JYK Movies/Starwars
+: 1642904005:0;mv incomplete/Star\ Wars\ Episode\ VI\ Return\ of\ the\ Jedi\ \(1983\)\ \[1080p\] Movies/Starwars
+: 1642904014:0;mv incomplete/Star\ Wars\ Episode\ V\ The\ Empire\ Strikes\ Back\ \(1980\)\ \[1080p\] Movies/Starwars
+: 1642904034:0;ls incomplete/
+: 1642904048:0;mv incomplete/Star\ Wars\ The\ Last\ Jedi\ \(2017\)\ \[BluRay\]\ \[1080p\]\ \[YTS.AM\] Movies/Starwars
+: 1642905154:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/DemonSlayer
+: 1642905154:0;ls
+: 1642905184:0;mv 'Copy of [Kayoanime] Kimetsu no Yaiba - Yuukaku-hen - 01.mkv' 'Copy of [Kayoanime] Kimetsu no Yaiba - S03E01.mkv'
+: 1642905195:0;mv 'Copy of [Kayoanime] Kimetsu no Yaiba - Yuukaku-hen - 02.mkv' 'Copy of [Kayoanime] Kimetsu no Yaiba - S03E02.mkv'
+: 1642905229:0;mv 'Copy of [Kayoanime] Kimetsu no Yaiba - Yuukaku-hen - 03.mkv' 'Copy of [Kayoanime] Kimetsu no Yaiba - S03E03.mkv'
+: 1642905240:0;mv 'Copy of [Kayoanime] Kimetsu no Yaiba - Yuukaku-hen - 04.mkv' 'Copy of [Kayoanime] Kimetsu no Yaiba - S03E04.mkv'
+: 1642905249:0;mv 'Copy of [Kayoanime] Kimetsu no Yaiba - Yuukaku-hen - 05.mkv' 'Copy of [Kayoanime] Kimetsu no Yaiba - S03E05.mkv'
+: 1642905250:0;ls
+: 1642905327:0;rclone copy Gdrive:Demon\ Slayer /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/DemonSlayer
+: 1642906012:0;mkdir /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Shows/DHDA
+: 1642906154:0;mkdir /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Shows/BlackMirror
+: 1642906768:0;cdamac1
+: 1642906770:0;ls incomplete
+: 1642906798:0;cd ..
+: 1642906799:0;ls
+: 1642906802:0;cd AMACloudMovies
+: 1642906802:0;ls
+: 1642906815:0;mv incomplete/Solo\ A\ Star\ Wars\ Story\ \(2018\)\ \[BluRay\]\ \[1080p\]\ \[YTS.AM\] Movies/Starwars
+: 1642906871:0;ls incomplete
+: 1642906882:0;mv incomplete/Rogue.One.A.Star.Wars.Story.2016.1080p.BluRay.6CH.ShAaNiG.mkv Movies/Starwars
+: 1642907539:0;ls Shows
+: 1642907575:0;mv Shows/Lucifer /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Shows/
+: 1642907759:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime
+: 1642907759:0;ls
+: 1642907762:0;cd Anime
+: 1642907762:0;ls
+: 1642907766:0;mkdir OnePiece
+: 1642907794:0;rclone copy Gdrive:One\ Piece /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/OnePiece
+: 1642908192:0;ls
+: 1642908240:0;mv Shows/MrRobot /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Shows/
+: 1642908871:0;vim docker-compose.yml
+: 1642908959:0;docker-compose up
+: 1642924219:0;rclone copy Gdrive:One\ Piece /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/OnePiece
+: 1642980212:0;vim docker-compose.yml
+: 1642980304:0;docker-compose up
+: 1642980308:0;docker-compose up
+: 1642980374:0;vim docker-compose.yml
+: 1642980572:0;docker-compose up
+: 1642980729:0;vim docker-compose.yml
+: 1642980741:0;docker-compose up
+: 1642981040:0;vim docker-compose.yml
+: 1642981057:0;docker-compose up
+: 1642981161:0;vim docker-compose.yml
+: 1642981361:0;wget --content-disposition https://mullvad.net/download/app/deb/latest
+: 1642981397:0;sudo apt install -y ./MullvadVPN-2021.6_amd64.deb
+: 1642981427:0;ls
+: 1642981466:0;sudo apt-get update
+: 1642981474:0;sudo apt-get upgrade
+: 1642981510:0;mullvad account set 3235274025754658
+: 1642981542:0;mullvad relay list
+: 1642981606:0;mullvad relay set location us slc
+: 1642981613:0;mullvad connect
+: 1642981679:0;ip a
+: 1642981691:0;curl ifconfig.me
+: 1642981804:0;mullvad disconnect
+: 1642982608:0;exec zsh
+: 1642982610:0;ls
+: 1642982614:0;mullvad connect
+: 1642982617:0;mullvad status
+: 1642982672:0;mullvad lan set allow
+: 1642982685:0;mullvad disconnect
+: 1642982696:0;mullvad relay list
+: 1642982765:0;mullvad relay set location us slc us-slc-102
+: 1642982772:0;mullvad connect
+: 1642982779:0;mullvad lan set allow
+: 1642982785:0;curl ifconfig.me
+: 1642982822:0;ls
+: 1642982824:0;cd Plex
+: 1642982825:0;ls
+: 1642982827:0;vim docker-compose.yml
+: 1642982836:0;docker-compose up
+: 1642983039:0;vim docker-compose.yml
+: 1642983078:0;docker-compose up
+: 1642983423:0;vim docker-compose.yml
+: 1642983437:0;docker-compose up
+: 1642983457:0;curl ifconfig.me
+: 1642985069:0;ls
+: 1642985093:0;rclone copy Gdrive:TYE /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/
+: 1642986512:0;rclone copy Gdrive:TPN /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime
+: 1642987058:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/Atta
+: 1642987075:0;rclone copy Gdrive:Atta /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/Atta
+: 1642987777:0;rclone copy Gdrive:JJBA/ /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/
+: 1642987897:0;vim 0
+: 1642987902:0;vim docker-compose.yml
+: 1642987936:0;docker-compose up
+: 1642988082:0;vim docker-compose.yml
+: 1642988101:0;docker-compose up
+: 1642988134:0;vim docker-compose.yml
+: 1642989397:0;rclone copy Gdrive:FruitsBasket /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/FruitsBasket
+: 1642990371:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/AvatarTheLastAirbender
+: 1642990385:0;rclone copy Gdrive:ATLA /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/AvatarTheLastAirbender
+: 1642990967:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/SoulEater
+: 1642990982:0;rclone copy Gdrive:SoulEater /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/SoulEater/
+: 1642991828:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/CowboyBebop
+: 1642991848:0;rclone copy Gdrive:CowboyBebop /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/CowboyBebop
+: 1642992412:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/CodeGeass
+: 1642992424:0;rclone copy Gdrive:CodeGeass /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/CodeGeass
+: 1642992719:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/Castlevania
+: 1642992877:0;rclone copy Gdrive:Castlevania /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/Castlevania
+: 1642993514:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/Shiki
+: 1642993534:0;rclone copy Gdrive:Shiki /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/Shiki
+: 1642994009:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/ErgoProxy
+: 1642994020:0;rclone copy Gdrive:ErgoProxy /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/ErgoProxy
+: 1642994273:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/PsychoPass
+: 1642994287:0;rclone copy Gdrive:PsychoPass /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/PsychoPass
+: 1642995186:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/FLCL
+: 1642995199:0;rclone copy Gdrive:FLCL /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/FLCL
+: 1642995974:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/SEL
+: 1642995988:0;rclone copy Gdrive:SEL /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/SEL
+: 1642996545:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/VindlandSaga
+: 1642996568:0;rclone copy Gdrive:VindlandSaga /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/VindlandSaga
+: 1642996722:0;rclone copy Gdrive:VinlandSaga /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/VindlandSaga
+: 1642997403:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/OnePunch
+: 1642997418:0;rclone copy Gdrive:OnePunch /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/OnePunch
+: 1642997850:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/ElfenLied
+: 1642997863:0;rclone copy Gdrive:ELied /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/ElfenLied
+: 1642998084:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/NGE
+: 1642998107:0;rclone copy Gdrive:NGE /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/NGE
+: 1642998526:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/7DS
+: 1642998542:0;rclone copy Gdrive:7DS /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/7DS
+: 1642999179:0;vim docker-compose.yml
+: 1642999239:0;docker-compose up
+: 1642999282:0;vim docker-compose.yml
+: 1642999981:0;docker-compose up
+: 1642999986:0;vim docker-compose.yml
+: 1642999999:0;docker-compose up
+: 1643000148:0;sudo apt-get update
+: 1643000171:0;sudo apt-get upgrade
+: 1643000183:0;vim docker-compose.yml
+: 1643000312:0;sudo apt-get upgrade
+: 1643000316:0;docker-compose up
+: 1643000372:0;vim docker-compose.yml
+: 1643000423:0;docker-compose up
+: 1643000746:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/MyHeroAcademia
+: 1643000759:0;rclone copy Gdrive:MHA /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2/Anime/Anime/MyHeroAcademia
+: 1643000798:0;vim docker-compose.yml
+: 1643000987:0;docker-compose up
+: 1643002094:0;vim docker-compose.yml
+: 1643002119:0;docker-compose up
+: 1643002156:0;ping github.com
+: 1643002243:0;mullvad status
+: 1643002250:0;mullvad disconnect
+: 1643002254:0;docker-compose up
+: 1643002283:0;vim docker-compose.yml
+: 1643002298:0;docker-compose up
+: 1643002309:0;vim docker-compose.yml
+: 1643002323:0;docker-compose up
+: 1643002415:0;vim docker-compose.yml
+: 1643002445:0;docker-compose up
+: 1643002514:0;curl ifconfig.me
+: 1643002516:0;vim docker-compose.yml
+: 1643002525:0;curl ifconfig.me
+: 1643002527:0;docker-compose up
+: 1643002538:0;vim docker-compose.yml
+: 1643002552:0;docker-compose up
+: 1643002646:0;vim docker-compose.yml
+: 1643002738:0;docker-compose up
+: 1643002775:0;mullvad status
+: 1643002780:0;mullvad connect
+: 1643002783:0;mullvad status
+: 1643002794:0;curl ifconfig.me
+: 1643002811:0;docker ps -a
+: 1643002823:0;docker exec -it 1d1fa42fda51 /bin/bash
+: 1643003094:0;curl ipleak.net
+: 1643003194:0;curl ifconfig.me
+: 1643003272:0;vim docker-compose.yml
+: 1643003333:0;docker-compose up
+: 1643003353:0;mullvad status
+: 1643003358:0;mullvad disconnect
+: 1643003363:0;docker-compose up
+: 1643003372:0;mullvad status
+: 1643003378:0;mullvad connect
+: 1643003426:0;mullvad disconnect
+: 1643003433:0;vim docker-compose.yml
+: 1643003454:0;docker-compose up
+: 1643003470:0;mullvad connect
+: 1643003473:0;mullvad status
+: 1643003477:0;curl ifconfig.me
+: 1643003481:0;docker ps -a
+: 1643003569:0;mullvad status
+: 1643003581:0;vim docker-compose.yml
+: 1643003615:0;mullvad status
+: 1643003621:0;mullvad disconnect
+: 1643003628:0;docker-compose up
+: 1643003641:0;ps aux | grep transmission-openvpn
+: 1643003655:0;kill 77006
+: 1643003663:0;ps aux | grep docker
+: 1643003719:0;pgrep transmission
+: 1643003728:0;kill haugene
+: 1643003734:0;pgrep haugene
+: 1643003746:0;pgrep transmission-openvpn
+: 1643003764:0;kill 76971
+: 1643003773:0;pgrep transmission
+: 1643003804:0;mullvad status
+: 1643003889:0;vim docker-compose.yml
+: 1643003900:0;docker-compose up
+: 1643003927:0;pgrep transmission
+: 1643003935:0;pgrep transmission-openvpn
+: 1643003942:0;kill 81779
+: 1643003967:0;docker-compose up
+: 1643003992:0;pgrep transmission
+: 1643004012:0;mullvad status
+: 1643004016:0;mullvad connect
+: 1643004022:0;mullvad stats
+: 1643004025:0;mullvad status
+: 1643004036:0;curl ifconfig.me
+: 1643004100:0;vim docker-compose.yml
+: 1643004108:0;docker-compose up
+: 1643004130:0;vim docker-compose.yml
+: 1643004150:0;mullvad disconnect
+: 1643004153:0;docker-compose up
+: 1643004188:0;docker ps -a
+: 1643004212:0;docker exec -it 44ead3018903 /bin/bash
+: 1643004274:0;vim docker-compose.yml
+: 1643004307:0;mullvad status
+: 1643004311:0;mullvad connect
+: 1643004335:0;mullvad disconnect
+: 1643004346:0;docker-compose up
+: 1643004374:0;mullvad connect
+: 1643004406:0;mullvad status
+: 1643004467:0;docker-compose up
+: 1643004583:0;curl ifconfig.me
+: 1643022579:0;docker-compose up
+: 1643022632:0;mullvad connect
+: 1643022644:0;mullvad disconnect
+: 1643022646:0;docker-compose up
+: 1643022656:0;mullvad connect
+: 1643023898:0;curl ifconfig.me
+: 1643023923:0;docker-compose up
+: 1643024312:0;ls
+: 1643024337:0;clear
+: 1643024399:0;ls
+: 1643024403:0;cd root
+: 1643024405:0;cd /root
+: 1643024406:0;ls
+: 1643024422:0;touch mediaserverexec.sh
+: 1643024425:0;vim mediaserverexec.sh
+: 1643024455:0;./mediaserverexec.sh
+: 1643024464:0;sudo ./mediaserverexec.sh
+: 1643024470:0;chmod +x mediaserverexec.sh
+: 1643024473:0;./mediaserverexec.sh
+: 1643024478:0;vim mediaserverexec.sh
+: 1643024485:0;./mediaserverexec.sh
+: 1643024566:0;vim mediaserverexec.sh
+: 1643024616:0;./mediaserverexec.sh
+: 1643024619:0;vim mediaserverexec.sh
+: 1643024622:0;./mediaserverexec.sh
+: 1643024644:0;vim ~/.zshrc
+: 1643024659:0;transmission_id_current=$(docker ps -aqf "name=transmission-openvpn") && docker
+: 1643024687:0;docker ps -aqf "name=transmission-openvpn"
+: 1643024705:0;transmission_id_current=$(docker ps -aqf "name=transmission-openvpn")
+: 1643024712:0;echo $transmission_id_current
+: 1643024723:0;transmission_id_current=$(docker ps -aqf "name=transmission-openvpn") && docker exec -it $transmission_id_current /bin/bash
+: 1643024760:0;vim mediaserverexec.sh
+: 1643024813:0;cd Transmission
+: 1643024814:0;ls
+: 1643025162:0;./mediaserverexec.sh
+: 1643025321:0;docker attach transmission-openvpn
+: 1643025332:0;docker ps -a
+: 1643025341:0;docker ps 
+: 1643025373:0;ps a
+: 1643025375:0;docker ps a
+: 1643025378:0;docker ps
+: 1643025542:0;docker detach
+: 1643025546:0;docker attach
+: 1643025750:0;apt-get install expect
+: 1643025773:0;expect --help
+: 1643025776:0;man expect
+: 1643025878:0;docker run --help
+: 1643025890:0;vim mediaserverexec.sh
+: 1643025986:0;ls
+: 1643025988:0;cd Transmission
+: 1643025988:0;ls
+: 1643025993:0;docker-compose up -d
+: 1643026000:0;docker ps 
+: 1643026014:0;docker attach 44ead3018903
+: 1643026045:0;vim mediaserverexec.sh
+: 1643026050:0;cd ..
+: 1643026053:0;vim mediaserverexec.sh
+: 1643026119:0;./mediaserverexec.sh
+: 1643026152:0;docker attach 44ead3018903
+: 1643026160:0;./mediaserverexec.sh
+: 1643026165:0;vim mediaserverexec.sh
+: 1643026241:0;./mediaserverexec.sh
+: 1643026270:0;docker ps 
+: 1643026284:0;vim mediaserverexec.sh
+: 1643026376:0;./mediaserverexec.sh
+: 1643026423:0;docker swarm leave
+: 1643026433:0;docker swarm leave --force
+: 1643026436:0;./mediaserverexec.sh
+: 1643026467:0;vim mediaserverexec.sh
+: 1643026714:0;./mediaserverexec.sh
+: 1643026781:0;docker ps
+: 1643026787:0;docker stop 44ead3018903
+: 1643026794:0;vim mediaserverexec.sh
+: 1643026807:0;./mediaserverexec.sh
+: 1643026842:0;docker stop 44ead3018903
+: 1643026845:0;vim mediaserverexec.sh
+: 1643026872:0;./mediaserverexec.sh
+: 1643026898:0;docker stop 44ead3018903
+: 1643026903:0;vim mediaserverexec.sh
+: 1643026949:0;./mediaserverexec.sh
+: 1643027012:0;docker stop 44ead3018903
+: 1643027018:0;vim mediaserverexec.sh
+: 1643027162:0;./mediaserverexec.sh
+: 1643027214:0;mullvad disconnect
+: 1643027216:0;docker stop 44ead3018903
+: 1643027222:0;vim mediaserverexec.sh
+: 1643027245:0;./mediaserverexec.sh
+: 1643027305:0;mullvad status
+: 1643027310:0;vim mediaserverexec.sh
+: 1643027405:0;docker stop 44ead3018903
+: 1643027412:0;./mediaserverexec.sh
+: 1643027447:0;docker stop 44ead3018903
+: 1643027460:0;vim mediaserverexec.sh
+: 1643027645:0;clear
+: 1643027647:0;vim mediaserverexec.sh
+: 1643027751:0;vim docker-compose.yml
+: 1643027783:0;man watch
+: 1643027861:0;vim mediaserverexec.sh
+: 1643027883:0;man watch
+: 1643027889:0;vim mediaserverexec.sh
+: 1643028026:0;docker ps
+: 1643028032:0;./mediaserverexec.sh
+: 1643028068:0;man watch
+: 1643028084:0;vim mediaserverexec.sh
+: 1643028097:0;docker ps
+: 1643028112:0;docker stop 44ead3018903
+: 1643028118:0;./mediaserverexec.sh
+: 1643028156:0;docker stop 44ead3018903
+: 1643028163:0;vim mediaserverexec.sh
+: 1643028178:0;man watch
+: 1643028188:0;vim mediaserverexec.sh
+: 1643028198:0;./mediaserverexec.sh
+: 1643028262:0;docker stop 44ead3018903
+: 1643028274:0;vim mediaserverexec.sh
+: 1643028279:0;man watch
+: 1643028317:0;vim mediaserverexec.sh
+: 1643028368:0;docker stop 44ead3018903
+: 1643028371:0;./mediaserverexec.sh
+: 1643028420:0;vim mediaserverexec.sh
+: 1643028741:0;./mediaserverexec.sh
+: 1643028825:0;vim mediaserverexec.sh
+: 1643029143:0;docker stop 44ead3018903
+: 1643029148:0;./mediaserverexec.sh
+: 1643029273:0;docker stop 44ead3018903
+: 1643029281:0;docker stop 7266f1a21d61
+: 1643029288:0;vim mediaserverexec.sh
+: 1643029347:0;./mediaserverexec.sh
+: 1643029425:0;docker stop 7266f1a21d61
+: 1643029433:0;docker stop 44ead3018903
+: 1643029437:0;mullvad status
+: 1643029442:0;mullvad disconnect
+: 1643029445:0;vim mediaserverexec.sh
+: 1643029488:0;./mediaserverexec.sh
+: 1643029590:0;ping 69.4.234.19:55789
+: 1643029598:0;curl 69.4.234.19:55789
+: 1643029610:0;docker stop 44ead3018903
+: 1643029618:0;docker stop 7266f1a21d61
+: 1643029623:0;vim mediaserverexec.sh
+: 1643029715:0;./mediaserverexec.sh
+: 1643029786:0;docker stop 7266f1a21d61
+: 1643029795:0;docker stop 44ead3018903
+: 1643029800:0;mullvad disconnect
+: 1643029803:0;vim mediaserverexec.sh
+: 1643029897:0;./mediaserverexec.sh
+: 1643029988:0;docker ps 
+: 1643029995:0;docker stop 44ead3018903
+: 1643030020:0;docker stop 7266f1a21d61
+: 1643030048:0;vim mediaserverexec.sh
+: 1643030113:0;./mediaserverexec.sh
+: 1643030161:0;docker stop 7266f1a21d61
+: 1643030169:0;docker stop 44ead3018903
+: 1643030176:0;vim mediaserverexec.sh
+: 1643030229:0;./mediaserverexec.sh
+: 1643030283:0;vim mediaserverexec.sh
+: 1643030577:0;./mediaserverexec.sh
+: 1643030644:0;vim mediaserverexec.sh
+: 1643030679:0;./mediaserverexec.sh
+: 1643030760:0;vim mediaserverexec.sh
+: 1643031383:0;./mediaserverexec.sh
+: 1643031528:0;cd ..
+: 1643031528:0;ls
+: 1643031551:0;touch mediaserverkill.sh
+: 1643031558:0;chmod +x mediaserverkill.sh
+: 1643031566:0;vim mediaserverexec.sh
+: 1643031581:0;vim mediaserverkill.sh
+: 1643031598:0;./mediaserverkill.sh
+: 1643031632:0;vim mediaserverkill.sh
+: 1643031729:0;./mediaserverkill.sh
+: 1643031740:0;vim mediaserverkill.sh
+: 1643031756:0;./mediaserverkill.sh
+: 1643031765:0;vim mediaserverkill.sh
+: 1643031775:0;./mediaserverkill.sh
+: 1643031800:0;./mediaserverexec.sh
+: 1643031880:0;./mediaserverkill.sh
+: 1643031900:0;vim mediaserverexec.sh
+: 1643031970:0;./mediaserverexec.sh
+: 1643031977:0;ls
+: 1643032061:0;lsblk
+: 1643032071:0;cd /srv/dev-disk-by-uuid-1566570d-7f79-4ad9-863a-2a7a1a621c02
+: 1643032078:0;ls
+: 1643032083:0;cd Red
+: 1643032084:0;ls
+: 1643032108:0;mkdir ABackup
+: 1643032113:0;mkdir BBackup
+: 1643032159:0;cp /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies /srv/dev-disk-by-uuid-1566570d-7f79-4ad9-863a-2a7a1a621c02/Red/ABackup
+: 1643032167:0;cp -r /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies /srv/dev-disk-by-uuid-1566570d-7f79-4ad9-863a-2a7a1a621c02/Red/ABackup
+: 1643035410:0;ls
+: 1643035425:0;mkdir mediascripts
+: 1643035446:0;cp mediaserverexec.sh mediascripts
+: 1643035455:0;cp mediaserverkill.sh mediascripts
+: 1643035456:0;ls
+: 1643035459:0;cd mediascripts
+: 1643035460:0;ls
+: 1643035476:0;touch gdriverclonecopy.sh
+: 1643035482:0;vim gdriverclonecopy.sh
+: 1643035514:0;fdisk
+: 1643035518:0;lsblk
+: 1643035564:0;cd mediascripts
+: 1643035567:0;vim gdriverclonecopy.sh
+: 1643036170:0;chmod +x gdriverclonecopy.sh
+: 1643036174:0;./gdriverclonecopy.sh
+: 1643036182:0;vim gdriverclonecopy.sh
+: 1643036203:0;./gdriverclonecopy.sh
+: 1643036206:0;vim gdriverclonecopy.sh
+: 1643036243:0;./gdriverclonecopy.sh
+: 1643036247:0;vim gdriverclonecopy.sh
+: 1643036262:0;./gdriverclonecopy.sh
+: 1643036279:0;vim gdriverclonecopy.sh
+: 1643036355:0;./gdriverclonecopy.sh
+: 1643036359:0;vim gdriverclonecopy.sh
+: 1643036377:0;./gdriverclonecopy.sh
+: 1643036400:0;vim gdriverclonecopy.sh
+: 1643036581:0;vim mediaserverexec.sh
+: 1643040420:0;./gdriverclonecopy.sh
+: 1643040440:0;vim mediaserverexec.sh
+: 1643040451:0;vim gdriverclonecopy.sh
+: 1643041149:0;./gdriverclonecopy.sh
+: 1643041154:0;vim gdriverclonecopy.sh
+: 1643041179:0;./gdriverclonecopy.sh
+: 1643041188:0;vim gdriverclonecopy.sh
+: 1643041232:0;./gdriverclonecopy.sh
+: 1643041253:0;vim gdriverclonecopy.sh
+: 1643041352:0;rclone --help
+: 1643041367:0;rclone ls Gdrive
+: 1643041371:0;rclone ls Gdrive:
+: 1643041388:0;rclone --help
+: 1643041410:0;rclone lsd Gdrive:
+: 1643041802:0;vim gdriverclonecopy.sh
+: 1643042142:0;./gdriverclonecopy.sh
+: 1643042157:0;vim gdriverclonecopy.sh
+: 1643042197:0;./gdriverclonecopy.sh
+: 1643042205:0;vim gdriverclonecopy.sh
+: 1643042254:0;./gdriverclonecopy.sh
+: 1643042262:0;vim gdriverclonecopy.sh
+: 1643042299:0;rclone tree Gdrive:
+: 1643042316:0;rclone lsd Gdrive:
+: 1643042340:0;rclone lsd Gdrive: | test.txt
+: 1643042348:0;rclone lsd Gdrive: | cat test.txt
+: 1643042356:0;touch test.txt
+: 1643042358:0;rclone lsd Gdrive: | cat test.txt
+: 1643042362:0;vim test.txt
+: 1643042375:0;less test.txt
+: 1643042380:0;more test.txt
+: 1643042395:0;rclone lsd --help
+: 1643042414:0;rclone lsd --dirs-only
+: 1643042425:0;rclone lsf --dirs-only
+: 1643042433:0;rclone lsf --dirs-only Gdrive:
+: 1643042454:0;rclone lsf --dirs-only --absolute Gdrive:
+: 1643042478:0;rclone lsf --dirs-only --absolute --csv Gdrive:
+: 1643042489:0;rclone lsf --dirs-only --csv Gdrive:
+: 1643042504:0;rclone lsf -h
+: 1643042709:0;rclone lsf --dirs-only --absolute --csv Gdrive:
+: 1643042717:0;rclone lsf --dirs-only --absolute --csv Gdrive:Anime
+: 1643042923:0;read -p 'Username: ' uservar
+: 1643042934:0;touch test.sh
+: 1643042940:0;chmod +x test.sh
+: 1643042942:0;vim test.sh
+: 1643042983:0;./test.sh
+: 1643042991:0;vim test.sh
+: 1643043004:0;./test.sh
+: 1643043008:0;vim test.sh
+: 1643043056:0;./gdriverclonecopy.sh
+: 1643043083:0;vim test.sh
+: 1643043100:0;vim gdriverclonecopy.sh
+: 1643043131:0;rm test.sh test.txt
+: 1643043132:0;ls
+: 1643043136:0;vim mediaserverexec.sh
+: 1643043306:0;rclone ls --help
+: 1643043333:0;rclone ls Gdrive:Anime/Monster
+: 1643043344:0;rclone ls Gdrive:Anime
+: 1643043357:0;rclone lsd Gdrive:Anime
+: 1643043368:0;rclone ls --help
+: 1643043371:0;rclone lsd --help
+: 1643043602:0;rclone --help
+: 1643044150:0;ls
+: 1643044157:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667
+: 1643044159:0;ls
+: 1643044189:0;mv AMACloudMovies2 AMACloudMovies
+: 1643044387:0;lsblk
+: 1643044391:0;df -h
+: 1643044398:0;mount
+: 1643044403:0;lsblk --help
+: 1643044509:0;lsblk -o <NAME PATH FSAVAIL>
+: 1643044519:0;lsblk -o NAME PATH FSAVAIL
+: 1643044533:0;lsblk --output NAME PATH FSAVAIL
+: 1643044542:0;lsblk --output <NAME PATH FSAVAIL>
+: 1643044579:0;lsblk --output NAME,PATH,FSAVAIL
+: 1643044588:0;lblk
+: 1643044590:0;lsblk
+: 1643044604:0;lsblk --output NAME,MOUNTPOINT,FSAVAIL
+: 1643044628:0;lsblk --output FSAVAIL,MOUNTPOINT
+: 1643045475:0;rclone --help
+: 1643045491:0;cat rclone --help
+: 1643045498:0;rclone --help | cat
+: 1643045512:0;touch rclonehelp.txt
+: 1643045532:0;rclone --help | cat rclonehelp.txt
+: 1643045537:0;cat rclonehelp.txt
+: 1643045541:0;vim rclonehelp.txt
+: 1643045645:0;rclone tree Gdrive:
+: 1643045729:0;rclone ls Gdrive:
+: 1643045746:0;rcloen lsd
+: 1643045751:0;rclone lsd
+: 1643045756:0;rclone lsd Gdrive:
+: 1643045898:0;rclone tree Gdrive:
+: 1643046119:0;rclone rm --help
+: 1643046128:0;rclone --help
+: 1643046374:0;rclone sync --help
+: 1643046932:0;./gdriverclonecopy.sh
+: 1643046979:0;vim gdriverclonecopy.sh
+: 1643047045:0;./gdriverclonecopy.sh
+: 1643047100:0;vim gdriverclonecopy.sh
+: 1643047158:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies
+: 1643047166:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Parasyte
+: 1643047187:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime
+: 1643047192:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime
+: 1643047310:0;./gdriverclonecopy.sh
+: 1643047395:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime
+: 1643047397:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/
+: 1643047401:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Parasyte
+: 1643047404:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/
+: 1643047408:0;clear
+: 1643047554:0;ls
+: 1643047558:0;cd AMACloudMovies
+: 1643047560:0;ls
+: 1643047562:0;cd Anime
+: 1643047562:0;ls
+: 1643047565:0;cd Parasyte
+: 1643047567:0;ls
+: 1643047568:0;cd ..
+: 1643047572:0;cd Parasyte
+: 1643047573:0;ls
+: 1643047575:0;cd ..
+: 1643047697:0;ls
+: 1643047700:0;cd Anime
+: 1643047700:0;ls
+: 1643047701:0;cd ..
+: 1643047702:0;cd Parasyte
+: 1643047703:0;ls
+: 1643047705:0;l
+: 1643047706:0;ls
+: 1643047715:0;pwd
+: 1643047734:0;ls
+: 1643047824:0;./gdriverclonecopy.sh
+: 1643047862:0;ls
+: 1643047864:0;cd ..
+: 1643047864:0;ls
+: 1643047868:0;rm -rf Parasyte
+: 1643047871:0;./gdriverclonecopy.sh
+: 1643047907:0;ls
+: 1643047911:0;ls Parasyte
+: 1643048104:0;vim gdriverclonecopy.sh
+: 1643048217:0;rclone copy --help
+: 1643048287:0;rm -rf Parasyte
+: 1643048290:0;./gdriverclonecopy.sh
+: 1643049433:0;vim gdriverclonecopy.sh
+: 1643049450:0;./gdriverclonecopy.sh
+: 1643049511:0;ls
+: 1643049513:0;cd ~
+: 1643049514:0;ls
+: 1643049526:0;cd Plex
+: 1643049542:0;./mediaserverkill.sh
+: 1643049560:0;vim docker-compose.yml
+: 1643049583:0;./mediaserverexec.sh
+: 1643049587:0;cd ..
+: 1643049588:0;ls
+: 1643049592:0;cd mediascripts
+: 1643049593:0;ls
+: 1643049607:0;mv gdriverclonecopy.sh /root
+: 1643049608:0;ls
+: 1643049609:0;cd ..
+: 1643049623:0;rm -rf mediascripts
+: 1643049623:0;ls
+: 1643049790:0;./mediaserverkill.sh
+: 1643049797:0;ls
+: 1643049800:0;cd Plex
+: 1643049800:0;ls
+: 1643049804:0;vim docker-compose.yml k
+: 1643049834:0;ls
+: 1643049835:0;cd Plex
+: 1643049840:0;vim docker-compose.yml
+: 1643049892:0;./mediaserverexec.sh
+: 1643050131:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime
+: 1643050132:0;ls
+: 1643050139:0;ls An
+: 1643050142:0;cd An
+: 1643050153:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime
+: 1643050153:0;ls
+: 1643050156:0;cd Anime
+: 1643050159:0;ls
+: 1643050375:0;rclone copy Gdrive:MKY/Season\ 2 /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/MKY/
+: 1643050398:0;rclone copy -P Gdrive:Anime/MKY/Season\ 2 /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/MKY/
+: 1643050734:0;./mediaserverkill.sh
+: 1643050772:0;./mediaserverexec.sh
+: 1643051107:0;ls
+: 1643051109:0;cd ..
+: 1643051109:0;ls
+: 1643051115:0;cd MKY
+: 1643051116:0;ls
+: 1643051127:0;ls Season\ 1
+: 1643051131:0;cd ..
+: 1643051142:0;mkdir Season\ 2
+: 1643051143:0;ls
+: 1643051148:0;rm -rf Season\ 2
+: 1643051149:0;ls
+: 1643051151:0;cd MKY
+: 1643051152:0;ls
+: 1643051156:0;mkdir 'Season 2'
+: 1643051158:0;ls
+: 1643051185:0;mv Copy\ of\ S02E10-Visitor\ Arc\ X\ \[C20F661A\].mkv Season\ 2
+: 1643051192:0;mv Copy\ of\ S02E11-Visitor\ Arc\ XII\ \[2F9030BC\].mkv Season\ 2
+: 1643051209:0;mv *.mkv Season\ 2
+: 1643051210:0;ls
+: 1643051214:0;cd Season\ 1
+: 1643051215:0;ls
+: 1643052329:0;clear
+: 1643052330:0;ls
+: 1643052332:0;clear 
+: 1643052343:0;cd /srv/dev-disk-by-uuid-1566570d-7f79-4ad9-863a-2a7a1a621c02
+: 1643052344:0;ls
+: 1643052348:0;cd Red
+: 1643052349:0;ls
+: 1643052354:0;cd ABackup
+: 1643052355:0;ls
+: 1643052357:0;cd AMACloudMovies
+: 1643052358:0;ls
+: 1643052367:0;cd Shows
+: 1643052367:0;ls
+: 1643052745:0;./mediaserverkill.sh
+: 1643052774:0;docker ps 
+: 1643052776:0;clear
+: 1643052789:0;sudo apt-get update
+: 1643052797:0;sudo apt-get upgrade
+: 1643073703:0;ls
+: 1643073710:0;./mediaserverexec.sh
+: 1643073754:0;vim mediaserverexec.sh
+: 1643259857:0;ls
+: 1643259862:0;./mediaserverexec.sh
+: 1643259987:0;docker ps
+: 1643260001:0;docker stop 44ead3018903
+: 1643260024:0;docker stop a4c00b29b22a
+: 1643260045:0;docker ps
+: 1643260049:0;mullvad disconnect
+: 1643260052:0;./mediaserverexec.sh
+: 1643260554:0;clear
+: 1643260579:0;docker ps
+: 1643260605:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2
+: 1643260606:0;ls
+: 1643260608:0;cd ..
+: 1643260609:0;ls
+: 1643260611:0;cd AMACloudMovies
+: 1643260611:0;ls
+: 1643260621:0;cd ..
+: 1643260659:0;cp AMACloudMovies /srv/dev-disk-by-uuid-1566570d-7f79-4ad9-863a-2a7a1a621c02/Red/BBackup
+: 1643260665:0;cp -r AMACloudMovies /srv/dev-disk-by-uuid-1566570d-7f79-4ad9-863a-2a7a1a621c02/Red/BBackup
+: 1643262389:0;ls
+: 1643262395:0;./gdriverclonecopy.sh
+: 1643262413:0;lsblk
+: 1643262461:0;vim gdriverclonecopy.sh
+: 1643262636:0;lsblk
+: 1643262753:0;cd /srv/dev-disk-by-uuid-a9b85660-13f3-45f3-843f-2f5e9caca7e6
+: 1643262754:0;ls
+: 1643262759:0;mkdir AMACloudMovies
+: 1643262762:0;cd AMACloudMovies
+: 1643262763:0;ls
+: 1643262768:0;mkdir Anime
+: 1643262771:0;mkdir Shows
+: 1643262775:0;mkdir Movies
+: 1643262777:0;cd ..
+: 1643262783:0;cd /root
+: 1643262785:0;./gdriverclonecopy.sh
+: 1643263041:0;./mediaserverkill.sh
+: 1643263067:0;vim Plex/docker-compose.yml
+: 1643263204:0;./mediaserverexec.sh
+: 1643291068:0;./mediaserverkill.sh
+: 1643291082:0;docker ps
+: 1643291092:0;vim Transmission/docker-compose.yml
+: 1643291095:0;ls
+: 1643291099:0;vim mediaserverexec.sh
+: 1643291113:0;./gdriverclonecopy.sh
+: 1643291167:0;vim mediaserverexec.sh
+: 1643291382:0;./mediaserverexec.sh
+: 1643303512:0;./gdriverclonecopy.sh
+: 1643307551:0;ls
+: 1643307553:0;lsblk
+: 1643308060:0;clear
+: 1643308063:0;ls
+: 1643308066:0;vim mediaserverexec.sh
+: 1643308080:0;vim gdriverclonecopy.sh
+: 1643308137:0;lsblk
+: 1643308148:0;df -h
+: 1643308330:0;./gdriverclonecopy.sh
+: 1643308335:0;ls
+: 1643308340:0;cd /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56
+: 1643308341:0;ls
+: 1643308345:0;mkdir AMACloudMovies
+: 1643308347:0;cd AMACloudMovies
+: 1643308347:0;ls
+: 1643308352:0;mkdir Anime 
+: 1643308354:0;mkdir Shows
+: 1643308358:0;mkdir Movies
+: 1643308360:0;cd /root/
+: 1643308361:0;ls
+: 1643308369:0;./gdriverclonecopy.sh
+: 1643308421:0;./mediaserverexec.sh
+: 1643329858:0;lsblk
+: 1643331962:0;df -h
+: 1643331967:0;lsblk
+: 1643331979:0;ls /
+: 1643332006:0;cd /srv/dev-disk-by-uuid-60734265-9134-49fb-a62e-abc7abdbf71f
+: 1643332008:0;ls
+: 1643332018:0;ls HOT
+: 1643332021:0;ls AMACloud_HOT
+: 1643332025:0;cd //
+: 1643332071:0;umount --help
+: 1643332090:0;umount /srv/dev-disk-by-uuid-60734265-9134-49fb-a62e-abc7abdbf71f
+: 1643332092:0;mount
+: 1643332094:0;lblk
+: 1643332096:0;lsblk
+: 1643332349:0;curl ifconfig.me
+: 1643332355:0;ping google.com
+: 1643332374:0;cd /srv/dev-disk-by-uuid-1566570d-7f79-4ad9-863a-2a7a1a621c02
+: 1643332374:0;ls
+: 1643332377:0;cd ..
+: 1643332383:0;cd /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56
+: 1643332383:0;l
+: 1643332384:0;ls
+: 1643332387:0;cd AMACloudMovies
+: 1643332387:0;ls
+: 1643332389:0;cd Anime
+: 1643332390:0;ls
+: 1643332392:0;cd Shippuden
+: 1643332393:0;ls
+: 1643332412:0;cd ~
+: 1643332412:0;ls
+: 1643332415:0;df =h
+: 1643332416:0;df -h
+: 1643332740:0;./gdriverclonecopy.sh
+: 1643333135:0;./mediaserverkill.sh
+: 1643333154:0;./mediaserverexec.sh
+: 1643333173:0;./mediaserverkill.sh
+: 1643333184:0;vim Plex/docker-compose.yml
+: 1643333204:0;lsblk
+: 1643333255:0;./mediaserverexec.sh
+: 1643359455:0;./gdriverclonecopy.sh
+: 1643361556:0;./mediaserverkill.sh
+: 1643361581:0;./mediaserverexec.sh
+: 1643404586:0;./mediaserverkill.sh
+: 1643404729:0;docker ps 
+: 1643404736:0;./mediaserverexec.sh
+: 1643404792:0;ls
+: 1643404798:0;cd Transmission
+: 1643404798:0;ls
+: 1643404801:0;vim docker-compose.yml
+: 1643404829:0;clear
+: 1643404829:0;ls
+: 1643404830:0;cd ..
+: 1643404831:0;ls
+: 1643404838:0;cd Transmission
+: 1643404838:0;ls
+: 1643404849:0;docker-compose up
+: 1643405105:0;ls
+: 1643405121:0;vim docker-compose.yml
+: 1643405245:0;docker-compose up
+: 1643411855:0;docker ps 
+: 1643812773:0;ls
+: 1643812774:0;cd ..
+: 1643812774:0;ls
+: 1643812790:0;./mediaserverkill.sh
+: 1643812816:0;./mediaserverexec.sh
+: 1643861235:0;clear
+: 1643861237:0;sudo apt-get upgrade
+: 1643861241:0;sudo apt-get update
+: 1643861249:0;sudo apt-get upgrade
+: 1643861251:0;clear
+: 1643861255:0;./mediaserverexec.sh
+: 1643862861:0;shutdown
+: 1643871214:0;./mediaserverexec.sh
+: 1643919672:0;shutdown
+: 1644118391:0;./mediaserverexec.sh
+: 1644151017:0;shutdown
+: 1644160796:0;./mediaserverexec.sh
+: 1644279830:0;ls
+: 1644279848:0;vim mediaserverexec.sh
+: 1644279962:0;./mediaserverkill.sh
+: 1644280016:0;vim mediaserverexec.sh
+: 1644280066:0;./mediaserverkill.sh
+: 1644280086:0;docker ps 
+: 1644280095:0;./mediaserverexec.sh
+: 1644280248:0;vim mediaserverexec.sh
+: 1644280405:0;docker ps
+: 1644280422:0;docker stop 44ead3018903
+: 1644280436:0;docker ps
+: 1644280630:0;./mediaserverexec.sh
+: 1644280718:0;curl ifconfig.me 
+: 1644280755:0;vim mediaserverexec.sh
+: 1644280801:0;./mediaserverkill.sh
+: 1644281294:0;ls
+: 1644281302:0;vim Transmission/docker-compose.yml
+: 1644281725:0;curl ifconfig.me 
+: 1644281727:0;ls
+: 1644281791:0;lsblk
+: 1644281814:0;df -h
+: 1644281851:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/
+: 1644281852:0;ls
+: 1644281861:0;cd downloads
+: 1644281861:0;ls
+: 1644281864:0;cd incomplete
+: 1644281864:0;ls
+: 1644281866:0;cd ..
+: 1644281867:0;cd complete
+: 1644281868:0;ls
+: 1644281870:0;cd ..
+: 1644281873:0;ls
+: 1644281875:0;cd ..
+: 1644281878:0;cd AMACloudMovies
+: 1644281879:0;ls
+: 1644281881:0;cd Anime
+: 1644281882:0;ls
+: 1644281883:0;cd ..
+: 1644281890:0;cd Movies
+: 1644281890:0;ls
+: 1644281896:0;cd ..
+: 1644281896:0;ls
+: 1644281900:0;cd incomplete
+: 1644281900:0;ls
+: 1644288627:0;./mediaserverkill.sh
+: 1644290251:0;shutdown
+: 1644367059:0;ls
+: 1644367064:0;sudo apt-get update
+: 1644367073:0;sudo apt-get upgrade
+: 1644367146:0;./mediaserverexec.sh
+: 1644367293:0;./mediaserverkill.sh
+: 1644367322:0;./mediaserverexec.sh
+: 1644557512:0;sudo apt-get update
+: 1644557524:0;sudo apt-get upgrade
+: 1644557544:0;ls
+: 1644557550:0;./mediaserverexec.sh
+: 1645254163:0;sudo apt-get update
+: 1645254168:0;sudo apt-get updgrade
+: 1645254174:0;sudo apt-get upgrade
+: 1645254179:0;./mediaserverexec.sh
+: 1645256948:0;docker ps
+: 1645257007:0;./mediaserverkill.sh
+: 1645257021:0;./mediaserverexec.sh
+: 1645257244:0;./mediaserverkill.sh
+: 1645257255:0;./mediaserverexec.sh
+: 1645381045:0;sudo apt-get upgrade
+: 1645381052:0;sudo apt-get update
+: 1645381062:0;sudo apt-get upgrade
+: 1645381069:0;./mediaserverexec.sh
+: 1645462503:0;sudo apt-get updaate
+: 1645462505:0;sudo apt-get upda=ate
+: 1645462507:0;sudo apt-get update
+: 1645462516:0;sudo apt-get upgrade
+: 1645462521:0;./mediaserverexec.sh
+: 1645502793:0;sudo apt-get update
+: 1645502801:0;sudo apt-get upgrade
+: 1645502805:0;./mediaserverexec.sh
+: 1645647821:0;sudo shutdown
+: 1645673329:0;sudo apt-get update
+: 1645673336:0;sudo apt-get upgrade
+: 1645673345:0;./mediaserverexec.sh
+: 1645817538:0;sudo shutdown
+: 1645919947:0;radfasdf
+: 1645919979:0;clear
+: 1645919982:0;sudo apt-get update
+: 1645919996:0;sudo apt-get upgrade
+: 1645920026:0;yclear
+: 1645920034:0;clear
+: 1645920037:0;./mediaserverexec.sh
+: 1646041555:0;sudo shutdown
+: 1646097889:0;sudo apt-get update
+: 1646097901:0;sudo apt-get upgrade
+: 1646097905:0;./mediaserverexec.sh
+: 1646290269:0;sudo apt-get update
+: 1646290279:0;sudo apt-get upgrade
+: 1646290322:0;./mediaserverexec.sh
+: 1646460139:0;sudo shutdown
+: 1646787318:0;t
+: 1646787324:0;sudo apt-get update
+: 1646787406:0;sudo apt-get upgradfe
+: 1646787408:0;sudo apt-get upgrade
+: 1646787493:0;./mediaserverexec.sh
+: 1647168244:0;sudo apt-get update
+: 1647168257:0;sudo apt-get upgraded
+: 1647168259:0;sudo apt-get upgrade
+: 1647168332:0;./mediaserverexec.sh
+: 1647227949:0;ping google.com
+: 1647227967:0;./mediaserverkill.sh
+: 1647233913:0;sudo apt-get update
+: 1647233927:0;sudo apt-get upgrade
+: 1647233952:0;./mediaserverexec.sh
+: 1647234015:0;vim Transmission/docker-compose.yml
+: 1647312458:0;ls
+: 1647312460:0;./mediaserverexec.sh
+: 1647320343:0;ls
+: 1647320348:0;sudo apt-get update
+: 1647320353:0;y
+: 1647320361:0;sudo apt-0get upgradfe
+: 1647320365:0;sudo apt-get upgrade
+: 1647320367:0;y
+: 1647320371:0;cleara
+: 1647320375:0;sudo shutdown
+: 1647321450:0;./mediaserverexec.sh
+: 1647321549:0;./mediaserver ck
+: 1647321554:0;./mediaserverkill.sh
+: 1647321566:0;./mediaserverexec.sh
+: 1647321692:0;./mediaserverkill.sh
+: 1647321715:0;./mediaserverexec.sh
+: 1647322552:0;ls
+: 1647322560:0;df -h
+: 1647322569:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667
+: 1647322570:0;ls
+: 1647322576:0;cd AMACloudMovies
+: 1647322577:0;ls
+: 1647322579:0;cd incomplete
+: 1647322580:0;ks
+: 1647322580:0;ls
+: 1647322583:0;cd ..
+: 1647322584:0;lks
+: 1647322585:0;ls
+: 1647322587:0;cd completed
+: 1647322588:0;lks
+: 1647322588:0;lls
+: 1647322589:0;ls
+: 1647322590:0;cd ..
+: 1647322591:0;ls
+: 1647322592:0;cd ..
+: 1647322593:0;ls
+: 1647322597:0;cd AMACloudMovies2
+: 1647322597:0;ls
+: 1647322602:0;cd ..
+: 1647322608:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27
+: 1647322609:0;ls
+: 1647322618:0;cd downloads
+: 1647322618:0;ls
+: 1647322620:0;cd incomplete
+: 1647322620:0;ls
+: 1647322621:0;cd ..
+: 1647322628:0;df -h
+: 1647322642:0;cd /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56
+: 1647322642:0;ls
+: 1647322645:0;cd AMACloudMovies
+: 1647322646:0;ls
+: 1647322648:0;cd Movies
+: 1647322648:0;ks
+: 1647322649:0;ls
+: 1647322651:0;cd ..
+: 1647322653:0;ls
+: 1647322655:0;df -h
+: 1647322663:0;cd /srv/dev-disk-by-uuid-1566570d-7f79-4ad9-863a-2a7a1a621c02
+: 1647322663:0;ls
+: 1647322668:0;cd ..
+: 1647322668:0;ls
+: 1647322685:0;cd dev-disk-by-uuid-60734265-9134-49fb-a62e-abc7abdbf71f
+: 1647322685:0;ls
+: 1647322687:0;cd ..
+: 1647322687:0;ls
+: 1647322693:0;cd dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667
+: 1647322693:0;ls
+: 1647322697:0;cd SD2
+: 1647322699:0;ls
+: 1647322702:0;cd ..
+: 1647322702:0;ls
+: 1647322704:0;cd AMACloudMovies
+: 1647322704:0;ls
+: 1647322707:0;cd incomplete
+: 1647322707:0;ks
+: 1647322708:0;ls
+: 1647322710:0;cd ..
+: 1647322710:0;ls
+: 1647322764:0;cd ..
+: 1647322764:0;ls
+: 1647322765:0;cd .
+: 1647322766:0;cd ..
+: 1647322767:0;ls
+: 1647322775:0;cd dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56
+: 1647322775:0;ls
+: 1647322779:0;cd AMACloudMovies
+: 1647322779:0;ls
+: 1647322781:0;cd Movies
+: 1647322781:0;lks
+: 1647322782:0;ls
+: 1647322783:0;cd ..
+: 1647322785:0;cd Shows
+: 1647322785:0;ks
+: 1647322786:0;ls
+: 1647322793:0;cd ..
+: 1647322794:0;ls
+: 1647322795:0;cd Anime
+: 1647322796:0;ls
+: 1647322797:0;cd ..
+: 1647322799:0;ls
+: 1647322804:0;cd ..
+: 1647322806:0;ls
+: 1647322813:0;cd dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/config
+: 1647322815:0;ls
+: 1647322817:0;cd ..
+: 1647322818:0;ls
+: 1647322821:0;cd data
+: 1647322821:0;ls
+: 1647322824:0;cd incomplete
+: 1647322825:0;ls
+: 1647322827:0;cd ..
+: 1647322828:0;cd completed
+: 1647322828:0;ls
+: 1647322830:0;cd ..
+: 1647322831:0;cd .
+: 1647322832:0;cd ..
+: 1647322832:0;ls
+: 1647322838:0;cd downloads
+: 1647322838:0;ls
+: 1647322841:0;cd incomplete
+: 1647322841:0;ls
+: 1647322842:0;cd .
+: 1647322843:0;cd ..
+: 1647322844:0;cd complete
+: 1647322844:0;ls
+: 1647322845:0;cd ..
+: 1647322846:0;ls
+: 1647322849:0;cd ..
+: 1647322850:0;ls 
+: 1647322851:0;cd AMACloudMovies
+: 1647322853:0;ls
+: 1647322856:0;cd incomplete
+: 1647322856:0;ls
+: 1647322858:0;cd ..
+: 1647322859:0;cd completed
+: 1647322860:0;ls
+: 1647322868:0;cd Annie\ 2014\ 1080p\ BRRip\ x264\ DTS-JYK
+: 1647322869:0;ls
+: 1647322894:0;mv Annie\ 2014\ 1080p\ BRRip\ x264\ DTS-JYK.mkv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/
+: 1647476738:0;./mediaserverkill.sh
+: 1647476768:0;./mediaserverexec.sh
+: 1647476901:0;./mediaserverkill.sh
+: 1647476930:0;sudo apt-get update
+: 1647476941:0;sudo apt-get upgrade
+: 1647476954:0;ls
+: 1647476961:0;cd ~
+: 1647476973:0;ls
+: 1647476983:0;vim mediaserverexec.sh
+: 1647477003:0;./mediaserverexec.sh
+: 1647478976:0;ls
+: 1647478985:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27
+: 1647478986:0;ls
+: 1647478987:0;cd AMACloudMovies
+: 1647478988:0;ls
+: 1647478990:0;cd Movies
+: 1647478990:0;ks
+: 1647478991:0;ls
+: 1647478997:0;rm WestSideStory
+: 1647479000:0;cd WestSideStory
+: 1647479001:0;ls
+: 1647479005:0;rm -rf West.Side.Story.2021.720p.HDCAM-C1NEM4.mkv
+: 1647479007:0;cd ..
+: 1647479018:0;rm -rf WestSideStory
+: 1647479019:0;ls
+: 1647479021:0;cd ~
+: 1647479740:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27
+: 1647479742:0;cd AMACloudMovies
+: 1647479742:0;ls
+: 1647479744:0;cd completed
+: 1647479745:0;ls
+: 1647479783:0;cd Annie\ 2014\ 1080p\ BRRip\ x264\ DTS-JYK
+: 1647479783:0;ls
+: 1647479786:0;cd ..
+: 1647479786:0;ls
+: 1647479790:0;cd ..
+: 1647479792:0;ls
+: 1647479796:0;cd Movies
+: 1647479796:0;ls
+: 1647479798:0;cd ..
+: 1647479799:0;lks
+: 1647479800:0;ls
+: 1647479802:0;cd completed
+: 1647479802:0;ls
+: 1647479809:0;pwd
+: 1647479820:0;cd ..
+: 1647479820:0;ls
+: 1647479834:0;cp completed/Arrival\ 2016\ 1080p\ BluRay\ x264\ DTS-JYK/Arrival\ 2016\ 1080p\ BluRay\ x264\ DTS-JYK.mkv Movies
+: 1647479844:0;mv completed/Arrival\ 2016\ 1080p\ BluRay\ x264\ DTS-JYK/Arrival\ 2016\ 1080p\ BluRay\ x264\ DTS-JYK.mkv Movies
+: 1647479878:0;mv completed/Hereditary\ \(2018\)\ \[WEBRip\]\ \[1080p\]\ \[YTS.AM\] Movies
+: 1647479888:0;mv completed/Lost\ 2004\ Season\ 5\ Complete\ 720p\ BluRay\ x264\ \[i_c\] Shows
+: 1647479896:0;mv completed/Midsommar\ \(2019\)\ \[BluRay\]\ \[720p\]\ \[YTS.LT\] Movies/
+: 1647480844:0;ls
+: 1647480857:0;mv completed/www.Torrenting.com\ \ \ -\ \ \ \ West.Side.Story.2021.1080p.BRRip.X264.AC3-EVO/West.Side.Story.2021.1080p.BRRip.X264.AC3-EVO.mkv Movies
+: 1647481654:0;mv completed/Squid.Game.S01.COMPLETE.KOREAN.720p.NF.WEBRip.x264-GalaxyTV\[TGx\] Shows
+: 1647482816:0;df -h
+: 1647482909:0;/srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Shows/AroundtheWorldin80Days /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56
+: 1647482919:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Shows/AroundtheWorldin80Days /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56
+: 1647483888:0;ls /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56
+: 1647483896:0;ls /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647483927:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Shows /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/
+: 1647498646:0;ls
+: 1647498647:0;cd ~
+: 1647498652:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667
+: 1647498653:0;ls
+: 1647498657:0;cd AMACloudMovies
+: 1647498658:0;ls
+: 1647498659:0;cd ..
+: 1647498659:0;ls
+: 1647498662:0;cd AMACloudMovies2
+: 1647498667:0;ls
+: 1647498670:0;cd ..
+: 1647498671:0;ls
+: 1647498717:0;mv AMACloudMovies/Shows/ /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647501126:0;ls
+: 1647501132:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27
+: 1647501133:0;ls
+: 1647501136:0;cd AMACloudMovies
+: 1647501136:0;ls
+: 1647501138:0;cd completed
+: 1647501139:0;ls
+: 1647501148:0;cd Sherlock.Season.1-4.S01-S04.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI/
+: 1647501149:0;ls
+: 1647501151:0;cd ..
+: 1647501152:0;cd .
+: 1647501153:0;cd ..
+: 1647501184:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Sherlock.Season.1-4.S01-S04.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56
+: 1647502806:0;ls /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/Sherlock.Season.1-4.S01-S04.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/
+: 1647506327:0;ls
+: 1647506333:0;cd 2
+: 1647506335:0;cd2
+: 1647506337:0;ls
+: 1647506339:0;cd2
+: 1647506348:0;cd dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56
+: 1647506349:0;ls
+: 1647506352:0;cd Sherlock.Season.1-4.S01-S04.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI
+: 1647506352:0;ls
+: 1647506354:0;ls -a
+: 1647506358:0;cd Sherlock.Season.1.S01.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI
+: 1647506359:0;ls
+: 1647506361:0;cd ..
+: 1647506363:0;ls
+: 1647506380:0;mv Sherlock.Season.1-4.S01-S04.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI AMACloudMovies/Shows/
+: 1647506381:0;ls
+: 1647506384:0;cd AMACloudMovies
+: 1647506384:0;ls
+: 1647506389:0;cd Shows
+: 1647506390:0;ls
+: 1647520555:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27
+: 1647520555:0;ls
+: 1647520562:0;cd AMACloudMovies/completed
+: 1647520563:0;ls
+: 1647520599:0;cd ..
+: 1647520599:0;ls
+: 1647520672:0;cd completed
+: 1647520672:0;ls
+: 1647520705:0;mv Scrubs /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647521491:0;ls
+: 1647521507:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1647521507:0;ls
+: 1647521613:0;cd2
+: 1647521617:0;ls
+: 1647521618:0;cd ..
+: 1647521619:0;ls
+: 1647521651:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Big\ Hero\ 6\ \(2014\)\ \[1080p\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647522333:0;ls /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1647522451:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Scrubs/ /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/
+: 1647522496:0;ls /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/Scrubs
+: 1647522510:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Scrubs/ /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/
+: 1647522515:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Scrubs /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/
+: 1647522524:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Scrubs/ /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/Scrubs
+: 1647522536:0;ls /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Scrubs
+: 1647522584:0;ls
+: 1647522592:0;ls /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1647522958:0;ls /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed 
+: 1647523294:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Scrubs /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/downloads/complete
+: 1647523337:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/downloads/complete/Scrubs/ /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/Scrubs
+: 1647523346:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/downloads/complete/Scrubs/ /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/Scrubs/
+: 1647523355:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/downloads/complete/Scrubs /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/Scrubs
+: 1647523373:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/downloads/complete/Scrubs/ /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/Scrubs
+: 1647523389:0;mdkir /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/Scrubs2
+: 1647523418:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/downloads/complete/Scrubs/ /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/Scrubs2/
+: 1647523422:0;ls
+: 1647523435:0;ls /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/
+: 1647523461:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/ /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/
+: 1647531433:0;ls
+: 1647531442:0;cd /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/completed
+: 1647531443:0;ls
+: 1647531450:0;cd B4b3\ \(BDrip\ 1080p\ ENG-ITA\)\ Multisub\ x264\ bluray\ \(1995\)
+: 1647531450:0;ls
+: 1647531455:0;rm Sample\ preview.mkv
+: 1647531672:0;ls
+: 1647531673:0;cd ~
+: 1647531721:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Beauty.and.the.Beast.2017.1080p.BRRiP.6CH.ShAaNiG.mkv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647531922:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/completed
+: 1647531923:0;ls
+: 1647531923:0;cd ..
+: 1647531925:0;cd incomplete
+: 1647531925:0;ls
+: 1647531926:0;cd ..
+: 1647531929:0;ls
+: 1647531932:0;cd AMACloudMovies2
+: 1647531932:0;ls
+: 1647531934:0;cd ..
+: 1647531937:0;cd AMACloudMovies
+: 1647531937:0;ls
+: 1647531939:0;cd Anime
+: 1647531941:0;ls
+: 1647532000:0;cd ~
+: 1647532009:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/data/completed
+: 1647532010:0;ls
+: 1647532010:0;cd ..
+: 1647532034:0;cd .
+: 1647532037:0;cd ..
+: 1647532041:0;ls
+: 1647532043:0;cd lost+found
+: 1647532044:0;ls
+: 1647532046:0;cd ..
+: 1647532048:0;cd SD1
+: 1647532049:0;ls
+: 1647532051:0;cd ..
+: 1647532053:0;ls
+: 1647532059:0;cd AMACloudMovies/Anime
+: 1647532060:0;ls
+: 1647532061:0;cd ..
+: 1647532063:0;ls
+: 1647532246:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/config/torrents
+: 1647532247:0;ls
+: 1647532249:0;cd 2
+: 1647532250:0;cd2
+: 1647532355:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/ /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/
+: 1647532375:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/* /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/
+: 1647532391:0;ls
+: 1647532439:0;cd /srv/dev-disk-by-uuid-60734265-9134-49fb-a62e-abc7abdbf71f
+: 1647532439:0;ls
+: 1647532440:0;cd ..
+: 1647532458:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2
+: 1647532460:0;ls
+: 1647532462:0;cd ~
+: 1647532558:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/downloads/complete
+: 1647532560:0;ls -a
+: 1647532562:0;cd ..
+: 1647532563:0;ls
+: 1647532567:0;cd ..
+: 1647532568:0;ls
+: 1647532592:0;cd ..
+: 1647532593:0;ls
+: 1647533385:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Pirates\ of\ the\ Caribbean\ -\ At\ Worlds\ End\ \(2007\)\ \[1080p\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/
+: 1647533423:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Pirates\ of\ the\ Caribbean\ -\ Dead\ Man\'s\ Chest\ \(2006\)\ \[1080p\]/Pirates.of.the.Caribbean.Dead.Man\'s.Chest.2006.1080p.BrRip.x264.Deceit.YIFY.mp4  /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/
+: 1647533464:0;ls
+: 1647533499:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Ponyo\ 2008\ 720p\ BRRip\ x264-MgB /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/
+: 1647533515:0;mkdir /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/Ponyo
+: 1647533517:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Ponyo\ 2008\ 720p\ BRRip\ x264-MgB /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/Ponyo
+: 1647534190:0;ls
+: 1647534201:0;cd data/completed
+: 1647534202:0;ls
+: 1647534203:0;cd ..
+: 1647534206:0;cd incomplete
+: 1647534208:0;ls
+: 1647534210:0;cd ..
+: 1647534210:0;ls
+: 1647534217:0;cd ..
+: 1647534218:0;ls
+: 1647534297:0;cd AMACloudMovies/Movies/Inception
+: 1647534298:0;ls
+: 1647534300:0;cd ..
+: 1647534300:0;ls
+: 1647534306:0;cd Inception\ \(2010\)\ \[1080p\]/
+: 1647534306:0;ls
+: 1647534357:0;cd2
+: 1647534377:0;cd Anime
+: 1647534378:0;ls
+: 1647534379:0;cd ..
+: 1647534384:0;rm -rf Anime
+: 1647534385:0;ls
+: 1647534423:0;cd /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/Pirates\ of\ the\ Caribbean\ -\ Dead\ Man\'s\ Chest\ \(2006\)\ \[1080p\]
+: 1647534424:0;ls
+: 1647534565:0;cd ..
+: 1647534567:0;ls
+: 1647534657:0;cd srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies2
+: 1647534658:0;ls
+: 1647534730:0;sudo apt-get update
+: 1647534743:0;sudo apt-get upgrade
+: 1647534751:0;sudo shutdown
+: 1647534757:0;exit
+: 1647536146:0;sudo apt-get update
+: 1647536155:0;sudo apt-get upgrade
+: 1647536158:0;clear
+: 1647536161:0;./mediaserverexec.sh
+: 1647536794:0;ls
+: 1647537131:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1647537132:0;ls
+: 1647537733:0;mv Castle\ in\ the\ Sky.avi /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/
+: 1647538186:0;ls
+: 1647538198:0;cd ..
+: 1647538199:0;ls
+: 1647538211:0;cd completed
+: 1647538212:0;ls
+: 1647538225:0;mv The.Shape.of.Water.2017.1080p.10bit.BluRay.6CH.x265.HEVC-PSA /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/
+: 1647538295:0;ls
+: 1647538305:0;mv Mulan\ \(1998\)\ \[1080p\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647538352:0;ls
+: 1647538360:0;mv Inside\ Out\ \(2015\)\ \[1080p\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647538401:0;ls
+: 1647538417:0;mv * /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647538711:0;ls
+: 1647538719:0;mv Pirates\ of\ the\ Caribbean\ -\ At\ Worlds\ End\ \(2007\)\ \[1080p\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647538731:0;mv Titanic\ \(1997\)\ \[1080p\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647539576:0;ls
+: 1647539579:0;cd ..
+: 1647539579:0;ls
+: 1647539582:0;cd Anime
+: 1647539582:0;ls
+: 1647539583:0;cd ..
+: 1647539601:0;cd /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/
+: 1647539605:0;mkdir Toonz
+: 1647539606:0;ls
+: 1647539940:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies
+: 1647539940:0;ls
+: 1647540004:0;mv completed/* /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647541876:0;ls
+: 1647541888:0;cd completed/
+: 1647541888:0;ls
+: 1647541889:0;cd ..
+: 1647541914:0;mv completed/* /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647543681:0;ls
+: 1647543686:0;sudo apt-get update
+: 1647543696:0;sudo apt-get upgrade
+: 1647543827:0;ls /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1647544003:0;ls
+: 1647544031:0;rm -rf completed/Howls.Moving.Castle.2004.720p.BluRay.x264-x0r
+: 1647544056:0;rm -rf completed/Pirates\ of\ the\ Caribbean\ -\ At\ Worlds\ End\ \(2007\)\ \[1080p\]
+: 1647544080:0;rm -rf completed/Ponyo\ 2008\ 720p\ BRRip\ x264-MgB/'
+: 1647544085:0;rm -rf completed/Ponyo\ 2008\ 720p\ BRRip\ x264-MgB
+: 1647544087:0;ls
+: 1647544089:0;cd completed
+: 1647544090:0;ls
+: 1647544847:0;sudo shutdown
+: 1647545194:0;sudo apt-get update
+: 1647545200:0;sudo apt-get upgrade
+: 1647545205:0;./mediaserverkill.sh
+: 1647545228:0;./mediaserverexec.sh
+: 1647545678:0;ls
+: 1647545700:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/
+: 1647545701:0;ls
+: 1647545703:0;cd ..
+: 1647545704:0;ls
+: 1647545725:0;mv completed/* /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/
+: 1647547509:0;ls
+: 1647547512:0;cd completed
+: 1647547512:0;ls
+: 1647547514:0;cd ..
+: 1647547671:0;./mediaserverkill.sh
+: 1647547697:0;./mediaserverexec.sh
+: 1647548278:0;ls
+: 1647548280:0;ls completed
+: 1647548285:0;ls incomplete
+: 1647548310:0;./mediaserverkill.sh
+: 1647548397:0;ls
+: 1647548408:0;cd ..
+: 1647548409:0;ls
+: 1647548423:0;cd /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies
+: 1647548424:0;ls
+: 1647548434:0;pwd
+: 1647548442:0;vim Plex/docker-compose.yml
+: 1647548475:0;./mediaserverexec.sh
+: 1647548532:0;./mediaserverkill.sh
+: 1647548540:0;vim Plex/docker-compose.yml
+: 1647548559:0;./mediaserverexec.sh
+: 1647548669:0;./mediaserverkill.sh
+: 1647548685:0;./mediaserverexec.sh
+: 1647548830:0;vim Transmission/docker-compose.yml 
+: 1647548849:0;vim mediaserverexec.sh
+: 1647549095:0;./mediaserverexec.sh
+: 1647549173:0;./mediaserverkill.sh
+: 1647549194:0;vim mediaserverexec.sh
+: 1647549260:0;./mediaserverexec.sh
+: 1647549412:0;ls
+: 1647549464:0;cd ..
+: 1647549465:0;ls
+: 1647549467:0;cd Movies
+: 1647549468:0;ls
+: 1647549476:0;cd ..
+: 1647549477:0;ls
+: 1647549492:0;mv Movies/Your.Name.2016.1080p.BluRay.x264-HAiKU\[EtHD\] Toonz
+: 1647549572:0;ls Movies
+: 1647549588:0;mv Movies/Aladdin\ \(1992\) Toonz
+: 1647549604:0;mv Movies/Beauty.and.the.Beast.2017.1080p.BRRiP.6CH.ShAaNiG.mkv Toonz
+: 1647549613:0;mv Movies/Big\ Hero\ 6\ \(2014\)\ \[1080p\] Toonz
+: 1647549627:0;mv Movies/Castle\ in\ the\ Sky.avi Toonz
+: 1647549657:0;mv Movies/completed/Coco.2017.1080p.10bit.BluRay.8CH.x265.HEVC-PSA Toonz
+: 1647549669:0;mv Movies/completed/Annie\ 2014\ 1080p\ BRRip\ x264\ DTS-JYK Toonz
+: 1647549678:0;mv Movies/completed/B4b3\ \(BDrip\ 1080p\ ENG-ITA\)\ Multisub\ x264\ bluray\ \(1995\) Toonz
+: 1647549699:0;mv Movies/completed/Shrek\ \(2001\)\ \[1080p\] Toonz
+: 1647549708:0;mv Movies/completed/Shrek\ 2\ \(2004\)\ \[1080p\] Toonz/
+: 1647549717:0;mv Movies/completed/Shrek\ The\ Third\ \(2007\)\ \[1080p\] Toonz
+: 1647549727:0;mv Movies/Flushed.Away.2006.720p.BluRay.x264.700MB-Mkvking.mkv Toonz
+: 1647549736:0;mv Movies/Howls.Moving.Castle.2004.720p.BluRay.x264-x0r Toonz
+: 1647549745:0;mv Movies/How\ To\ Train\ Your\ Dragon\ \(2010\)\ \[1080p\] Toonz
+: 1647549755:0;mv Movies/Inside\ Out\ \(2015\)\ \[1080p\] Toonz
+: 1647549768:0;mv Movies/Mulan\ \(1998\)\ \[1080p\] Toonz
+: 1647549776:0;mv Movies/Mulan\ \(2020\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\] Toonz
+: 1647549784:0;mv Movies/My\ Neighbor\ Totoro\ aka\ Tonari\ no\ Totoro\ \(1988\)\ 720p\ BRRiP\ x264\ AAC\ \[Team\ Nanban\] Toonz
+: 1647549798:0;mv Movies/Ponyo/Ponyo\ 2008\ 720p\ BRRip\ x264-MgB/Ponyo\ 2008\ 720p\ BRRip\ x264-MgB.mp4 Toonz
+: 1647549805:0;mv Movies/Ratatouille\ \(2007\)\ \[1080p\] Toonz
+: 1647549814:0;mv Movies/Spirited.Away.2001.720p.BluRay.950MB.ShAaNiG.com.mkv Toonz/
+: 1647550175:0;ls
+: 1647550178:0;cd Movies
+: 1647550179:0;ls
+: 1647550186:0;ls completed
+: 1647550204:0;cd ..
+: 1647550205:0;ls
+: 1647550206:0;cd ..
+: 1647550207:0;ls
+: 1647550210:0;cd ..
+: 1647550211:0;ls
+: 1647550361:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667
+: 1647550362:0;ls
+: 1647550376:0;ls AMACloudMovies
+: 1647550392:0;cd AMACloudMovies2
+: 1647550393:0;ls
+: 1647550394:0;cd ..
+: 1647550465:0;vim ~/Plex/docker-compose.yml
+: 1647550488:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/
+: 1647550489:0;ls
+: 1647550512:0;mv Annie\ 2014\ 1080p\ BRRip\ x264\ DTS-JYK.mkv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Toonz
+: 1647550630:0;ls /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1647550659:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/Steven.Universe.The.Movie.2019.HDRip.XviD.AC3-EVO\[TGx\]/Steven.Universe.The.Movie.2019.HDRip.XviD.AC3-EVO.avi /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Toonz
+: 1647550710:0;rm /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/Ponyo
+: 1647550719:0;rm -rf /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/Ponyo
+: 1647550727:0;rm -rf /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/Ponyo\ 2008\ 720p\ BRRip\ x264-MgB
+: 1647551262:0;pwd
+: 1647551263:0;ls
+: 1647551265:0;cd ..
+: 1647551266:0;ls
+: 1647551267:0;cd completed
+: 1647551267:0;ls
+: 1647551276:0;cd ..
+: 1647551279:0;cd incomplete
+: 1647551280:0;ls
+: 1647554527:0;mv Black\ Mirror\ Season\ 1\ to\ 5\ Mp4\ 1080p /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647554888:0;ls
+: 1647554907:0;cd ..
+: 1647554907:0;ls
+: 1647554910:0;cd completed
+: 1647554910:0;ls
+: 1647554934:0;mv Amelie\ \[Amélie\ Poulain\].2001.BRRip.x264.AAC\[5.1\]-VLiS/Amelie\ \[Amélie\ Poulain\].2001.BRRip.x264.AAC\[5.1\]-VLiS.mkv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/
+: 1647554977:0;ls
+: 1647554979:0;pwd
+: 1647554995:0;cd ..
+: 1647554996:0;ls
+: 1647555023:0;mv completed/Dont\ Look\ Up\ \(2021\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\] /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies
+: 1647555063:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Little\ Women\ \(2019\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\]/Little.Women.2019.1080p.WEBRip.x264.AAC5.1-\[YTS.MX\].mp4 /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647555279:0;ls
+: 1647555291:0;rm -rf completed/Amelie\ \[Amélie\ Poulain\].2001.BRRip.x264.AAC\[5.1\]-VLiS
+: 1647555309:0;ls completed/Little\ Women\ \(2019\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\]
+: 1647555314:0;rm -rf completed/Little\ Women\ \(2019\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\]/ls
+: 1647555339:0;mv completed/* /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647581053:0;ls completed
+: 1647581110:0;ls
+: 1647581132:0;mv completed/Encanto.2021.1080p.WEB-DL.H264.DDP5.1-EVO\[TGx\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/
+: 1647581202:0;mv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/Encanto.2021.1080p.WEB-DL.H264.DDP5.1-EVO\[TGx\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Toonz
+: 1647583625:0;sudo 
+: 1647583657:0;sudo apt-get update
+: 1647583678:0;sudo apt-get upgrade
+: 1647583758:0;clear
+: 1647583858:0;ls
+: 1647583863:0;pwd
+: 1647583922:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Wreck-It\ Ralph\ \(2012\)\ \[1080p\]
+: 1647583923:0;ls
+: 1647583937:0;mv Wreck.it.Ralph.2012.1080p.BrRip.x264.BOKUTOX.YIFY.mp4 /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Toonz
+: 1647584390:0;ls /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Interstellar\ \(2014\)\ \(2014\)\ \[1080p\]/Interstellar.2014.2014.1080p.BluRay.x264.YIFY.mp4 /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647584404:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Interstellar\ \(2014\)\ \(2014\)\ \[1080p\]/Interstellar.2014.2014.1080p.BluRay.x264.YIFY.mp4 /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647584639:0;ls
+: 1647584691:0;mv completed/Ralph.Breaks.the.Internet.2018.1080p.BluRay.x264-SPARKS\[rarbg\]/Ralph.Breaks.the.Internet.2018.1080p.BluRay.x264-SPARKS.mkv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Toonz/
+: 1647585077:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/The\ Haunting\ of\ Bly\ Manor\ -\ Season\ 1\ \(2020\)\ \[1080p\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647585334:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Whisper.of.the.Heart.1995.BluRay.720p.DTS.3Audio.x264-CHD/Whisper.of.the.Heart.1995.BluRay.720p.DTS.3Audio.x264-CHD.mkv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Toonz
+: 1647585543:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1647585544:0;ls
+: 1647585552:0;rm -rf Interstellar\ \(2014\)\ \(2014\)\ \[1080p\]
+: 1647585560:0;rm -rf Ralph.Breaks.the.Internet.2018.1080p.BluRay.x264-SPARKS\[rarbg\]
+: 1647585577:0;rm -rf Whisper.of.the.Heart.1995.BluRay.720p.DTS.3Audio.x264-CHD && Wreck-It\ Ralph\ \(2012\)\ \[1080p\]
+: 1647585579:0;ls
+: 1647585591:0;cd ..
+: 1647585592:0;ls
+: 1647585598:0;rm -rf Wreck-It\ Ralph\ \(2012\)\ \[1080p\]
+: 1647585600:0;ls
+: 1647585628:0;mv Pride\ and\ Prejudice\ \[1995\]\ 720p\ Complete\ BRRip\ H264\ AC3\ -\ CODY /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/
+: 1647585794:0;rm -rf /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/Pride\ and\ Prejudice\ \[1995\]\ 720p\ Complete\ BRRip\ H264\ AC3\ -\ CODY
+: 1647585796:0;ls
+: 1647585801:0;cd ..
+: 1647585816:0;ls
+: 1647585831:0;cd completed
+: 1647585831:0;ls
+: 1647585839:0;ls BoJack\ Horseman\ \(2014\)\ Season\ 5\ S05\ \(1080p\ NF\ WEB-DL\ x265\ HEVC\ 10bit\ AAC\ 5.1\ YOGI\)
+: 1647585847:0;ls BoJack.Horseman.S01.1080p.NF.WEBRip.DD5.1.x264-TrollHD\[rartv\]
+: 1647585860:0;rm BoJack.Horseman.S01.1080p.NF.WEBRip.DD5.1.x264-TrollHD\[rartv\]/RARBG.txt
+: 1647585876:0;rm BoJack.Horseman.S01.1080p.NF.WEBRip.DD5.1.x264-TrollHD\[rartv\]/BoJack.Horseman.S01.1080p.NF.WEBRip.DD5.1.x264-TrollHD.nfo
+: 1647585879:0;ls
+: 1647585882:0;cd BoJack.Horseman.S02.1080p.NF.WEBRip.DD5.1.x264-TrollHD\[rartv\]
+: 1647585884:0;ls
+: 1647585890:0;rm *.nfo
+: 1647585895:0;rm *.txt
+: 1647585895:0;ls
+: 1647585898:0;cd ..
+: 1647585902:0;rm *.txt
+: 1647585908:0;ls
+: 1647585919:0;cd BoJack.Horseman.S02.1080p.NF.WEBRip.DD5.1.x264-TrollHD\[rartv\]
+: 1647585920:0;ls
+: 1647585924:0;cd ..
+: 1647585926:0;ls
+: 1647585937:0;cd BoJack.Horseman.S06.COMPLETE.1080p.NF.WEB-DL.DD5.1.x264-JETIX\[TGx\]
+: 1647585937:0;ls
+: 1647585947:0;rm '[TGx]Downloaded from torrentgalaxy.to .txt'
+: 1647585949:0;ls
+: 1647585951:0;cd ..
+: 1647585952:0;ls
+: 1647585969:0;mv BoJack* /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647586967:0;ls
+: 1647586978:0;cd Breaking\ Bad\ Season\ 1\ Complete\ 720p.BRrip.Sujaidr
+: 1647586980:0;ls
+: 1647586989:0;rm *.srt
+: 1647586992:0;cls
+: 1647586998:0;ls
+: 1647587005:0;rm *.txt
+: 1647587006:0;ls
+: 1647587007:0;cd ..
+: 1647587017:0;ls
+: 1647587020:0;cd Breaking\ Bad\ Season\ 2\ Complete\ 720p.BRrip.Sujaidr
+: 1647587021:0;ls
+: 1647587024:0;rm *.txt
+: 1647587027:0;rm *.srt
+: 1647587028:0;ls
+: 1647587029:0;cd ..
+: 1647587030:0;ls
+: 1647587042:0;cd Breaking\ Bad\ Season\ 3\ Complete\ 720p.BRrip.Sujaidr
+: 1647587043:0;ls
+: 1647587045:0;rm *.srt
+: 1647587047:0;rm *.txt
+: 1647587048:0;ls
+: 1647587051:0;cd ..
+: 1647587051:0;ls
+: 1647587064:0;cd Breaking\ Bad\ Season\ 5\ Complete\ 720p.BRrip.Sujaidr
+: 1647587064:0;ls
+: 1647587069:0;rm *.txt
+: 1647587073:0;rm *.srt
+: 1647587074:0;ls
+: 1647587075:0;cd ..
+: 1647587076:0;ls
+: 1647587095:0;mv Breaking\ Bad\ Season\ * /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/BreakingBad
+: 1647587105:0;mkdir /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/BreakingBad
+: 1647587106:0;mv Breaking\ Bad\ Season\ * /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/BreakingBad
+: 1647587133:0;ls
+: 1647587144:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/ls
+: 1647587147:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/
+: 1647587147:0;ls
+: 1647587155:0;cd The\ Walking\ Dead\ Season\ 1\ \(1080p\ x265\ Joy\)
+: 1647587155:0;ls
+: 1647587173:0;rm *.txt
+: 1647587174:0;ls
+: 1647587177:0;rm Ninite\ K-Lite\ Codecs\ Unattended\ Silent\ Installer\ and\ Updater.website
+: 1647587178:0;ls
+: 1647587188:0;cd ..
+: 1647587189:0;ls
+: 1647587191:0;cd The\ Walking\ Dead\ Season\ 2\ \(1080p\ x265\ Joy\)
+: 1647587192:0;ls
+: 1647587197:0;rm Ninite\ K-Lite\ Codecs\ Unattended\ Silent\ Installer\ and\ Updater.website
+: 1647587202:0;rm *.txt
+: 1647587204:0;ls
+: 1647587206:0;cd ..
+: 1647587207:0;ls
+: 1647587222:0;mkdir /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/TheWalkingDead
+: 1647587241:0;mv The\ Walking\ Dead\ Season\ * /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/TheWalkingDead
+: 1647588564:0;ls
+: 1647588579:0;ls Dark.S03.GERMAN.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV\[TGx\]
+: 1647588592:0;rm Dark.S03.GERMAN.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV\[TGx\]/\[TGx\]Downloaded\ from\ torrentgalaxy.to\ .txt
+: 1647588594:0;ls
+: 1647588598:0;ls Dark.S03.GERMAN.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV\[TGx\]
+: 1647588602:0;cd Star.Wars.The.Bad.Batch.S01.COMPLETE.REPACK.720p.DSNP.WEBRip.x264-GalaxyTV\[TGx\]
+: 1647588603:0;ls
+: 1647588606:0;rm *.txt
+: 1647588607:0;cd ..
+: 1647588608:0;ls
+: 1647588611:0;cd The\ Walking\ Dead\ Season\ 3\ \(1080p\ x265\ Joy\)
+: 1647588611:0;ls
+: 1647588615:0;rm Ninite\ K-Lite\ Codecs\ Unattended\ Silent\ Installer\ and\ Updater.website
+: 1647588621:0;rm *.txt
+: 1647588622:0;ls
+: 1647588625:0;cd ..
+: 1647588638:0;ls
+: 1647588651:0;mv Dark.S03.GERMAN.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV\[TGx\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/
+: 1647588665:0;ls
+: 1647588672:0;mv Star.Wars.The.Bad.Batch.S01.COMPLETE.REPACK.720p.DSNP.WEBRip.x264-GalaxyTV\[TGx\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647588920:0;ls
+: 1647588928:0;cd The\ Walking\ Dead\ Season\ 3\ \(1080p\ x265\ Joy\)
+: 1647588929:0;ls
+: 1647588936:0;cd ..
+: 1647588937:0;ls
+: 1647588941:0;cd The\ Walking\ Dead\ Season\ 5\ \(1080p\ x265\ Joy\)
+: 1647588943:0;ls
+: 1647588947:0;rm Ninite\ K-Lite\ Codecs\ Unattended\ Silent\ Installer\ and\ Updater.website
+: 1647588950:0;rm *.txt
+: 1647588956:0;ls
+: 1647588957:0;cd ..
+: 1647588959:0;ls
+: 1647588965:0;mv The\ Walking\ Dead\ Season\ * /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/TheWalkingDead
+: 1647589286:0;ls
+: 1647589289:0;cd ..
+: 1647589289:0;ls
+: 1647589292:0;cd incomplete
+: 1647589292:0;ls
+: 1647589301:0;cd ..
+: 1647589316:0;cd /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/
+: 1647589317:0;ls
+: 1647589335:0;ls BreakingBad
+: 1647589344:0;cd BreakingBad/ls
+: 1647589347:0;cd BreakingBad/
+: 1647589348:0;ls
+: 1647589353:0;ls Breaking\ Bad\ Season\ 2\ Complete\ 720p.BRrip.Sujaidr
+: 1647589360:0;ls Breaking\ Bad\ Season\ 1\ Complete\ 720p.BRrip.Sujaidr
+: 1647589628:0;mv Breaking\ Bad\ Season\ 2\ Complete\ 720p.BRrip.Sujaidr/Breaking\ Bad\ s02ep10\ 720p\ brrip.sujaidr.mkv Breaking\ Bad\ Season\ 2\ Complete\ 720p.BRrip.Sujaidr/Breaking\ Bad\ s02ep10\ 720p.BRrip.sujaidr.mkv
+: 1647589634:0;ls Breaking\ Bad\ Season\ 2\ Complete\ 720p.BRrip.Sujaidr
+: 1647589741:0;cd Breaking\ Bad\ Season\ 2\ Complete\ 720p.BRrip.Sujaidr
+: 1647589742:0;ls
+: 1647589767:0;mv Breaking\ Bad\ s02ep10\ 720p.BRrip.sujaidr.mkv Breaking\ Bad\ s02ep10\ 720p.BRrip.Sujaidr.mkv
+: 1647590211:0;cd ~
+: 1647590217:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1647590218:0;ls
+: 1647590226:0;ls The\ Walking\ Dead\ Season\ 5\ \(1080p\ x265\ Joy\)
+: 1647590229:0;cd ..
+: 1647590242:0;ls /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/TheWalkingDead
+: 1647590262:0;ls /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/TheWalkingDead/The\ Walking\ Dead\ Season\ 3\ \(1080p\ x265\ Joy\)
+: 1647590970:0;./mediaserverkill.sh
+: 1647590982:0;sudo shutdown
+: 1647591910:0;sudo apt-get update
+: 1647591917:0;sudo apt-get upgrade
+: 1647591922:0;./mediaserverkill.sh
+: 1647591931:0;clear
+: 1647591933:0;./mediaserverexec.sh
+: 1647592026:0;./mediaserverkill.sh
+: 1647592037:0;./mediaserverexec.sh
+: 1647592153:0;ls
+: 1647592164:0;ls /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1647592165:0;ls
+: 1647592169:0;clear
+: 1647592946:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Us\ \(2019\)\ \[WEBRip\]\ \[1080p\]\ \[YTS.AM\]/Us.2019.1080p.WEBRip.x264-\[YTS.AM\].mp4 /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647593005:0;ls
+: 1647593037:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Spider-Man.No.Way.Home.2021.1080p.10bit.BluRay.6CH.x265.HEVC-PSA/Spider-Man.No.Way.Home.2021.1080p.10bit.BluRay.6CH.x265.HEVC-PSA.mkv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647593168:0;ls
+: 1647593192:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Spider-Man.Into.the.Spider-Verse.2018.1080p.BRRip.x264-MkvCage.ws.mkv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647594924:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Dont.Breathe.2.2021.HDRip.XviD.AC3-EVO/Dont.Breathe.2.2021.HDRip.XviD.AC3-EVO.avi /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647595306:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/1922.2017.HDRip.XviD.AC3-EVO/1922.2017.HDRip.XviD.AC3-EVO.avi /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647595333:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/I\ Am\ Legend\ AlTERNATE\ ENDING\ \(2007\)\ \[1080p\]/I.Am.Legend.ALTERNATE.ENDING.2007.1080p.BrRip.x264.YIFY.mp4 /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647596090:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Bird.Box.2018.HDRip.XviD.AC3-EVO/Bird.Box.2018.HDRip.XviD.AC3-EVO.avi /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647596124:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1647596125:0;ls
+: 1647596129:0;ls 1922.2017.HDRip.XviD.AC3-EVO
+: 1647596133:0;rm -rf 1922.2017.HDRip.XviD.AC3-EVO
+: 1647596134:0;ls
+: 1647596138:0;ls Dont.Breathe.2.2021.HDRip.XviD.AC3-EVO
+: 1647596142:0;rm Dont.Breathe.2.2021.HDRip.XviD.AC3-EVO
+: 1647596144:0;rm -rf Dont.Breathe.2.2021.HDRip.XviD.AC3-EVO
+: 1647596145:0;ls
+: 1647596154:0;ls Spider-Man.No.Way.Home.2021.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+: 1647596159:0;rm -rf Spider-Man.No.Way.Home.2021.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+: 1647596160:0;ls
+: 1647596164:0;ls Us\ \(2019\)\ \[WEBRip\]\ \[1080p\]\ \[YTS.AM\]
+: 1647596168:0;rm -rf Us\ \(2019\)\ \[WEBRip\]\ \[1080p\]\ \[YTS.AM\]
+: 1647596169:0;ls
+: 1647596205:0;mv Kubo\ And\ The\ Two\ Strings\ 2016\ 1080p\ BluRay\ x264\ DTS-JYK/Kubo\ And\ The\ Two\ Strings\ 2016\ 1080p\ BluRay\ x264\ DTS-JYK.mkv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647597355:0;LS
+: 1647597357:0;ls
+: 1647597441:0;mv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/Kubo\ And\ The\ Two\ Strings\ 2016\ 1080p\ BluRay\ x264\ DTS-JYK.mkv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Toonz
+: 1647597491:0;ls
+: 1647597495:0;rm -rf Bird.Box.2018.HDRip.XviD.AC3-EVO
+: 1647597499:0;rm -rf I\ Am\ Legend\ AlTERNATE\ ENDING\ \(2007\)\ \[1080p\]
+: 1647597502:0;rm -rf Kubo\ And\ The\ Two\ Strings\ 2016\ 1080p\ BluRay\ x264\ DTS-JYK
+: 1647597519:0;mv Train\ to\ Busan\ \(2016\)\ 1080p\ BrRip\ x264\ -\ VPPV/Train.to.Busan.2016.1080p.BluRay.x264.VPPV.mkv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647597526:0;ls
+: 1647597532:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1647597532:0;ls
+: 1647597555:0;mv The\ Babadook\ \(2014\)\ \[1080p\]/The.Babadook.2014.1080p.BluRay.x264.YIFY.mp4 /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647597720:0;ls
+: 1647597725:0;rm -rf The\ Babadook\ \(2014\)\ \[1080p\]
+: 1647597726:0;ls
+: 1647597733:0;mv The\ Hobbit\ The\ Desolation\ of\ Smaug\ \(2013\)\ \[1080p\]/The.Hobbit.The.Desolation.of.Smaug.2013.1080p.BluRay.x264.YIFY.mp4 /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/
+: 1647597744:0;ls 
+: 1647597746:0;ls The\ Hobbit\ The\ Desolation\ of\ Smaug\ \(2013\)\ \[1080p\]
+: 1647597758:0;mv The\ Hobbit\ The\ Desolation\ of\ Smaug\ \(2013\)\ \[1080p\]/The.Hobbit.The.Desolation.of.Smaug.2013.1080p.BluRay.x264.YIFY.mp4 /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647601668:0;ls
+: 1647601673:0;ls Train\ to\ Busan\ \(2016\)\ 1080p\ BrRip\ x264\ -\ VPPV
+: 1647601677:0;rm -rf Train\ to\ Busan\ \(2016\)\ 1080p\ BrRip\ x264\ -\ VPPV
+: 1647601678:0;ls
+: 1647601686:0;ls The\ Hobbit\ The\ Desolation\ of\ Smaug\ \(2013\)\ \[1080p\]
+: 1647601690:0;rm -rf The\ Hobbit\ The\ Desolation\ of\ Smaug\ \(2013\)\ \[1080p\]
+: 1647601691:0;ls
+: 1647601920:0;mv Isle.of.Dogs.2018.1080p.10bit.BluRay.6CH.x265.HEVC-PSA/Isle.of.Dogs.2018.1080p.10bit.BluRay.6CH.x265.HEVC-PSA.mkv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647602088:0;ls
+: 1647602107:0;mv Broadchurch.S01.1080p.BluRay.x264-SHORTBREHD\[rartv\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647602408:0;ls
+: 1647604621:0;cd /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647604622:0;ls
+: 1647604633:0;cd Broadchurch.S01.1080p.BluRay.x264-SHORTBREHD\[rartv\]
+: 1647604634:0;ls
+: 1647604648:0;rm *.nf0
+: 1647604653:0;rm *.nfo
+: 1647604659:0;rm *.txt
+: 1647604661:0;ls
+: 1647610763:0;cd ..
+: 1647610763:0;ls
+: 1647610774:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1647610775:0;ls
+: 1647610780:0;ls 3rd\ Rock\ from\ The\ Sun
+: 1647610787:0;ls 3rd\ Rock\ from\ The\ Sun/Season\ 1/
+: 1647610838:0;cd ..
+: 1647610842:0;ls
+: 1647610845:0;cd completed
+: 1647610846:0;ls
+: 1647610860:0;ls Isle.of.Dogs.2018.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+: 1647610863:0;rm -rf Isle.of.Dogs.2018.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+: 1647610864:0;ls
+: 1647610922:0;mv A\ Quiet\ Place\ Part\ II\ \(2020\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\]/A.Quiet.Place.Part.II.2020.1080p.WEBRip.x264.AAC5.1-\[YTS.MX\].mp4 /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647611962:0;ls
+: 1647611968:0;rm -rf A\ Quiet\ Place\ Part\ II\ \(2020\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\]
+: 1647611969:0;ls
+: 1647611996:0;mv Dont\ Breathe\ 2016\ 1080p\ BluRay\ x264\ DTS-JYK/Dont\ Breathe\ 2016\ 1080p\ BluRay\ x264\ DTS-JYK.mkv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647612312:0;ls
+: 1647612316:0;rm -rf Dont\ Breathe\ 2016\ 1080p\ BluRay\ x264\ DTS-JYK
+: 1647612316:0;ls
+: 1647612329:0;mv 3rd\ Rock\ from\ The\ Sun /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647637384:0;ls
+: 1647637414:0;mv Surf\'s\ Up\ \(2007\)/Surfs.Up.2007.720p.BrRip.x264.YIFY.mkv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647637424:0;ls
+: 1647637654:0;mv Jojo\ Rabbit\ \(2019\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\]/Jojo.Rabbit.2019.1080p.WEBRip.x264.AAC5.1-\[YTS.MX\].mp4 /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/
+: 1647637712:0;ls
+: 1647637720:0;rm -rf Jojo\ Rabbit\ \(2019\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\]
+: 1647637725:0;rm -rf  Surf\'s\ Up\ \(2007\)
+: 1647637726:0;ls
+: 1647637743:0;cd Broadchurch.S02.1080p.BluRay.x264-SHORTBREHD\[rartv\]/ls
+: 1647637751:0;rm Broadchurch.S02.1080p.BluRay.x264-SHORTBREHD\[rartv\]/Broadchurch.S02.1080p.BluRay.x264-SHORTBREHD.nfo
+: 1647637756:0;rm Broadchurch.S02.1080p.BluRay.x264-SHORTBREHD\[rartv\]/RARBG.txt
+: 1647637778:0;rm Broadchurch.S03.1080p.BluRay.x264-SHORTBREHD\[rartv\]/Broadchurch.S03.1080p.BluRay.x264-SHORTBREHD.nfo
+: 1647637787:0;rm Broadchurch.S03.1080p.BluRay.x264-SHORTBREHD\[rartv\]/RARBG.txt
+: 1647637871:0;ls
+: 1647637884:0;mv Broadchurch.S0* /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647637897:0;ls
+: 1647638512:0;rm Dark.S01.GERMAN.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV\[TGx\]/\[TGx\]Downloaded\ from\ torrentgalaxy.to\ .txt
+: 1647638518:0;rm Dark.S02.COMPLETE.GERMAN.720p.NF.WEBRip.x264-GalaxyTV\[TGx\]/\[TGx\]Downloaded\ from\ torrentgalaxy.to\ .txt
+: 1647638535:0;mv Dark.S0* /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647639398:0;ls
+: 1647639486:0;rm The\ Hobbit\ An\ Unexpected\ Journey\ \(2012\)\ \[1080p\]/The.Hobbit.An.Unexpected.Journey.2012.1080p.BRrip.x264.GAZ.YIFY.srt
+: 1647639490:0;rm The\ Hobbit\ An\ Unexpected\ Journey\ \(2012\)\ \[1080p\]/WWW.YIFY-TORRENTS.COM.jpg
+: 1647639496:0;rm The.Hobbit.Battle.Of.The.Five.Armies.2014.1080p.WEBRip.x264-tomcat12\[ETRG\]/The.Hobbit.Battle.Of.The.Five.Armies.2014.1080p.WEBRip.sample.mp4
+: 1647639500:0;rm The.Hobbit.Battle.Of.The.Five.Armies.2014.1080p.WEBRip.x264-tomcat12\[ETRG\]/Torrent\ Downloaded\ From\ ExtraTorrent.cc.txt
+: 1647639504:0;rm The.Hobbit.Battle.Of.The.Five.Armies.2014.1080p.WEBRip.x264-tomcat12\[ETRG\]/ETRG.mp4
+: 1647639508:0;rm The.Hobbit.Battle.Of.The.Five.Armies.2014.1080p.WEBRip.x264-tomcat12\[ETRG\]/Images
+: 1647639519:0;rm -rf The.Hobbit.Battle.Of.The.Five.Armies.2014.1080p.WEBRip.x264-tomcat12\[ETRG\]/Images
+: 1647639521:0;ls
+: 1647639525:0;ls The\ Hobbit\ An\ Unexpected\ Journey\ \(2012\)\ \[1080p\]
+: 1647639527:0;ls The.Hobbit.Battle.Of.The.Five.Armies.2014.1080p.WEBRip.x264-tomcat12\[ETRG\]
+: 1647639551:0;mv The\ Hobbit\ * /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647639829:0;ls
+: 1647639845:0;mv The.Hobbit.Battle.Of.The.Five.Armies.2014.1080p.WEBRip.x264-tomcat12\[ETRG\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1647672678:0;ls
+: 1647672695:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1647672696:0;ls
+: 1647672748:0;mv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/Surfs.Up.2007.720p.BrRip.x264.YIFY.mkv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Toonz
+: 1647672788:0;ls
+: 1647672798:0;rm Yellowjackets.S01.SweSub-EngSub.1080p.x264-Justiso/Info.txt
+: 1647672811:0;mv Yellowjackets.S01.SweSub-EngSub.1080p.x264-Justiso /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647725953:0;ls
+: 1647725973:0;rm -rf Ходу�у�ие\ мертвеу�у�\ \(Ѓ�езон\ 4\)\ \ The\ Walking\ Dead\ \(2013\)\ WEB-DLRip\ 720p\ -\ LostFilm
+: 1647725974:0;ls
+: 1647725980:0;ls Greys\ Anatomy\ Season\ 1-9\ \[Togachu\]
+: 1647725989:0;cd Greys\ Anatomy\ Season\ 1-9\ \[Togachu\]
+: 1647725992:0;rm Greys\ Anatomy.txt
+: 1647725993:0;ls
+: 1647725997:0;ls Season\ 01
+: 1647726000:0;cd ..
+: 1647726001:0;ls
+: 1647726016:0;mv Greys\ Anatomy\ Season\ 1-9\ \[Togachu\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647729516:0;ls
+: 1647729519:0;cd ..
+: 1647729519:0;ls
+: 1647729520:0;cd incomplete
+: 1647729521:0;ls
+: 1647729534:0;ls Dirk.Gently\'s.Holistic.Detective.Agency.SEASON.01.S01.COMPLETE.720p.10bit.BluRay.2CH.x265.HEVC-PSA
+: 1647729544:0;rm Dirk.Gently\'s.Holistic.Detective.Agency.SEASON.01.S01.COMPLETE.720p.10bit.BluRay.2CH.x265.HEVC-PSA/PSArips.com.txt
+: 1647729558:0;mv Dirk.Gently\'s.Holistic.Detective.Agency.SEASON.01.S01.COMPLETE.720p.10bit.BluRay.2CH.x265.HEVC-PSA /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647732666:0;cd ..
+: 1647732670:0;ls
+: 1647732672:0;cd completed
+: 1647732672:0;ls
+: 1647732684:0;rm -rf Chernobyl\ \(2019\)\ Season\ 1\ S01\ \(1080p\ BluRay\ x265\ HEVC\ 10bit\ AAC\ 5.1\ Silence\)/Featurettes
+: 1647732719:0;rm -rf Rick\ and\ Morty\ Season\ 1\ \[UNCENSORED\]\ \[BDRip\]\ \[1080p\]\ \[HEVC\]/Extras 
+: 1647732738:0;rm -rf Rick\ and\ Morty\ Season\ 1\ \[UNCENSORED\]\ \[BDRip\]\ \[1080p\]\ \[HEVC\]/Sample
+: 1647732759:0;mv Rick\ and\ Morty\ Season\ 1\ \[UNCENSORED\]\ \[BDRip\]\ \[1080p\]\ \[HEVC\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647733099:0;sudo apt-get update
+: 1647733138:0;sudo apt-get upgrade
+: 1647733146:0;ls
+: 1647733168:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/
+: 1647733198:0;mv Chernobyl\ \(2019\)\ Season\ 1\ S01\ \(1080p\ BluRay\ x265\ HEVC\ 10bit\ AAC\ 5.1\ Silence\) /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647734796:0;sudo apt-get update
+: 1647734805:0;sudo apt-get upgrade
+: 1647734838:0;./mediaserverkill.sh
+: 1647734860:0;./mediaserverexec.sh
+: 1647734954:0;ls
+: 1647734973:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27
+: 1647734979:0;cd AMACloudMovies/completed
+: 1647734980:0;ls
+: 1647734984:0;cd Chernobyl\ \(2019\)\ Season\ 1\ S01\ \(1080p\ BluRay\ x265\ HEVC\ 10bit\ AAC\ 5.1\ Silence\)
+: 1647734985:0;ls
+: 1647734996:0;cd ..
+: 1647735003:0;ls
+: 1647735006:0;cd completed/Rick\ and\ Morty\ Season\ 1\ \[UNCENSORED\]\ \[BDRip\]\ \[1080p\]\ \[HEVC\]
+: 1647735006:0;ls
+: 1647735008:0;cd ..
+: 1647735011:0;ls
+: 1647735012:0;cd completed
+: 1647735019:0;mv Rick\ and\ Morty\ Season\ 1\ \[UNCENSORED\]\ \[BDRip\]\ \[1080p\]\ \[HEVC\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647735029:0;ls /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/Rick\ and\ Morty\ Season\ 1\ \[UNCENSORED\]\ \[BDRip\]\ \[1080p\]\ \[HEVC\]
+: 1647735062:0;mv Rick\ and\ Morty\ Season\ 1\ \[UNCENSORED\]\ \[BDRip\]\ \[1080p\]\ \[HEVC\]/* /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647735091:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1647735092:0;ls
+: 1647735114:0;mv Chernobyl\ \(2019\)\ Season\ 1\ S01\ \(1080p\ BluRay\ x265\ HEVC\ 10bit\ AAC\ 5.1\ Silence\)/* /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/Chernobyl\ \(2019\)\ Season\ 1\ S01\ \(1080p\ BluRay\ x265\ HEVC\ 10bit\ AAC\ 5.1\ Silence\)
+: 1647755314:0;ls
+: 1647755321:0;ls Chernobyl\ \(2019\)\ Season\ 1\ S01\ \(1080p\ BluRay\ x265\ HEVC\ 10bit\ AAC\ 5.1\ Silence\)
+: 1647755321:0;ls
+: 1647755331:0;cd Chernobyl\ \(2019\)\ Season\ 1\ S01\ \(1080p\ BluRay\ x265\ HEVC\ 10bit\ AAC\ 5.1\ Silence\)
+: 1647755331:0;ls
+: 1647755333:0;cd ..
+: 1647755352:0;ls /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/Chernobyl\ \(2019\)\ Season\ 1\ S01\ \(1080p\ BluRay\ x265\ HEVC\ 10bit\ AAC\ 5.1\ Silence\)
+: 1647755390:0;ls
+: 1647755403:0;cd /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1647755404:0;ls
+: 1647755423:0;ls Chernobyl\ \(2019\)\ Season\ 1\ S01\ \(1080p\ BluRay\ x265\ HEVC\ 10bit\ AAC\ 5.1\ Silence\)
+: 1647755527:0;cd ..
+: 1647755529:0;ls
+: 1647755550:0;mv Shows/Chernobyl\ \(2019\)\ Season\ 1\ S01\ \(1080p\ BluRay\ x265\ HEVC\ 10bit\ AAC\ 5.1\ Silence\)/* Shows
+: 1647755552:0;ls
+: 1647755555:0;ls Shows
+: 1647756348:0;ls
+: 1647756393:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Fantastic.Beasts.and.Where.to.Find.Them.2016.1080p.BRRip.x264.AAC-ETRG/Fantastic.Beasts.and.Where.to.Find.Them.2016.1080p.BRRip.x264.AAC-ETRG.mp4 Movies
+: 1647756828:0;ls
+: 1647756856:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Fantastic\ Beasts\ The\ Crimes\ Of\ Grindelwald\ \(2018\)\ \[WEBRip\]\ \[1080p\]\ \[YTS.AM\]/Fantastic.Beasts.The.Crimes.Of.Grindelwald.2018.1080p.WEBRip.x264-\[YTS.AM\].mp4 Movies
+: 1647816320:0;./mediaserverkill.sh
+: 1647816535:0;sudo apt-get update
+: 1647816554:0;sudo apt-get upgrade
+: 1647816559:0;sudo shutdown
+: 1647824085:0;sudo apt-get uggrade
+: 1647824093:0;sudo apt-get update
+: 1647824104:0;sudo apt-get uprgade
+: 1647824108:0;sudo apt-get upgradew
+: 1647824109:0;sudo apt-get upgrade
+: 1647824113:0;./mediaserverkill.sh
+: 1647824123:0;./mediaserverexec.sh
+: 1647829603:0;./mediaserverkill.sh
+: 1647829617:0;./mediaserverexec.sh
+: 1647839864:0;sudo shutdown
+: 1647842645:0;./mediaserverexec.sh
+: 1647979728:0;ls 
+: 1647979731:0;sudo apt-get update
+: 1647979738:0;sudo apt-get upgrade
+: 1647979740:0;ls
+: 1647979740:0;clear
+: 1647979742:0;gcc
+: 1647979745:0;sudo apt-get gcc
+: 1647979771:0;sudo apt install build-essential
+: 1647979786:0;sudo apt-get install manpages-dev
+: 1647979807:0;gcc --version'
+: 1647979812:0;gcc --version
+: 1647979815:0;gcc
+: 1647979825:0;ls
+: 1647979829:0;cd ~
+: 1647979830:0;ls
+: 1647979832:0;cd ..
+: 1647979832:0;ls
+: 1647979838:0;cd usr
+: 1647979838:0;ls
+: 1647979840:0;cd ..
+: 1647979842:0;cd ~
+: 1647980099:0;ls
+: 1647980101:0;mkdir Docs
+: 1647980103:0;cd Docs
+: 1647980104:0;ls
+: 1647980108:0;touch 123.c
+: 1647980111:0;vim 123.c
+: 1647980425:0;gcc 123.c
+: 1647980430:0;./a/out
+: 1647980440:0;ls
+: 1647980448:0;./a.out
+: 1647981588:0;gcc 123.c
+: 1647981591:0;./a.out
+: 1647985863:0;./mediaserverkill.sh
+: 1647985902:0;sudo shutdown
+: 1648085910:0;sudo apt-get update
+: 1648085944:0;sudo apt-get upgrade
+: 1648085949:0;./mediaserverkill.sh
+: 1648085959:0;./mediaserverexec.sh
+: 1648404330:0;sudo apt-get update
+: 1648404345:0;sudo apt-get upgrade
+: 1648404440:0;./mediaserverkill.sh
+: 1648404458:0;./mediaserverexec.sh
+: 1648433682:0;sudo apt-get update
+: 1648433694:0;sudo apt-get upgrade
+: 1648433696:0;clear
+: 1648433699:0;./mediaserverkill.sh
+: 1648433712:0;sudo shutdown
+: 1648448140:0;./mediaserverkill.sh
+: 1648448155:0;./mediaserverexec.sh
+: 1648524320:0;./mediaserverkill.sh
+: 1648524480:0;./mediaserverexec.sh
+: 1648526505:0;./mediaserverkill.sh
+: 1648526534:0;sudo apt-get update
+: 1648526542:0;sudo apt-get upgrade
+: 1648526549:0;sudo shutdown
+: 1648527001:0;./mediaserverexec.sh
+: 1648695414:0;ifconfig
+: 1648695415:0;ip a
+: 1648695429:0;ip
+: 1648695459:0;ip a
+: 1648695501:0;ip
+: 1648695509:0;ip -4
+: 1648695528:0;ip link
+: 1648695546:0;ip a 
+: 1648695733:0;ip `1
+: 1648695734:0;ip 1
+: 1648695744:0;ip a
+: 1648695766:0;ip 
+: 1648695770:0;ip a -h
+: 1648695773:0;ip -h
+: 1648695791:0;ip address -h
+: 1648695797:0;ip address
+: 1648695802:0;ip address -human
+: 1648695803:0;ip
+: 1648695819:0;ip link
+: 1648695840:0;ip a
+: 1648695851:0;ip l
+: 1648695868:0;ip ens33
+: 1648695871:0;ip 
+: 1648695881:0;ip addrlabel
+: 1648695891:0;ip 4
+: 1648695898:0;ip ntable
+: 1648695901:0;ip 
+: 1648695914:0;ip monitor
+: 1648695921:0;ip tunnel
+: 1648695930:0;ip -h a
+: 1648695934:0;ip
+: 1648695952:0;ip -o a
+: 1648696113:0;sudo apt-get update
+: 1648696123:0;sudo apt-get upgrade
+: 1648696125:0;clear
+: 1648696126:0;ls
+: 1648696136:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27
+: 1648696138:0;ls
+: 1648696142:0;ls AMACloudMovies/Anime
+: 1648696149:0;cd /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56
+: 1648696149:0;ls
+: 1648696152:0;ls AMACloudMovies/Anime
+: 1648696154:0;cd ..
+: 1648696154:0;l.s
+: 1648696155:0;ls
+: 1648696164:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667
+: 1648696165:0;ls
+: 1648696169:0;ls AMACloudMovies/Anime
+: 1648696173:0;ls AMACloudMovies/Anime/Anime
+: 1648696178:0;cd AMACloudMovies/Anime/Anime
+: 1648696179:0;ls
+: 1648696183:0;cd Jujutsu\ Kaisen
+: 1648696185:0;ls
+: 1648696217:0;mv Jujutsu\ Kaisen\ S1\ \(1\).mkv Jujutsu\ Kaisen\ S1\ \(01\).mkv
+: 1648696218:0;ls
+: 1648696239:0;mv Jujutsu\ Kaisen\ S1\ \(2\).mkv Jujutsu\ Kaisen\ S1\ \(02\).mkv
+: 1648696244:0;mv Jujutsu\ Kaisen\ S1\ \(3\).mkv Jujutsu\ Kaisen\ S1\ \(03\).mkv
+: 1648696250:0;mv Jujutsu\ Kaisen\ S1\ \(4\).mkv Jujutsu\ Kaisen\ S1\ \(04\).mkv
+: 1648696256:0;mv Jujutsu\ Kaisen\ S1\ \(5\).mkv Jujutsu\ Kaisen\ S1\ \(05\).mkv
+: 1648696261:0;mv Jujutsu\ Kaisen\ S1\ \(6\).mkv Jujutsu\ Kaisen\ S1\ \(06\).mkv
+: 1648696265:0;mv Jujutsu\ Kaisen\ S1\ \(7\).mkv Jujutsu\ Kaisen\ S1\ \(07\).mkv
+: 1648696270:0;mv Jujutsu\ Kaisen\ S1\ \(8\).mkv Jujutsu\ Kaisen\ S1\ \(08\).mkv
+: 1648696275:0;mv Jujutsu\ Kaisen\ S1\ \(9\).mkv Jujutsu\ Kaisen\ S1\ \(09\).mkv
+: 1648696653:0;ls
+: 1648696655:0;cd ~
+: 1648696656:0;ls
+: 1648696664:0;cd gdrive
+: 1648696664:0;ls
+: 1648696676:0;cd ..
+: 1648696677:0;ls
+: 1648696678:0;cd Docs
+: 1648696678:0;ls
+: 1648696679:0;cd ..
+: 1648696680:0;ls
+: 1648696687:0;cd work
+: 1648696688:0;ls
+: 1648696689:0;cd ..
+: 1648696689:0;ls
+: 1648696694:0;cd ..
+: 1648696695:0;ls
+: 1648696696:0;cd home
+: 1648696697:0;ls
+: 1648696698:0;cd ..
+: 1648696700:0;ls
+: 1648696704:0;cd ~
+: 1648696705:0;ls
+: 1648696716:0;./gdriverclonecopy.sh
+: 1648696745:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/Another
+: 1648696752:0;./gdriverclonecopy.sh
+: 1648697079:0;ls
+: 1648697086:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/Another
+: 1648697097:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/Another
+: 1648697097:0;ls
+: 1648697131:0;./gdriverclonecopy.sh
+: 1648697134:0;cd ~
+: 1648697136:0;./gdriverclonecopy.sh
+: 1648697185:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/Another
+: 1648697189:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/
+: 1648697198:0;rm -rf /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/Another
+: 1648697201:0;./gdriverclonecopy.sh
+: 1648697233:0;ls
+: 1648697249:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/
+: 1648697257:0;ls
+: 1648697259:0;./gdriverclonecopy.sh
+: 1648697297:0;sudo apt-get update
+: 1648697307:0;sudo apt-get upgrade
+: 1648697309:0;clear
+: 1648697311:0;ls
+: 1648697312:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/
+: 1648697317:0;rm -rf /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/Another
+: 1648697320:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/
+: 1648697335:0;mkdir /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/TYE
+: 1648697356:0;mv /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/Copy\ of\ \[Kayoanime\]\ To\ Your\ Eternity\ -\ S01E* /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/TYE
+: 1648697358:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/
+: 1648697378:0;./gdriverclonecopy.sh
+: 1648697408:0;clear
+: 1648697409:0;exit
+: 1648697457:0;ls
+: 1648697461:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/
+: 1648697465:0;rm -rf /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/Another
+: 1648697467:0;ls
+: 1648697477:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/Another
+: 1648697480:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime
+: 1648697481:0;ls
+: 1648697489:0;cd ~
+: 1648697492:0;./gdriverclonecopy.sh
+: 1648698113:0;clear
+: 1648698118:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/
+: 1648698168:0;vim gdriverclonecopy.sh
+: 1648698223:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/
+: 1648698226:0;ls An
+: 1648698233:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Another
+: 1648698254:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/
+: 1648698255:0;ls
+: 1648698265:0;mv Another Anime
+: 1648698271:0;rm -rf Another1
+: 1648698581:0;rclone copy -P Gdrive:Anime/DeathParade /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/DeathParade
+: 1648729606:0;./mediaserverkill.sh
+: 1648729620:0;./mediaserverexec.sh
+: 1648730831:0;./mediaserverkill.sh
+: 1648730869:0;./mediaserverexec.sh
+: 1648743578:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1648743579:0;LS
+: 1648743581:0;ls
+: 1648743639:0;mv The\ Matrix\ Resurrections\ \(2021\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\] /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/
+: 1648744438:0;./mediaserverkill.sh
+: 1648744462:0;ping google.com
+: 1648744466:0;clear
+: 1648744471:0;sudo apt-get update
+: 1648744479:0;sudo apt-get upgrade
+: 1648744480:0;clear
+: 1648744482:0;./mediaserverexec.sh
+: 1648745041:0;ls
+: 1648745103:0;mv Mononoke\ hime\ -\ Princess\ Mononoke\ \(1997\)/Mononoke.hime.\[Princess.Mononoke\].\[DUAL.AUDIO\]1997.HDTVRip.x264.YIFY.mkv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Toonz
+: 1648746078:0;cd /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/TheWalkingDead
+: 1648746079:0;ls
+: 1648746087:0;ls The\ Walking\ Dead\ Season\ 1\ \(1080p\ x265\ Joy\)
+: 1648747925:0;cd ~
+: 1648747952:0;rclone copy -P Gdrive:Anime/ParanoiaAgent /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/ParanoiaAgent
+: 1648748199:0;rclone copy -P Gdrive:Anime/Erased /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Anime/Erased
+: 1648754654:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1648754654:0;ls
+: 1648754670:0;ls Mononoke\ hime\ -\ Princess\ Mononoke\ \(1997\)/
+: 1648754675:0;rm -rf Mononoke\ hime\ -\ Princess\ Mononoke\ \(1997\)
+: 1648754676:0;ls
+: 1648754871:0;df -h
+: 1648754894:0;mv Arrested\ Development\ Seasons\ \ 1-3 /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows/
+: 1648756594:0;ls /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1648756621:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/The\ Batman\ \(2022\)\ 1080p\ HDTS\ x264\ -\ ProLover /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Movies/
+: 1648756700:0;ls /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1648757023:0;ls
+: 1648757029:0;sudo apt-get update
+: 1648757040:0;sudo apt-get upgrade
+: 1648757163:0;df -h
+: 1648757483:0;ls
+: 1648757491:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27
+: 1648757492:0;ls
+: 1648757497:0;cd downloads
+: 1648757497:0;ls
+: 1648757499:0;cd ..
+: 1648757503:0;cd downloads/complete
+: 1648757503:0;ls
+: 1648757506:0;cd2
+: 1648757515:0;cd AMACloudMovies
+: 1648757516:0;ls
+: 1648757520:0;ls DemonSlayer
+: 1648757527:0;rm -rf DemonSlayer
+: 1648757534:0;ls Shows
+: 1648757537:0;ls
+: 1648757538:0;cd Shows
+: 1648757539:0;ls
+: 1648757540:0;cd ..
+: 1648757541:0;cd Movies
+: 1648757541:0;ls
+: 1648757546:0;cd ..
+: 1648757595:0;cd ~
+: 1648757596:0;;s
+: 1648757597:0;ls
+: 1648757610:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/
+: 1648757610:0;ls
+: 1648757612:0;cd Anime
+: 1648757613:0;ls
+: 1648757617:0;ls MKY
+: 1648757621:0;ls Parasyte
+: 1648757623:0;ls
+: 1648757632:0;cd ..
+: 1648757635:0;;s
+: 1648757636:0;ls
+: 1648757643:0;mv Anime/Anime/* Anime
+: 1648757645:0;ls
+: 1648757647:0;cd Anime
+: 1648757648:0;ls
+: 1648757651:0;ls An
+: 1648757653:0;ls
+: 1648757657:0;cd Anime/
+: 1648757657:0;ls
+: 1648757658:0;cd ..
+: 1648757662:0;rm -rf Anime
+: 1648757664:0;ls
+: 1648757666:0;cd ..
+: 1648757666:0;ls
+: 1648757670:0;ls completed
+: 1648757678:0;ls Parasyte
+: 1648757680:0;rm -rf Parasyte
+: 1648757681:0;ls
+: 1648757698:0;ls Movies
+: 1648757702:0;ls Shows
+: 1648757745:0;ls
+: 1648757749:0;cd Anime
+: 1648757750:0;ls
+: 1648757752:0;ls 1
+: 1648757766:0;ls 2
+: 1648757772:0;ls
+: 1648757778:0;mkdir PromisedNeverland
+: 1648757783:0;mv 1 PromisedNeverland
+: 1648757789:0;mv 2 PromisedNeverland
+: 1648757790:0;ls
+: 1648757805:0;mv Jujutsu\ Kaisen JujutsuKaisen
+: 1648757805:0;ls
+: 1648757810:0;ls S1
+: 1648757815:0;ls S4
+: 1648757817:0;ls
+: 1648757823:0;mkdir JoJo
+: 1648757829:0;mv S1 JoJo
+: 1648757833:0;mv S2 JoJo
+: 1648757836:0;mv S3 JoJo
+: 1648757840:0;mv S4 JoJo
+: 1648757840:0;ls
+: 1648757846:0;cd ..
+: 1648757847:0;ls
+: 1648757852:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27
+: 1648757853:0;ls
+: 1648757855:0;cd AMACloudMovies
+: 1648757855:0;ls
+: 1648757858:0;cd Anime
+: 1648757858:0;ls
+: 1648757859:0;cd ..
+: 1648757861:0;;s
+: 1648757862:0;ls
+: 1648757864:0;ls Anime
+: 1648757866:0;rm -rf Anime
+: 1648757866:0;ls
+: 1648757872:0;ls Shows
+: 1648757874:0;ls
+: 1648757875:0;cd Shows
+: 1648757876:0;ls
+: 1648757876:0;cd ..
+: 1648757878:0;rm -rf Shows
+: 1648757879:0;ls
+: 1648757884:0;ls Movies
+: 1648757885:0;ls
+: 1648757888:0;cd ..
+: 1648757888:0;ls
+: 1648757905:0;cd /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56
+: 1648757906:0;ls
+: 1648757914:0;mv The.Hobbit.The.Desolation.of.Smaug.2013.1080p.BluRay.x264.YIFY.mp4 AMACloudMovies/Movies
+: 1648757915:0;ls
+: 1648757919:0;ls AroundtheWorldin80Days
+: 1648757929:0;mv AroundtheWorldin80Days AMACloudMovies/Shows
+: 1648757930:0;ls
+: 1648757934:0;cd AMACloudMovies
+: 1648757935:0;ls
+: 1648757939:0;ls Anime
+: 1648757940:0;ls
+: 1648757943:0;cd Anime
+: 1648757943:0;ls
+: 1648757952:0;ls Naruto
+: 1648757954:0;cd ..
+: 1648757955:0;ls
+: 1648757957:0;ls Anime/Pokemon
+: 1648757959:0;cd ..
+: 1648757959:0;ls
+: 1648757962:0;cd AMACloudMovies
+: 1648757962:0;ls
+: 1648757965:0;ls Movies
+: 1648757982:0;ls
+: 1648757985:0;cd Movies
+: 1648757985:0;ls
+: 1648757989:0;ls A\ Beautiful\ Mind\ \(2001\)\ \[1080p\]
+: 1648757998:0;mv A\ Beautiful\ Mind\ \(2001\)\ \[1080p\]/A.Beautiful.Mind.2001.1080p.BrRip.x264.YIFY.mp4
+: 1648758005:0;ls
+: 1648758008:0;cd ..
+: 1648758015:0;mv Movies/A\ Beautiful\ Mind\ \(2001\)\ \[1080p\]/A.Beautiful.Mind.2001.1080p.BrRip.x264.YIFY.mp4 Movies
+: 1648758016:0;ls
+: 1648758018:0;ls Movies
+: 1648758030:0;rm -rf Movies/A\ Beautiful\ Mind\ \(2001\)\ \[1080p\]
+: 1648758032:0;ls Movies
+: 1648758038:0;ls Movies/completed
+: 1648758126:0;ls
+: 1648758155:0;find Movies | grep '\.mp4' | xargs -I {} mv {} Movies
+: 1648758171:0;ls
+: 1648758172:0;ls Movies
+: 1648758218:0;ls
+: 1648758232:0;find Movies/ | grep '\.mp4' | xargs -I {} mv {} Movies
+: 1648758246:0;find Movies/ | grep '\.mkv' | xargs -I {} mv {} Movies
+: 1648758248:0;ls
+: 1648758250:0;ls Movies
+: 1648758280:0;ls Movies/Braveheart\ \(1995\)\ \[1080p\]
+: 1648758302:0;find Movies/* | grep '\.mp4' | xargs -I {} mv {} Movies/
+: 1648758309:0;ls Movies
+: 1648758327:0;ls Movies/Braveheart\ \(1995\)\ \[1080p\]
+: 1648758335:0;find Movies/* | grep '\.mkv' | xargs -I {} mv {} Movies/
+: 1648758338:0;ls Movies
+: 1648758349:0;rm -rf Movies/Braveheart\ \(1995\)\ \[1080p\]
+: 1648758357:0;cd Movies
+: 1648758358:0;ls
+: 1648758367:0;ls Jaws\ \(1975\)\ \[1080p\]
+: 1648758372:0;rm -rf Jaws\ \(1975\)\ \[1080p\]
+: 1648758373:0;ls
+: 1648758386:0;rm -rf Dead\ Poets\ Society\ 1989\ 1080p\ BluRay\ x264\ AAC\ -\ Ozlem
+: 1648758387:0;ls
+: 1648758393:0;rm -rf Shutter\ Island\ \(2010\)\ \[1080p\]
+: 1648758409:0;rm -rf The.Shape.of.Water.2017.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+: 1648758411:0;ls
+: 1648758422:0;rm -rf The\ Shining\ \(1980\)
+: 1648758433:0;ls
+: 1648758436:0;cd ..
+: 1648758436:0;ls
+: 1648758439:0;ls Shows
+: 1648758489:0;ls
+: 1648758490:0;ls Shows
+: 1648758501:0;mkdir Shows/RickMorty
+: 1648758504:0;ls Shows
+: 1648758570:0;mv Shows/Rick\ and\ Morty\ Season\ 1\ \[UNCENSORED\]\ \[BDRip\]\ \[1080p\]\ \[HEVC\] Shows/RickMorty
+: 1648758597:0;mv Shows/\[pseudo\]\ Rick\ and\ Morty\ S01E* Shows/RickMorty
+: 1648758600:0;ls Shows
+: 1648758623:0;mkdir Shows/Chernobyl
+: 1648758637:0;mv Shows/Chernobyl\ \(2019\)\ Season\ 1\ S01\ \(1080p\ BluRay\ x265\ HEVC\ 10bit\ AAC\ 5.1\ Silence\) Shows/Chernobyl/
+: 1648758658:0;mv Shows/Chernobyl\ \(2019\)\ -\ S01E0* Shows/Chernobyl
+: 1648758660:0;ls Shows
+: 1648758931:0;ls
+: 1648759010:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Moonfall\ \(2022\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\]/Moonfall.2022.1080p.WEBRip.x264.AAC5.1-\[YTS.MX\].mp4 /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1648759369:0;ls
+: 1648759371:0;cd ~
+: 1648759404:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Dexter\ Season\ 1,\ 2,\ 3,\ 4\ \&\ 5\ HDTV\ +\ Extras\ \(Early\ Cuts\ +\ Audiobooks\ +\ Behind\ the\ Scenes,\ etc\ etc\) /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1648765170:0;ls
+: 1648765205:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Its\ Always\ Sunny\ in\ Philadelphia\ Season\ 1,\ 2,\ 3,\ 4,\ 5\ \&\ 6\ +\ Extras\ DVDRip\ TSV /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1648765238:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/The.Office.US.Complete.Series.+Extras.720p.BrRip.EN-SUB.x264-\[MULVAcoded\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1648795818:0;ls /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed
+: 1648795886:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Schitts\ Creek\ Season\ 1\ to\ 6\ Mp4\ 1080p /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1648795924:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Blue\ Planet\ II\ \(2017\)\ \[1080p\] /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1648798265:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Westworld\ Season\ 3\ Mp4\ 1080p /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/
+: 1648798278:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Westworld\ Season\ 3\ Mp4\ 1080p /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Shows
+: 1648798941:0;sudo apt-get update
+: 1648798961:0;sudo apt-get upgrade
+: 1648799014:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/completed/Death\ On\ The\ Nile\ \(2022\)\ \[1080p\]\ \[BluRay\]\ \[5.1\]\ \[YTS.MX\]/Death.On.The.Nile.2022.1080p.BluRay.x264.AAC5.1-\[YTS.MX\].mp4 /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies
+: 1648821455:0;./mediaserverkill.sh
+: 1648821514:0;ls
+: 1648821555:0;sudo apt-get update
+: 1648821677:0;sudo apt-get upgrade
+: 1648821678:0;clear
+: 1648822023:0;sudo apt-get update
+: 1648822029:0;sudo apt-get upgrade
+: 1648822031:0;./mediaserverexec.sh
+: 1648822104:0;./mediaserverkill.sh
+: 1648822138:0;./mediaserverexec.sh
+: 1648822233:0;vim mediaserverexec.sh
+: 1648822444:0;./mediaserverkill.sh
+: 1648822485:0;clear
+: 1648822487:0;vim mediaserverexec.sh
+: 1648822832:0;clear
+: 1648822835:0;./mediaserverexec.sh
+: 1648830440:0;./mediaserverkill.sh
+: 1648933599:0;sudo apt-get update
+: 1648933608:0;sudo apt-get upgrade
+: 1648933616:0;./mediaserverexec.sh 
+: 1648934555:0;./mediaserverkill.sh
+: 1648934568:0;./mediaserverexec.sh
+: 1648934935:0;ip -o a
+: 1648934947:0;docker s
+: 1648934949:0;docker ps
+: 1648934977:0;sudo apt-get update
+: 1648934986:0;sudo apt-get upgrade
+: 1648934994:0;sudo shutdown
+: 1648942416:0;clear
+: 1648942419:0;sudo apt-get update
+: 1648942426:0;sudo apt-get upgrade
+: 1648942428:0;clear
+: 1648942430:0;./mediaserverexec.sh
+: 1648953020:0;sudo apt-get update
+: 1648953027:0;sudo apt-get upgrade
+: 1648953028:0;clear
+: 1648953029:0;ls
+: 1648953031:0;df -h
+: 1648953204:0;ls
+: 1648953208:0;vim mediaserverexec.sh
+: 1648953214:0;ls
+: 1648953224:0;cd /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667
+: 1648953225:0;ls
+: 1648953230:0;ls lost+found
+: 1648953232:0;ls
+: 1648953242:0;cd lost+found
+: 1648953242:0;ls
+: 1648953243:0;cd ..
+: 1648953244:0;ls
+: 1648953247:0;ls SD2
+: 1648953248:0;ls
+: 1648953251:0;clear
+: 1648953252:0;ls
+: 1648953256:0;cd SD2
+: 1648953257:0;ls
+: 1648953257:0;cd ..
+: 1648953258:0;ls
+: 1648953263:0;ls AMACloudMovies/completed
+: 1648953286:0;cd /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27
+: 1648953287:0;ls
+: 1648953298:0;ls AMACloudMovies/completed
+: 1648953301:0;cd ..
+: 1648953301:0;kls
+: 1648953303:0;ls
+: 1648953384:0;cd dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Movies
+: 1648953387:0;ls
+: 1648953390:0;cd ..
+: 1648953390:0;ls
+: 1648953392:0;cd ..
+: 1648953393:0;ls
+: 1648953397:0;cd /srv/dev-disk-by-uuid-1566570d-7f79-4ad9-863a-2a7a1a621c02
+: 1648953399:0;ls
+: 1648953422:0;cd ..
+: 1648953422:0;ls
+: 1648953464:0;cd ~
+: 1648953468:0;docker ps
+: 1648953512:0;vim mediaserverexec.sh
+: 1648953532:0;ls
+: 1648953536:0;cd Plex
+: 1648953537:0;ls
+: 1648953541:0;docker-compose up
+: 1648953644:0;vim mediaserverexec.sh
+: 1648953649:0;vim docker-compose.yml
+: 1648953658:0;docker-compose up
+: 1648953845:0;clear
+: 1648953849:0;docker-compose up
+: 1648953950:0;:q
+: 1648953954:0;vim docker-compose.yml
+: 1648954072:0;docker-compose up
+: 1648954284:0;cd ~
+: 1648954287:0;./mediaserverexec.sh
+: 1648954538:0;sudo shutdown
+: 1648954785:0;sudo apt-get update
+: 1648954796:0;sudo apt-get upgrade
+: 1648954824:0;./mediaserverexec.sh
+: 1648958109:0;sudo apt-get upgrade
+: 1648958112:0;./mediaserverexec.sh
+: 1648967439:0;sudo apt-get update
+: 1648967448:0;sudo apt-get upgrade
+: 1648967492:0;./mediaserverexec.sh
+: 1648967946:0;sudo apt-get update
+: 1648967957:0;sudo apt-get upgrade
+: 1648967958:0;clean
+: 1648967962:0;clear
+: 1648968940:0;sudo apt-get update
+: 1648968945:0;sudo apt-get upgrade
+: 1648968948:0;clear
+: 1648968953:0;./mediaserverkill.sh
+: 1648968996:0;./mediaserverexec.sh
+: 1648969058:0;./mediaserverkill.sh
+: 1648969075:0;./mediaserverexec.sh
+: 1648971061:0;./mediaserverkill.sh
+: 1648971114:0;./mediaserverexec.sh
+: 1649024380:0;sudo apt-get update
+: 1649024390:0;sudo apt-get upgrade
+: 1649024392:0;clear
+: 1649024397:0;./mediaserverexec.sh
+: 1649024836:0;sudo apt-get upgrade
+: 1649024841:0;sudo apt-get update
+: 1649024852:0;sudo apt-get upgrade
+: 1649024854:0;clear
+: 1649026375:0;df -h
+: 1649026719:0;clear
+: 1649026723:0;./mediaserverkill.sh
+: 1649026774:0;./mediaserverexec.sh
+: 1649096880:0;sudo apt-get update
+: 1649096888:0;sudo apt-get upgrade
+: 1649096892:0;clear
+: 1649096918:0;./mediaserverkill.sh
+: 1649096933:0;./mediaserverexec.sh
+: 1649130466:0;sudo apt-get update
+: 1649130475:0;sudo apt-get upgrade
+: 1649130521:0;sudo apt autorempve
+: 1649130525:0;sudo apt autoremove
+: 1649130530:0;clear
+: 1649130534:0;./mediaserverexec.sh
+: 1649138617:0;sudo apt-get update
+: 1649138622:0;sudo apt-get upgrade
+: 1649138632:0;ls
+: 1649138640:0;cd Plex
+: 1649138642:0;ls
+: 1649138644:0;vim docker-compose.yml
+: 1649138660:0;cd ..
+: 1649138660:0;ls
+: 1649138663:0;cd Transmission
+: 1649138664:0;ls
+: 1649138667:0;vim docker-compose.yml
+: 1649138687:0;ls
+: 1649138688:0;cd ..
+: 1649138689:0;ls
+: 1649138693:0;./mediaserverexec.sh
+: 1649164525:0;ls
+: 1649164537:0;./mediaserverkill.sh
+: 1649164585:0;./mediaserverexec.sh
+: 1649300701:0;./mediaserver
+: 1649300711:0;./mediaserverexec.sh
+: 1649458866:0;./mediaserverkill.sh
+: 1649458881:0;./mediaserverexec.sh
+: 1649555335:0;sudo apt-get update
+: 1649555341:0;sudo apt-get upgrade
+: 1649555346:0;./mediaserverexec.sh
+: 1649557253:0;chkdsk 
+: 1649557260:0;sudo apt-get chkdsk
+: 1649557267:0;sudo apt-get install chkdsk
+: 1649557352:0;./mediaserverexec.sh
+: 1649559195:0;df -h
+: 1649559243:0;mv /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Movies/Inception /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies/
+: 1649559244:0;ls
+: 1649559255:0;ls /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime
+: 1649559298:0;mv /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/TokyoGhoul /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Anime/
+: 1649559455:0;sudo shutdown
+: 1649560271:0;mv /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/SoulEater /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies	
+: 1649560276:0;mv /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/SoulEater /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Anime
+: 1649560531:0;mv /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/DemonSlayer /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/
+: 1649560536:0;mv /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/DemonSlayer /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Anime
+: 1649605282:0;sudo shutdown
+: 1650290474:0;sudo apt-get upddate
+: 1650290480:0;sudo apt-get update
+: 1650290489:0;sudo apt-get upgrade
+: 1650290491:0;clear
+: 1650290493:0;./mediaserverexec.sh
+: 1650290628:0;sudo apt-get update
+: 1650290635:0;sudo apt-get upgrade
+: 1650292321:0;./mediaserverkill.sh
+: 1650292353:0;sudo shutdown
+: 1650397470:0;clear
+: 1650397473:0;./mediaserverexec.sh
+: 1650417915:0;./shutddown
+: 1650417919:0;sudo shutdown
+: 1650420212:0;./mediaserverexec.sh
+: 1650491084:0;./mediaserverkill.sh
+: 1650491105:0;sudo shutdown
+: 1650530226:0;sudo apt-get update
+: 1650530231:0;sudo apt-get upgrade
+: 1650530235:0;./mediaserverexec.sh
+: 1650542438:0;./mediaserverkill.sh
+: 1650543754:0;sudo shutdown
+: 1650586720:0;sudo apt-get update
+: 1650586726:0;sudo apt-get upgrade
+: 1650586739:0;./mediaserverexec.sh
+: 1650590945:0;./mediaserverkill.sh
+: 1650591092:0;./mediaserverexec.sh
+: 1650620196:0;ls
+: 1650620276:0;ls /mnt/hgfs/AMA\ Cloud\ SHARED
+: 1650620335:0;mv /srv/dev-disk-by-uuid-4965017e-fe39-4b7d-85ba-f69e4e87ef27/AMACloudMovies/Shows	
+: 1650620359:0;ls
+: 1650620408:0;mv /srv/dev-disk-by-uuid-fde7d6f8-f441-434d-a5f3-2c763542f667/AMACloudMovies/Anime/Monster /mnt/hgfs/AMA\ Cloud\ SHARED
+: 1650620523:0;ls /mnt/hgfs/AMA\ Cloud\ SHARED/Monster
+: 1650620651:0;whoami
+: 1650620683:0;/usr/bin/vmhgfs-fuse .host:/ /root/shares -o subtype=vmhgfs-fuse,allow_other
+: 1650620688:0;mkdir /root/shares/
+: 1650620690:0;/usr/bin/vmhgfs-fuse .host:/ /root/shares -o subtype=vmhgfs-fuse,allow_other
+: 1650620696:0;ls /root/shares
+: 1650620711:0;mv /mnt/hgfs/AMA\ Cloud\ SHARED/Monster /root/shares/AMA\ Cloud\ SHARED
+: 1650620878:0;fh -h
+: 1650620880:0;df -h
+: 1650620991:0;ls /root/shares
+: 1650621235:0;mv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Movies /root/shares/RECOVERY_4TBGREEN
+: 1650621999:0;ls
+: 1650622059:0;mv /srv/dev-disk-by-uuid-9c7a78bc-7fdf-4d82-baf9-3fe378b23c56/AMACloudMovies/Toonz /root/shares/RECOVERY_4TBGREEN
+: 1650622373:0;ls
+: 1650622379:0;ls -a
+: 1650622386:0;mkdir dots
+: 1650622398:0;cp .* dots
+: 1650622405:0;cp .* -r dots
