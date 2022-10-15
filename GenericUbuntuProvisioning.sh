@@ -18,8 +18,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 sudo apt-get install fzf
 
-# Symlinking ~/.zshrc and ?/dotties/zshrc
+# Symlinking ~/.zshrc to xxx/dotties/zshrc
 ln /home/agriffin/.zshrc /home/agriffin/dotties/zshrc
+# Symlinking ~/.zsh_history to xxx/dotties/zsh_history
+ln /home/agriffin/.zsh_history /home/agriffin/dotties/zsh_history
 
 # Docker Engine install
 sudo apt-get remove docker docker-engine docker.io containerd runc -y
@@ -38,11 +40,47 @@ echo \
 sudo apt-get update -y
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 
+sudo apt-get install docker-compose -y
+
+# Networking tools
+sudo apt-get install net-tools -y
+sudo apt-get install iperf3 -y
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+sudo apt-get install speedtest -y
+
+# Bat install
+sudo apt-get install bat -y
+
+# Zoxide install 
+curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
+
+# exa install
+sudo apt-get install exa -y
+
+# tldr install
+sudo apt-get install tldr -y
+
+# ripgrep install
+sudo apt-get install ripgrep -y
+
+
+# Nerd font install
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Hack.zip
+unzip Hack.zip -d ~/.fonts
+fc-cache -fv
+
+# Starship install
+curl -sS https://starship.rs/install.sh | sh
+
+# Starship configuration
+mkdir -p ~/.config && touch ~/.config/starship.toml
+
+
 # LazyDocker install
+#docker run --rm -it -v \
+#/var/run/docker.sock:/var/run/docker.sock \
+#-v /home/agriffin/LAZYDOCKER/:/.config/jesseduffield/lazydocker \
+#lazyteam/lazydocker
 
 
 
-docker run --rm -it -v \
-/var/run/docker.sock:/var/run/docker.sock \
--v /yourpath:/.config/jesseduffield/lazydocker \
-lazyteam/lazydocker
