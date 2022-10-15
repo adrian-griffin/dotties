@@ -135,7 +135,12 @@ alias 'tsh'='sudo tailscale up --ssh --accept-risk=lose-ssh'
 
 alias 'gacp'='git add * && git commit -m "null" && echo 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 && git push'
 
+
+
 export PATH="~/Smartaira-noc-tools:$PATH"
 
+
+## Test alias
+alias 'ooga'='echo fuck'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
