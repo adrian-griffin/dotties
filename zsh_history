@@ -1,0 +1,1137 @@
+: 1665750845:0;vim ~/.zshrc
+: 1665750876:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+: 1665750891:0;git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+: 1665750894:0;exit
+: 1665750972:0;sudo apt-get install fzf
+: 1665750982:0;srcz
+: 1665750986:0;clear
+: 1665750997:0;curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+: 1665751052:0;sudo apt-get install speedtest
+: 1665751203:0;ls
+: 1665751209:0;sap && sag
+: 1665751216:0;sfug
+: 1665751220:0;speedtest
+: 1665751255:0;curl -fsSL https://tailscale.com/install.sh | sh
+: 1665751290:0;sudo tailscale up
+: 1665751301:0;ts ip
+: 1665751627:0;mkdir SEAFILE
+: 1665751635:0;mkdir VAULTWARDEN
+: 1665751672:0;scp agriffin@10.20.62.23:/home/agriffin/SEAFILE/* /home/agriffin/SEAFILE
+: 1665751684:0;sudo rm -rf SEAFILE
+: 1665751694:0;scp agriffin@10.20.62.23:/home/agriffin/SEAFILE/ /home/agriffin/
+: 1665751719:0;scp -r agriffin@10.20.62.23:/home/agriffin/SEAFILE/ /home/agriffin/
+: 1665751916:0;ls
+: 1665751918:0;ls SEAFILE
+: 1665751965:0;sudo rm -rf VAULTWARDEN
+: 1665751984:0;scp -r agriffin@10.20.62.23:/home/agriffin/VAULTWARDEN/ /home/agriffin/
+: 1665752182:0;ls
+: 1665752188:0;sudo apt-get install docker
+: 1665752261:0;sudo apt-get install docker-compose
+: 1665753186:0;vim ~/.zshrc
+: 1665753200:0;exit
+: 1665753218:0;tss
+: 1665753222:0;ts ip
+: 1665753237:0;exit
+: 1665753418:0;docker ps
+: 1665753421:0;sudo docker ps
+: 1665753424:0;ls
+: 1665753426:0;cd SEAFILE
+: 1665753426:0;ls
+: 1665753432:0;vim docker-compose.yml
+: 1665753451:0;sudo docker-compose up -d
+: 1665753669:0;speedtest
+: 1665753683:0;exit
+: 1665753696:0;sudo docker ps
+: 1665753699:0;ls
+: 1665753702:0;cd ..
+: 1665753702:0;ls
+: 1665753705:0;cd VAULTWARDEN
+: 1665753705:0;ls
+: 1665753708:0;cd data
+: 1665753708:0;ls
+: 1665753710:0;cd ./
+: 1665753712:0;cd ..
+: 1665753714:0;cd ~
+: 1665753734:0;docker pull vaultwarden/server:latest
+: 1665753737:0;sudo docker pull vaultwarden/server:latest
+: 1665753766:0;ls
+: 1665753768:0;cd VAULTWARDEN
+: 1665753768:0;ls
+: 1665753840:0;sudo docker run -d --name vaultwarden -v /home/agriffin/VAULTWARDEN/data/:/data/ -p 24999:80 vaultwarden/server:latest
+: 1665753849:0;sudo docker ps
+: 1665753874:0;sudo docker run -d --name vaultwarden -v /home/agriffin/VAULTWARDEN/data/:/data/ -p 33810:80 vaultwarden/server:latest
+: 1665753885:0;sudo docker rm cbcf88887c172efce5840292f663e756c9bc4fc1c354de5e2948c2c045c8a28b
+: 1665753887:0;sudo docker run -d --name vaultwarden -v /home/agriffin/VAULTWARDEN/data/:/data/ -p 33810:80 vaultwarden/server:latest
+: 1665753933:0;ts ip
+: 1665754854:0;sudo docke rps
+: 1665754857:0;sudo docker ps
+: 1665754870:0;ts ip
+: 1665754917:0;curl ifconfig.me/all
+: 1665754934:0;sudo tailscale up --exit-node=100.73.164.92 --exit-node-allow-lan-access=true
+: 1665754938:0;curl ifconfig.me/all
+: 1665755190:0;tss
+: 1665755192:0;ts ip
+: 1665755197:0;sudo docker ps
+: 1665755215:0;sudo docker stop c7e1b272fec9
+: 1665755218:0;sudo docker ps
+: 1665755223:0;sudo docker stop b04e9dead661
+: 1665755230:0;sudo docker stop e275065dfd5b
+: 1665755234:0;sudo docker ps
+: 1665755238:0;sudo docker stop de3d8066526f
+: 1665755240:0;ls
+: 1665755241:0;cd ~
+: 1665755242:0;ls
+: 1665755243:0;cd SEAFILE
+: 1665755243:0;ls
+: 1665755246:0;vim docker-compose.yml
+: 1665755288:0;sudo docker-compose up -d
+: 1665755292:0;vim docker-compose.yml
+: 1665755326:0;sudo docker-compose up -d
+: 1665755333:0;vim docker-compose.yml
+: 1665755340:0;sudo docker-compose up -d
+: 1665755346:0;vim docker-compose.yml
+: 1665755361:0;sudo docker-compose up -d
+: 1665755369:0;sudo docker ps
+: 1665755405:0;ip a
+: 1665755411:0;ip a | grep ens
+: 1665755438:0;sudo tailscale down
+: 1665755449:0;sudo tailscale up --exit-node=100.73.164.92 --exit-node-allow-lan-access=true
+: 1665755454:0;sudo docker ps
+: 1665757235:0;exit
+: 1665757242:0;sap && sag
+: 1665757250:0;sfug
+: 1665757255:0;curl ifconfig.me/all
+: 1665757257:0;ls
+: 1665757269:0;sudo docker ps -a
+: 1665757284:0;ts ip
+: 1665757311:0;ssh agriffin@10.20.62.107
+: 1665757369:0;ls
+: 1665757371:0;sudo docker ps
+: 1665757375:0;cd SEAFILE
+: 1665757376:0;ls
+: 1665757381:0;vim docker-compose.yml
+: 1665757459:0;sudo docker ps
+: 1665757465:0;sudo docker stop b04e9dead661
+: 1665757469:0;sudo docker de3d8066526f
+: 1665757475:0;sudo docker stop e275065dfd5b
+: 1665757481:0;sudo docker ps
+: 1665757486:0;sudo docker stop de3d8066526f
+: 1665757489:0;sudo docker ps
+: 1665757492:0;sudo docker ps -a
+: 1665757513:0;curl ifconfig.me/all
+: 1665757514:0;ip a
+: 1665757560:0;ls
+: 1665757563:0;cd ..
+: 1665757563:0;ls
+: 1665757567:0;cd VAULTWARDEN
+: 1665757567:0;ls
+: 1665757583:0;sudo docker ps -a
+: 1665757589:0;sudo docker rebuild c7e1b272fec9
+: 1665757597:0;sudo docker build c7e1b272fec9
+: 1665757618:0;sudo docker restart c7e1b272fec9
+: 1665757623:0;sudo dockerps
+: 1665757624:0;sudo docker ps
+: 1665757667:0;sudo docker restart b04e9dead661
+: 1665757680:0;sudo docker ps
+: 1665757695:0;sudo docker restart de3d8066526f
+: 1665757702:0;sudo docker restart e275065dfd5b
+: 1665757706:0;sudo docker ps
+: 1665757889:0;sudo docker stop b04e9dead661
+: 1665757895:0;sudo docker stop de3d8066526f
+: 1665757902:0;sudo docker stop e275065dfd5b
+: 1665757906:0;sudo docker ps
+: 1665757910:0;ls
+: 1665757913:0;sudo docker ps -a
+: 1665757919:0;sudo docker rm b04e9dead661
+: 1665757924:0;sudo docker rm de3d8066526f
+: 1665757929:0;sudo docker rm e275065dfd5b
+: 1665757934:0;sudo docker ps -a
+: 1665757936:0;ls
+: 1665757938:0;cd ~
+: 1665757938:0;ls
+: 1665757940:0;cd SEAFILE
+: 1665757940:0;ls
+: 1665757944:0;sudo docker-compose up
+: 1665757984:0;sudo apt-get install nginx
+: 1665758089:0;sudo docker ps
+: 1665758090:0;ls
+: 1665758097:0;sudo docker-compose up -d
+: 1665758220:0;sudo docker ps
+: 1665758252:0;ls
+: 1665758256:0;sudo docker stop e275065dfd5b
+: 1665758259:0;sudo docker ps
+: 1665758273:0;sudo docker stop 927490344cb7 0454168e404b 763601f82a01
+: 1665758277:0;sudo docker ps
+: 1665758278:0;ls
+: 1665758281:0;vim docker-compose.yml
+: 1665758322:0;ls
+: 1665758325:0;cd seafileVolume
+: 1665758327:0;ls
+: 1665758329:0;cd nginx
+: 1665758329:0;ls
+: 1665758331:0;cd conf
+: 1665758331:0;ls
+: 1665758333:0;vim seafile.nginx.conf
+: 1665758415:0;vim ~/SEAFILE/docker-compose.yml
+: 1665758430:0;vim seafile.nginx.conf
+: 1665758527:0;ls
+: 1665758531:0;vim seafile.nginx.conf
+: 1665758545:0;sap && sag
+: 1665758681:0;ts ip
+: 1665758688:0;sudo docker ps
+: 1665758722:0;vim ~/SEAFILE/docker-compose.yml
+: 1665758762:0;sudo docker-compose up
+: 1665759559:0;sudo docker ps
+: 1665759564:0;ts ip
+: 1665759578:0;sudo docker ps
+: 1665759838:0;ls
+: 1665759840:0;curl ifconfig.me/all
+: 1665759848:0;ls
+: 1665759849:0;ts
+: 1665759852:0;ts netcheck
+: 1665759872:0;ts
+: 1665759886:0;clear
+: 1665759887:0;lks
+: 1665759887:0;ls
+: 1665759892:0;vim seafile.nginx.conf
+: 1665760330:0;ts ip
+: 1665761036:0;curl ifconfig.me/all
+: 1665761044:0;tss
+: 1665761054:0;ping 100.73.164.92
+: 1665761212:0;ts netcheck
+: 1665761222:0;curl ifconfig.me/all
+: 1665761229:0;docker ps
+: 1665761231:0;sudo docker ps
+: 1665761389:0;ls
+: 1665761391:0;cd ~
+: 1665761391:0;ls
+: 1665761395:0;sudo docker ps
+: 1665761396:0;sudo docker ps -a
+: 1665761414:0;sudo docker stop c7e1b272fec9
+: 1665761416:0;ls
+: 1665761419:0;cd VAULTWARDEN
+: 1665761419:0;ls
+: 1665761421:0;cd data
+: 1665761422:0;ls
+: 1665761428:0;cd ~
+: 1665761796:0;sudo docker ps
+: 1665761821:0;ls
+: 1665761823:0;cd VAULTWARDEN
+: 1665761823:0;ls
+: 1665761825:0;cd data
+: 1665761825:0;l
+: 1665761826:0;ls
+: 1665761832:0;vim config.json
+: 1665761864:0;vim attachments
+: 1665761878:0;ls
+: 1665761880:0;cd ..
+: 1665761881:0;ls
+: 1665761883:0;cd  ~
+: 1665761887:0;sudo docker ps -a
+: 1665761894:0;sudo docker restart c7e1b272fec9
+: 1665762804:0;curl ifconfig.me/all
+: 1665762816:0;sudo tailscale up --exit-node=100.73.164.92 --exit-node-allow-lan-access=true
+: 1665762835:0;sudo tailscale down
+: 1665762912:0;sudo tailscale up --exit-node=
+: 1665762923:0;sudo tailscale up --exit-node= --exit-node-allow-lan-access=
+: 1665762933:0;tss
+: 1665762936:0;curl ifconfig.me/all
+: 1665763085:0;sudo tailscale up --exit-node=
+: 1665763096:0;sudo tailscale --exit-node=
+: 1665763113:0;sudo tailscale status --exit-node=
+: 1665763159:0;sudo tailscale up --exit-node= --exit-node-allow-lan-access=
+: 1665763209:0;sudo tailscale up --exit-node
+: 1665763212:0;sudo tailscale up --exit-node 
+: 1665763215:0;sudo tailscale up --exit-node ''
+: 1665763234:0;sudo tailscale up --exit-node= --exit-node-allow-lan-access
+: 1665763237:0;curl ifconfig.me/all
+: 1665763247:0;sudo tailscale up --exit-node --exit-node-allow-lan-access
+: 1665763254:0;sudo tailscale up --reset
+: 1665763256:0;curl ifconfig.me/all
+: 1665763262:0;clear
+: 1665763501:0;la
+: 1665763502:0;ls
+: 1665763507:0;sudo docker ps
+: 1665763562:0;tss
+: 1665763565:0;ts ip
+: 1665763570:0;ts netcheck
+: 1665763692:0;ts ip
+: 1665763701:0;sudo docker ps
+: 1665783842:0;ls
+: 1665783869:0;cd VAULTWARDEN
+: 1665783869:0;ls
+: 1665783871:0;cd data
+: 1665783871:0;ls
+: 1665783873:0;vim config.json
+: 1665783891:0;cd ~
+: 1665783892:0;ls
+: 1665783895:0;sudo docker ps
+: 1665784879:0;curl ifconfig.me/all
+: 1665784881:0;tss
+: 1665785013:0;sudo tailscale up --exit-node=100.73.164.92 --exit-node-allow-lan-access=true
+: 1665785015:0;curl ifconfig.me/all
+: 1665785094:0;sudo docker ps
+: 1665785150:0;sudo docke rps
+: 1665785152:0;sudo docker ps
+: 1665785157:0;sudo docker stop c7e1b272fec9
+: 1665785163:0;sudo docker rm c7e1b272fec9
+: 1665785169:0;sudo docker run -d --name vaultwarden -v /home/agriffin/VAULTWARDEN/data/:/data/ -p 24999:80 vaultwarden/server:latest
+: 1665785237:0;sudo docker ps
+: 1665785259:0;ip a | grep ens
+: 1665785288:0;ts ip
+: 1665785533:0;sudo tailscale up --reset
+: 1665785536:0;curl ifconfig.me/all
+: 1665785548:0;ts ip
+: 1665786490:0;curl ifconfig.me
+: 1665786524:0;ts
+: 1665786546:0;ts netcheck
+: 1665787043:0;tss
+: 1665787064:0;ping neblix-edge
+: 1665787078:0;ping 100.73.164.92
+: 1665787154:0;curl ifconfig.me
+: 1665787162:0;ping 100.73.164.92
+: 1665787195:0;ls
+: 1665787197:0;curl ifconfig.me
+: 1665787228:0;sudo tailscale up --exit-node=100.73.164.92 --exit-node-allow-lan-access=true
+: 1665787258:0;curl ifconfig.me
+: 1665787394:0;ls
+: 1665787397:0;sudo dockerr ps
+: 1665787399:0;sudo docker ps
+: 1665787415:0;ts netcheck
+: 1665787549:0;sudo docker ps
+: 1665787602:0;curl ifconfig.me
+: 1665787614:0;sudo tailscale up --reset
+: 1665787616:0;curl ifconfig.me
+: 1665787620:0;sudo tailscale up
+: 1665787623:0;tss
+: 1665787886:0;ls
+: 1665787890:0;sudo docke rps
+: 1665787892:0;sudo docker ps
+: 1665787913:0;ls
+: 1665787915:0;cd SEAFILE
+: 1665787915:0;;s
+: 1665787916:0;ls
+: 1665787919:0;vim docker-compose.yml
+: 1665787939:0;sudo docker-compose up -d
+: 1665788556:0;sudo docker ps
+: 1665788745:0;ts ip
+: 1665788810:0;ts
+: 1665788816:0;ts web
+: 1665789029:0;sudo docker ps
+: 1665789136:0;ts ip
+: 1665789337:0;sudo docker ps
+: 1665789340:0;virc
+: 1665789367:0;srcz
+: 1665789374:0;sad ps
+: 1665789382:0;sad stop 136ae0ddcb63
+: 1665789394:0;sad stop 9db9e41a53cb 763601f82a01 0454168e404b
+: 1665789400:0;sudo docker ps -a
+: 1665789429:0;sad rm 9db9e41a53cb 763601f82a01 0454168e404b 136ae0ddcb63
+: 1665789434:0;sad ps a
+: 1665789435:0;sad ps -a
+: 1665789438:0;clear
+: 1665789460:0;sudo docker pull vaultwarden/server:latest
+: 1665789544:0;sudo docker run -d --name vaultwarden -v /home/agriffin/VAULTWARDEN/data/:/data/ -p 24999:80 vaultwarden/server:latest
+: 1665789547:0;ls
+: 1665789551:0;sudo docker-compose up -d
+: 1665789558:0;ts ip
+: 1665789562:0;sad ps
+: 1665789601:0;sudo tailscale down
+: 1665789636:0;sudo tailscale down --accept-risk=lose-ssh
+: 1665789646:0;ts ip
+: 1665789651:0;tss
+: 1665789666:0;sudo tailscale up
+: 1665789680:0;exit
+: 1665789684:0;sad ps
+: 1665789942:0;ls
+: 1665789944:0;ts
+: 1665789946:0;tss
+: 1665789961:0;ping 100.73.164.92
+: 1665789985:0;ts ip
+: 1665789994:0;curl 100.105.144.69:24999
+: 1665790054:0;ls
+: 1665790209:0;sad ps
+: 1665790224:0;curl ifconfig.me
+: 1665790275:0;sudo tailscale up --exit-node=100.73.164.92 --exit-node-allow-lan-access=true
+: 1665790298:0;ts ip
+: 1665790596:0;sudo docker ps -a
+: 1665790599:0;sudo docker ps
+: 1665790614:0;sudo docker stop 6f13a058896d 4c9e439b6dce abfed66de19d 7d03a666ca0c
+: 1665790620:0;sudo docker rm 6f13a058896d 4c9e439b6dce abfed66de19d 7d03a666ca0c
+: 1665790622:0;sudo docker ps
+: 1665790625:0;sudo docker ps -a
+: 1665790626:0;clear
+: 1665790629:0;lls
+: 1665790632:0;ls
+: 1665790633:0;ls -a
+: 1665790646:0;rm -rf SEAFILE 
+: 1665790649:0;sudo rm -rf SEAFILE 
+: 1665790653:0;sudo rm -rf VAULTWARDEN
+: 1665790655:0;clear
+: 1665790657:0;ls
+: 1665790660:0;ts ip
+: 1665790679:0;sudo docker pull vaultwarden/server:latest
+: 1665790702:0;mkdir VAULTWARDEN
+: 1665790760:0;docker run -d --name vaultwarden -v /home/agriffin/VAULTWARDEN/:/data/ -p 4141:80 vaultwarden/server:latest
+: 1665790764:0;sudo docker run -d --name vaultwarden -v /home/agriffin/VAULTWARDEN/:/data/ -p 4141:80 vaultwarden/server:latest
+: 1665790769:0;ls
+: 1665790771:0;cd VAULTWARDEN
+: 1665790771:0;ls
+: 1665790821:0;sudo docker ps
+: 1665790831:0;ts ip
+: 1665793749:0;ls
+: 1665793753:0;cd ..
+: 1665793753:0;ls
+: 1665793757:0;ip a | grep ens
+: 1665793760:0;ip a 
+: 1665794100:0;ping 100.118.195.6
+: 1665794114:0;ssh agriffin@100.105.144.69
+: 1665794144:0;ssh root@10.20.62.115
+: 1665794155:0;exit
+: 1665794167:0;ssh agriffin@100.74.73.98
+: 1665797768:0;sad ps
+: 1665797866:0;sudo docker ps
+: 1665797870:0;sudo docker ps -a
+: 1665797878:0;sudo docker run -d --name vaultwarden -v /home/agriffin/VAULTWARDEN/:/data/ -p 4141:80 vaultwarden/server:latest
+: 1665797949:0;ls
+: 1665797953:0;tss
+: 1665797958:0;curl ifconfig.me
+: 1665798114:0;ts ip
+: 1665798317:0;ls
+: 1665798319:0;cd VAULTWARDEN
+: 1665798319:0;ls
+: 1665798333:0;cd tmp
+: 1665798333:0;ls
+: 1665798335:0;cd ..
+: 1665798336:0;ls
+: 1665798338:0;cd attachments
+: 1665798338:0;ls
+: 1665798340:0;cd ..
+: 1665798340:0;ls
+: 1665798342:0;cd sends
+: 1665798342:0;ls
+: 1665798343:0;cd //
+: 1665798344:0;cd ..
+: 1665798346:0;ls
+: 1665798350:0;cd ~/VAULTWARDEN/
+: 1665798352:0;ks
+: 1665798354:0;ls -a
+: 1665799775:0;ls
+: 1665799779:0;cd ..
+: 1665799824:0;clear
+: 1665799824:0;ls
+: 1665799831:0;mkdir SEAFILE
+: 1665799836:0;cd SEAFILE
+: 1665799841:0;touch docker-compose.yml
+: 1665799844:0;vim docker-compose.yml
+: 1665799875:0;ls
+: 1665799878:0;vim docker-compose.yml
+: 1665799997:0;ls
+: 1665799999:0;cat docker-compose.yml
+: 1665800002:0;vim docker-compose.yml
+: 1665800390:0;ls
+: 1665800393:0;df -h
+: 1665800423:0;lsblk
+: 1665800498:0;sudo parted
+: 1665800514:0;sudo parted /dev/sdb
+: 1665800959:0;sudo mkdir /data
+: 1665800966:0;sudo mkdir /data/2TB1
+: 1665800968:0;lsblk
+: 1665800987:0;sudo mount /dev/sdb1 /data/2TB1
+: 1665801047:0;sudo mkfs /dev/sdb1
+: 1665801445:0;sudo mount /dev/sdb1 /data/2TB1
+: 1665801456:0;vim docker-compose.yml
+: 1665801639:0;sudo docker-compose up -d
+: 1665801647:0;vim docker-compose.yml
+: 1665801656:0;sudo docker-compose up -d
+: 1665801754:0;ls /data
+: 1665802735:0;ls
+: 1665802743:0;vim SEAFILE/docker-compose.yml
+: 1665802826:0;ls
+: 1665803495:0;cd SEAFILE
+: 1665803495:0;ls
+: 1665803498:0;sudo docker-compose up -d
+: 1665803512:0;cd ..
+: 1665803513:0;ls
+: 1665803513:0;cd ..
+: 1665803514:0;ls
+: 1665803515:0;cd ..
+: 1665803515:0;ls
+: 1665803517:0;cd ..
+: 1665803517:0;ls
+: 1665803555:0;sudo fsck -Af -M
+: 1665803583:0;sudo fsck.ext4 -f /dev/sdb1
+: 1665803603:0;sudo umount /data/2TB1
+: 1665803606:0;sudo fsck.ext4 -f /dev/sdb1
+: 1665804491:0;lsblk
+: 1665804503:0;sudo parted /dev/sdb
+: 1665804603:0;sudo mkfs /dev/sdb1
+: 1665804769:0;cd VAULTWARDEN
+: 1665804770:0;ls
+: 1665804774:0;cd icon_cache
+: 1665804774:0;ls
+: 1665804805:0;sudo apt-get install nomacs
+: 1665804928:0;nomacs
+: 1665804977:0;ls
+: 1665804988:0;nomacs 137.184.3.254.png
+: 1665805003:0;sudo apt-get install Qt
+: 1665805006:0;sudo apt-get install Qtcore
+: 1665805034:0;sudo apt-get install eglfs
+: 1665805040:0;sudo apt-get search eglfs
+: 1665805044:0;sudo apt search eglfs
+: 1665805404:1;snap remove docker
+: 1665805406:0;sudo snap remove docker
+: 1665806086:0;rm -R /var/lib/docker
+: 1665806100:0;sudo rm -R /var/lib/docker
+: 1665806156:0;sudo apt-get remove docker docker-engine docker.io
+: 1665806173:0;sudo apt-get remove docker docker-engine docker.io containerd runc
+: 1665806203:0;sudo apt-get install \\
+    ca-certificates \\
+    curl \\
+    gnupg \\
+    lsb-release
+: 1665806209:0;sudo mkdir -p /etc/apt/keyrings
+: 1665806213:0;curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+: 1665806221:0;echo \\
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \\
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+: 1665806238:0;sudo apt-get install \\
+    ca-certificates \\
+    curl \\
+    gnupg \\
+    lsb-release
+: 1665806247:0;sudo mkdir -p /etc/apt/keyrings
+: 1665806250:0;curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+: 1665806259:0;echo \\
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \\
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+: 1665806265:0;sudo apt-get update
+: 1665806277:0;sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+: 1665806348:0;sudo apt-get update
+: 1665806358:0;sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+: 1665806380:0;docker
+: 1665806383:0;docker ps
+: 1665806385:0;sudo docker ps
+: 1665806388:0;sudo docker ps -a
+: 1665806389:0;ls
+: 1665806392:0;cd ~/
+: 1665806393:0;ls
+: 1665806397:0;cd SEAFILE
+: 1665806398:0;ls
+: 1665806401:0;sudo docker-compose up -d
+: 1665806439:0;df -h
+: 1665806446:0;lsblk
+: 1665806452:0;sudo mount /dev/sdb1 /data/2TB1
+: 1665806456:0;df -h
+: 1665806485:0;sudo docker ps
+: 1665806492:0;vim docker-compose.yml
+: 1665806521:0;docker pull vaultwarden/server:latest
+: 1665806523:0;sudo docker pull vaultwarden/server:latest
+: 1665806644:0;docker run -d --name vaultwarden -v /data/2TB1/:/data/ -p 4141:80 vaultwarden/server:latest
+: 1665806645:0;sudo docker run -d --name vaultwarden -v /data/2TB1/:/data/ -p 4141:80 vaultwarden/server:latest
+: 1665806932:0;docker pull mailserver/docker-mailserver
+: 1665806933:0;sudo docker pull mailserver/docker-mailserver
+: 1665807581:0;sudo docker ps -a
+: 1665807590:0;sudo docker 
+: 1665807596:0;sudo docker images
+: 1665807608:0;sudo docker rm aa627ef9c47f
+: 1665807619:0;sudo docker image prune
+: 1665807625:0;sudo docker images
+: 1665807633:0;sudo docker image rm aa627ef9c47f
+: 1665807636:0;clear
+: 1665807638:0;sudo docker ps
+: 1665807653:0;ls
+: 1665807654:0;cd ~
+: 1665807654:0;ls
+: 1665807666:0;mkdir DOCKERMAILSERVER
+: 1665807667:0;cd DOCKERMAILSERVER
+: 1665807677:0;sudo vim docker-compose.yml
+: 1665807839:0;ls
+: 1665807843:0;sudo docker-compose up -d
+: 1665807897:0;cd /home/agriffin/DOCKERMAILSERVER/
+: 1665807898:0;ls
+: 1665807907:0;sudo vim mailserver.env
+: 1665807974:0;sudo docker-compose up -d
+: 1665808016:0;vim docker-compose.yml
+: 1665808039:0;sudo vim docker-compose.yml
+: 1665808052:0;sudo docker-compose up -d
+: 1665808059:0;sudo docker ps
+: 1665808143:0;ls
+: 1665808149:0;cd /data/2TB1/dms
+: 1665808150:0;ls
+: 1665808158:0;cd config
+: 1665808158:0;ls
+: 1665808159:0;cd ..
+: 1665808162:0;ls mail-data
+: 1665808165:0;ls mail-logs
+: 1665808167:0;ls mail-state
+: 1665808254:0;cd ~/DOCKERMAILSERVER
+: 1665808255:0;ls
+: 1665808257:0;DMS_GITHUB_URL='https://raw.githubusercontent.com/docker-mailserver/docker-mailserver/master'
+: 1665808263:0;wget "${DMS_GITHUB_URL}/docker-compose.yml"
+: 1665808267:0;wget "${DMS_GITHUB_URL}/mailserver.env"
+: 1665808270:0;wget "${DMS_GITHUB_URL}/setup.sh"
+: 1665808274:0;chmod a+x ./setup.sh
+: 1665808275:0;ls
+: 1665808303:0;./setup.sh email add ag@neblix.com
+: 1665808307:0;sudo ./setup.sh email add ag@neblix.com
+: 1665808335:0;ls
+: 1665808340:0;cd ..
+: 1665808340:0;ls
+: 1665808346:0;sudo rm -rf DOCKERMAILSERVER
+: 1665808350:0;sudo docker ps
+: 1665808356:0;sudo docker stop 04b889180b3b
+: 1665814257:0;speedtest
+: 1665814283:0;curl ifconfig.me
+: 1665814288:0;sudo tailscale up --reset
+: 1665814306:0;speedtest
+: 1665814616:0;ping drive.neblix.com
+: 1665806944:0;df -h
+: 1665815576:0;curl ifconfig.me
+: 1665815578:0;speedtst
+: 1665815580:0;speedtest
+: 1665815611:0;hostname echidna
+: 1665815612:0;sudo hostname echidna
+: 1665815616:0;srcz
+: 1665815622:0;exit
+: 1665817360:0;sudo tailscale up --ssh --exit-node=100.73.164.92 --exit-node-allow-lan-access=true --accept-risk=lose\
+-ssh
+: 1665817377:0;sudo tailscale up --ssh --exit-node=100.73.164.92 --exit-node-allow-lan-access=true --accept-risk=lose-ssh
+: 1665817398:0;sap && sag
+: 1665817427:0;exit
+: 1665818599:0;curl ifconfig.me
+: 1665818741:0;sudo apt-get install pip
+: 1665818842:0;pip install --upgrade mackup
+: 1665818852:0;mackup backup
+: 1665818869:0;pip remove mackup
+: 1665818876:0;pip uninstall mackup
+: 1665819006:0;virc
+: 1665819013:0;cat ~/.zshrc
+: 1665819046:0;ln /home/agriffin/.zshrc /home/agriffin/dotties/zshrc
+: 1665819059:0;mkdir dotties
+: 1665819060:0;ln /home/agriffin/.zshrc /home/agriffin/dotties/zshrc
+: 1665819062:0;ls
+: 1665819064:0;cd dotties
+: 1665819064:0;ls
+: 1665819066:0;vim zshrc
+: 1665819104:0;srcz
+: 1665819108:0;curl ifconfig.me
+: 1665819111:0;tsee
+: 1665819115:0;curl ifconfig.me
+: 1665819119:0;vim zshrc
+: 1665819195:0;srcz
+: 1665819201:0;tsr
+: 1665819251:0;curl ifconfig.me
+: 1665819253:0;clear
+: 1665819261:0;virc
+: 1665819275:0;srcz
+: 1665819279:0;exit
+: 1665819291:0;ip a 
+: 1665819296:0;exit
+: 1665819309:0;tsr
+: 1665819312:0;curl ifconfig.me
+: 1665819317:0;tshee
+: 1665819318:0;curl ifconfig.me
+: 1665819326:0;vim zshrc
+: 1665819329:0;ls
+: 1665819330:0;cd dotties
+: 1665819333:0;vim zshrc
+: 1665819378:0;tsr
+: 1665819441:0;curl ifconfig.me
+: 1665819444:0;virc
+: 1665819580:0;srcz
+: 1665819616:0;ls
+: 1665819633:0;touch ohmyzshinstaller.sh
+: 1665819635:0;vim ohmyzshinstaller.sh
+: 1665819646:0;chmod +x ohmyzshinstaller.sh
+: 1665819648:0;./ohmyzshinstaller.sh
+: 1665819677:0;virc
+: 1665819703:0;vim ohmyzshinstaller.sh
+: 1665820231:0;ls
+: 1665820234:0;cd ..
+: 1665820235:0;ls
+: 1665820241:0;mkdir todd
+: 1665820242:0;cd todd
+: 1665820246:0;git clone https://github.com/adrian-griffin/dotties.git
+: 1665820263:0;ls
+: 1665820280:0;cd dotties
+: 1665820280:0;ls
+: 1665820289:0;sudo rm *
+: 1665820291:0;ls
+: 1665820294:0;sudo rm -rf Transmission
+: 1665820295:0;ls
+: 1665820302:0;git add *
+: 1665820307:0;git push
+: 1665820318:0;git commit 
+: 1665820324:0;git add
+: 1665820330:0;git commit
+: 1665820340:0;git commit -a
+: 1665820348:0;git commit -m "hi"
+: 1665820361:0;git add *
+: 1665820387:0;touch GenericUbuntuProvisioning.sh
+: 1665820393:0;chmod +x GenericUbuntuProvisioning.sh
+: 1665820395:0;git add *
+: 1665820398:0;git commit -m "hi"
+: 1665820400:0;git push
+: 1665820414:0;ls
+: 1665820419:0;git pull
+: 1665820539:0;ls
+: 1665820542:0;clear
+: 1665820544:0;ls
+: 1665820549:0;cd ..
+: 1665820550:0;ls
+: 1665820553:0;cd .. 
+: 1665820553:0;ls
+: 1665820555:0;cd dotties
+: 1665820555:0;ls
+: 1665820574:0;cat ohmyzshinstaller.sh
+: 1665820586:0;vim ~/todd/dotties/GenericUbuntuProvisioning.sh
+: 1665820590:0;ls
+: 1665820603:0;sudo mv zshrc ~/todd/dotties/zshrc
+: 1665820605:0;ls
+: 1665820606:0;cd ..
+: 1665820606:0;ls
+: 1665820612:0;sudo rm -rf dotties
+: 1665820613:0;ls
+: 1665820615:0;cd todd
+: 1665820616:0;ls
+: 1665820618:0;cd dotties
+: 1665820624:0;git add *
+: 1665820630:0;git commit -m "hi2"
+: 1665820632:0;git push
+: 1665820643:0;ls
+: 1665820647:0;vim zshrc
+: 1665820663:0;srcz
+: 1665820666:0;ooga
+: 1665820669:0;vim zshrc
+: 1665820678:0;srcz
+: 1665820688:0;virc
+: 1665820752:0;srcz
+: 1665820760:0;gacp
+: 1665820784:0;cd ..
+: 1665820784:0;l
+: 1665820786:0;ls
+: 1665820787:0;cd ..
+: 1665820788:0;ls
+: 1665820793:0;sudo rm -rf todd
+: 1665820796:0;git clone https://github.com/adrian-griffin/dotties.git
+: 1665820806:0;ls
+: 1665820807:0;cd dotties
+: 1665820813:0;vim GenericUbuntuProvisioning.sh
+: 1665820820:0;vim zshrc
+: 1665820876:0;ooga
+: 1665820879:0;srcz
+: 1665820921:0;vim GenericUbuntuProvisioning.sh
+: 1665821177:0;curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+: 1665821185:0;lazydocker
+: 1665821192:0;sudo lazydocker
+: 1665821202:0;lazydocker
+: 1665821216:0;sudo su
+: 1665821224:0;ls
+: 1665821257:0;mkdir lazydocker
+: 1665821264:0;touch lazydocker/docker-compose.yml
+: 1665821267:0;vim lazydocker/docker-compose.yml
+: 1665821297:0;ls
+: 1665821550:0;sudo apt-get install htop
+: 1665821557:0;htop
+: 1665821712:0;sudo apt-get install z
+: 1665821739:0;sudo apt-get install starship
+: 1665821789:0;virc
+: 1665821856:0;srcz
+: 1665821875:0;clear
+: 1665821876:0;z
+: 1665821886:0;z vaul
+: 1665821896:0;cd ~
+: 1665821897:0;ls
+: 1665821900:0;cd VAULTWARDEN
+: 1665821900:0;ls
+: 1665821903:0;cd .. 
+: 1665821905:0;cd dotties
+: 1665821907:0;z vaul
+: 1665821936:0;curl -O https://starship.rs/install.sh | zsh
+: 1665821944:0;ls
+: 1665821948:0;cd ~
+: 1665821948:0;ls
+: 1665821953:0;mkdir starship
+: 1665821954:0;cd starship
+: 1665821959:0;curl -O https://starship.rs/install.sh
+: 1665821961:0;ls
+: 1665821967:0;chmod +x install.sh
+: 1665821970:0;./install.sh
+: 1665822006:0;starship
+: 1665822018:0;virc
+: 1665822030:0;srcz
+: 1665822156:0;z dott
+: 1665822161:0;ls
+: 1665822167:0;vim GenericUbuntuProvisioning.sh
+: 1665822279:0;gacp
+: 1665822387:0;virc
+: 1665822431:0;srcz
+: 1665823120:0;exit
+: 1665823719:0;virc
+: 1665823732:0;gacp
+: 1665823738:0;touch 123.123
+: 1665823741:0;gacp
+: 1665823763:0;virc
+: 1665823799:0;srcz
+: 1665824018:0;ls
+: 1665824021:0;gacp
+: 1665824030:0;touch 123.12
+: 1665824032:0;gacp
+: 1665824046:0;virc
+: 1665824093:0;srcz
+: 1665824200:0;ls
+: 1665824207:0;rm 123.*
+: 1665824209:0;ls
+: 1665824217:0;touch aba
+: 1665824221:0;gacp
+: 1665824458:0;virc
+: 1665824579:0;srcz
+: 1665824689:0;touch littlekids
+: 1665824693:0;gacp
+: 1665824710:0;ls
+: 1665824714:0;rm aba
+: 1665824718:0;rm littlekids
+: 1665824721:0;ls
+: 1665824734:0;gacp
+: 1665824741:0;ls
+: 1665824747:0;vim GenericUbuntuProvisioning.sh
+: 1665825372:0;ls
+: 1665825377:0;vim GenericUbuntuProvisioning.sh
+: 1665825395:0;sudo apt-get install bat
+: 1665825416:0;;s
+: 1665825423:0;sudo apt-get install exa
+: 1665825441:0;exa
+: 1665825445:0;ls
+: 1665825446:0;exa
+: 1665825452:0;bat GenericUbuntuProvisioning.sh
+: 1665825461:0;sudo apt-get install bat
+: 1665825505:0;batcat
+: 1665825511:0;batcat GenericUbuntuProvisioning.sh
+: 1665825570:0;virc
+: 1665825633:0;exa
+: 1665825636:0;ls
+: 1665825640:0;cd ~
+: 1665825640:0;ls
+: 1665825642:0;exa
+: 1665825645:0;cd VAULTWARDEN
+: 1665825647:0;ls
+: 1665825648:0;exa
+: 1665825653:0;cd ~/dotties
+: 1665825654:0;virc
+: 1665825790:0;srcz
+: 1665826743:0;df -h
+: 1665826752:0;lsblk
+: 1665826802:0;sudo mount /dev/sdb1 /data/2TB1
+: 1665826816:0;lsblk
+: 1665826832:0;df -h
+: 1665827205:0;sudo apt-get install iperf3
+: 1665827248:0;iperf3 -s
+: 1665827291:0;iperf3 -s -B 
+: 1665827444:0;iperf3 -c 10.20.62.20
+: 1665828398:0;df -h
+: 1665828431:0;sudo blkid
+: 1665828479:0;sudo vim /etc/fstab
+: 1665828565:0;ls
+: 1665828589:0;vim GenericUbuntuProvisioning.sh
+: 1665828932:0;ssh -L 4444:google.com:80
+: 1665828942:0;ssh -L 4444:google.com
+: 1665828949:0;ssh google.com
+: 1665828955:0;ssh google.com -L 4444
+: 1665828961:0;ssh google.com -D 4444
+: 1665829001:0;hostname -i | awk '{print $3}'
+: 1665829011:0;hostname -i
+: 1665829036:0;/sbin/ifconfig eth0 | grep 'inet addr' 
+: 1665829165:0;df
+: 1665829169:0;fg
+: 1665829246:0;curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+: 1665829268:0;speedtest
+: 1665829452:0;hostname -i
+: 1665829456:0;ip a
+: 1665829500:0;hostname -i | awk '{print $2}'
+: 1665829511:0;ip a | awk '{print $2}'
+: 1665829520:0;ip 2
+: 1665829523:0;ip help
+: 1665829528:0;ip a 2
+: 1665829534:0;ip a | 2
+: 1665829538:0;clear
+: 1665830180:0;virc
+: 1665830199:0;ll
+: 1665830202:0;lk
+: 1665830208:0;ls && ll
+: 1665830225:0;virc
+: 1665830249:0;srcz
+: 1665830299:0;lok
+: 1665830307:0;exit
+: 1665830370:0;ip
+: 1665830372:0;cip
+: 1665830374:0;cup
+: 1665830377:0;virc
+: 1665830390:0;exit
+: 1665830395:0;cip
+: 1665830407:0;sudo tailscale up --ssh --exit-node=100.73.164.92 --exit-node-allow-lan-access=true --accept-risk=lose-ssh
+: 1665830424:0;virc
+: 1665831109:0;fg
+: 1665831258:0;lsblk
+: 1665831264:0;blkid
+: 1665831293:0;sudo vim /etc/fstab
+: 1665831378:0;ls
+: 1665831382:0;sudo vim /etc/fstab
+: 1665831684:0;ls
+: 1665831685:0;virc
+: 1665831689:0;lok
+: 1665831692:0;lol
+: 1665831694:0;ll
+: 1665831701:0;ls
+: 1665831705:0;lol
+: 1665831708:0;virc
+: 1665831750:0;bat GenericUbuntuProvisioning.sh
+: 1665831756:0;bat dotties/GenericUbuntuProvisioning.sh
+: 1665831774:0;ll
+: 1665831801:0;lok
+: 1665831803:0;ll
+: 1665831809:0;srcz
+: 1665831897:0;ls
+: 1665832292:0;virc
+: 1665832329:0;sudo apt-get install ripgrep
+: 1665832413:0;virc
+: 1665832425:0;ls
+: 1665832430:0;cd dotties
+: 1665832431:0;ls
+: 1665832442:0;virc
+: 1665832455:0;rg plugin
+: 1665832475:0;ls
+: 1665832477:0;ls -a
+: 1665832706:0;ls
+: 1665832737:0;z -
+: 1665832747:0;ls
+: 1665832750:0;cd lazydocker
+: 1665832753:0;z -
+: 1665832761:0;z +
+: 1665832793:0;z dot
+: 1665832805:0;z -
+: 1665832812:0;virc
+: 1665832876:0;ls
+: 1665832879:0;cd ..
+: 1665832879:0;ls
+: 1665832884:0;mkdir SEASTAR
+: 1665832888:0;cd SEAFILE
+: 1665832890:0;cd ..
+: 1665832892:0;cd SEASTAR
+: 1665832894:0;cd ..
+: 1665832909:0;z sea
+: 1665832922:0;z sea 
+: 1665833002:0;ls
+: 1665833004:0;cd ~
+: 1665833004:0;ls
+: 1665833010:0;curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
+: 1665833031:0;virc
+: 1665833130:0;srcz
+: 1665833136:0;zz
+: 1665833146:0;z sea
+: 1665833158:0;ls
+: 1665833161:0;zz
+: 1665833163:0;ls
+: 1665833302:0;sudo apt-get install tldr
+: 1665833386:0;tldr ssh
+: 1665833398:0;tldr fzf
+: 1665833427:0;tldr sudo
+: 1665833459:0;tldr --list
+: 1665833474:0;tldr -u
+: 1665833537:0;tldr sudo
+: 1665833541:0;tldr fzf
+: 1665833544:0;clear
+: 1665833556:0;vim ~/dotties/GenericUbuntuProvisioning.sh
+: 1665835517:0;ssh neblixechidna
+: 1665835549:0;sudo tailscale up --ssh ---exit-node-allow-lan-access=false --accept-risk=lose-ssh
+: 1665835968:0;sudo tailscale up --reset
+: 1665836027:0;sudo tailscale up --ssh --exit-node=100.73.164.92 --exit-node-allow-lan-access=true --accept-risk=lose-ssh
+: 1665836037:0;cip
+: 1665836337:0;vim ~/dotties/GenericUbuntuProvisioning.sh
+: 1665837321:0;virc
+: 1665837464:0;tldr docker
+: 1665837479:0;tldr exa
+: 1665837488:0;exa -l -a
+: 1665837500:0;man exa
+: 1665837545:0;qqls
+: 1665837546:0;ls
+: 1665837569:0;exa --color='never'
+: 1665837578:0;exa --color-scale
+: 1665837583:0;cd dotties
+: 1665837584:0;exa --color-scale
+: 1665837587:0;ls
+: 1665837598:0;exa --color-scale --icons
+: 1665837621:0;exa --color=never --color-scale --icons
+: 1665837635:0;exa -F
+: 1665837641:0;exa -G
+: 1665837650:0;exa -R -G
+: 1665837660:0;exa -R
+: 1665837666:0;exa -R -1
+: 1665837671:0;exa -1 -R
+: 1665837673:0;exa -1
+: 1665837678:0;exa -G
+: 1665837682:0;exa -2
+: 1665837684:0;exa -1
+: 1665837688:0;exa -G -R
+: 1665837693:0;ls
+: 1665837698:0;cd lazydocker
+: 1665837698:0;ls
+: 1665837701:0;zz
+: 1665837702:0;ls
+: 1665837703:0;zz
+: 1665837705:0;ls
+: 1665837707:0;zz
+: 1665837714:0;z agr
+: 1665837717:0;z agrif
+: 1665837720:0;z agriffin
+: 1665837723:0;cd ..
+: 1665837725:0;ls
+: 1665837737:0;virc
+: 1665837755:0;srcz
+: 1665837761:0;..
+: 1665837762:0;ls
+: 1665837763:0;..
+: 1665837763:0;ls
+: 1665837770:0;cd /etc
+: 1665837774:0;ll
+: 1665837775:0;ls
+: 1665837779:0;exa
+: 1665837783:0;exa R
+: 1665837785:0;exa -R
+: 1665837793:0;exa -F
+: 1665837797:0;exa 
+: 1665837799:0;exa -F
+: 1665837803:0;exa -F -1
+: 1665837812:0;exa -F -x
+: 1665837815:0;exa -F -X
+: 1665837823:0;exa -F -X -l
+: 1665837828:0;exa -F -x -l
+: 1665837843:0;exa -F -X -R
+: 1665837845:0;exa -F -x -R
+: 1665837867:0;exa -F -X -color
+: 1665837871:0;exa -F -x -color
+: 1665837875:0;exa -F -x --color
+: 1665837880:0;exa -F -x --color=always
+: 1665837887:0;exa
+: 1665837984:0;virc
+: 1665838031:0;srcz
+: 1665838037:0;cd apache2/conf-available
+: 1665838040:0;2..
+: 1665839961:0;virc
+: 1665839969:0;vim ~/dotties/GenericUbuntuProvisioning.sh
+: 1665840374:0;fg
+: 1665840623:0;sudo apt install python3-dev python3-pip python3-setuptools
+: 1665840629:0;pip3 install thefuck --user
+: 1665840644:0;sudo aptget upgrade
+: 1665840645:0;fuck
+: 1665840667:0;srcz
+: 1665840674:0;sudo aptget upgrade
+: 1665840675:0;fuck
+: 1665840684:0;sudo apt-get upgrade
+: 1665840690:0;sudo apt-get update
+: 1665840848:0;vim ~/dotties/GenericUbuntuProvisioning.sh
+: 1665840968:0;virc
+: 1665840978:0;fg
+: 1665841093:0;ls
+: 1665841095:0;cd ~
+: 1665841095:0;ls
+: 1665841100:0;touch bitches.txt
+: 1665841107:0;rm bitches.txt
+: 1665841155:0;touch hoes.txt
+: 1665841156:0;vim hoes.txt
+: 1665841164:0;ls
+: 1665841187:0;kitten hoes.txt
+: 1665841195:0;cat hoes.txt
+: 1665841198:0;cat hoes.txt -p
+: 1665841227:0;touch bitches.txt <<< cat hoes.txt -p
+: 1665841233:0;ls
+: 1665841243:0;touch bitches.txt <<< cat -p hoes.txt
+: 1665841248:0;touch bitches.txt <<< cat hoes.txt
+: 1665841251:0;ls
+: 1665841255:0;vim bitches.txt
+: 1665841283:0;cat hoes.txt | bitches.txt
+: 1665841292:0;cat hoes.txt | nano bitches.txt
+: 1665841330:0;rm bitches.txt
+: 1665841350:0;cat hoes.txt > bitches.txt
+: 1665841352:0;vim bitches.txt
+: 1665841356:0;ls
+: 1665841361:0;rm bitches.txt
+: 1665841363:0;rm bitches.txt.save
+: 1665841367:0;rm hoes.txt
+: 1665841422:0;ls
+: 1665841424:0;cd dotties
+: 1665841424:0;ls
+: 1665841435:0;ls lazydocker
+: 1665841451:0;sudo mv lazydocker ~/
+: 1665841453:0;ls ~
+: 1665841455:0;ls
+: 1665841475:0;sudo cp ~/.zsh_history zsh_history
+: 1665841476:0;ls
+: 1665841489:0;mkdir configs
+: 1665841490:0;cd configs
+: 1665841491:0;l
+: 1665841493:0;ls
+: 1665841979:0;cd giff
+: 1665841982:0;z grif
+: 1665841985:0;z agriff
+: 1665841998:0;cd /home/agriffin
+: 1665841999:0;ls
+: 1665842058:0;ls -a
+: 1665842081:0;vim /etc/vim/vimrc
+: 1665842402:0;vim --version
+: 1665842451:0;ls
+: 1665842459:0;git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+: 1665842516:0;ln ~/.vim/bundle/Vundle.vim /home/agriffin/dotties/Vundle.vim
+: 1665842699:0;vim /etc/vim/vimrc
+: 1665842938:0;sudo vim /etc/vim/vimrc
+: 1665843081:0;srcz
+: 1665843091:0;sudo vim /etc/vim/vimrc
+: 1665843514:0;ls
+: 1665843520:0;ls SEASTAR
+: 1665843526:0;sudo rm -rf SEASTAR
+: 1665843538:0;cd dotties
+: 1665843539:0;ls
+: 1665843541:0;cd configs
+: 1665843542:0;l
+: 1665843546:0;exa
+: 1665843550:0;zz
+: 1665843569:0;virc
+: 1665844246:0;dosn() {sudo docker stop $(sudo docker ps -a -qf name="${1}")}
+: 1665844250:0;dosn
+: 1665844261:0;docker ps
+: 1665844263:0;sudo docker ps
+: 1665844268:0;ls
+: 1665844270:0;cd ~
+: 1665844271:0;ls
+: 1665844278:0;virc
+: 1665844307:0;cd SEAFILE && scrud
+: 1665844317:0;cd VAULTWARDEN && scrud
+: 1665844333:0;sudo docker ps -a
+: 1665844340:0;sudo docker start 09e58ab473a0
+: 1665844344:0;sudo docker ps
+: 1665844383:0;df -h
+: 1665844407:0;vim ~/SEAFILE/docker-compose.yml
+: 1665844608:0;ls
+: 1665844609:0;cd dotties
+: 1665844610:0;ls
+: 1665844614:0;virc
+: 1665844631:0;gacp
+: 1665844638:0;ls
+: 1665844643:0;sudo gacp
+: 1665844646:0;ls
+: 1665844656:0;sudo rm zsh_history
+: 1665844658:0;gacp
+: 1665844703:0;exit
+: 1665844819:0;z dit
+: 1665844821:0;z dot
+: 1665844852:0;cp GenericUbuntuProvisioning.sh UpdaterFile.sh
+: 1665844855:0;vim UpdaterFile.sh
+: 1665844902:0;touch zsh_history
+: 1665844903:0;ls
+: 1665844922:0;ln ~/.zsh_history ~/dotties/zsh_history
+: 1665844928:0;sudo rm zsh_history
+: 1665844932:0;ln ~/.zsh_history ~/dotties/zsh_history
+: 1665844933:0;ls
+: 1665844938:0;cat zsh
+: 1665844942:0;cat zsh_history
+: 1665844953:0;gacp
