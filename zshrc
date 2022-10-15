@@ -133,7 +133,7 @@ alias 'tsr'='sudo tailscale up --reset'
 
 alias 'tsh'='sudo tailscale up --ssh --accept-risk=lose-ssh'
 
-alias ''
+alias 'gacp'='git add * && git commit -m "null" && echo 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 && git push'
 
 export PATH="~/Smartaira-noc-tools:$PATH"
 
