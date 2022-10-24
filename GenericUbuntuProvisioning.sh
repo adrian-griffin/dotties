@@ -20,8 +20,6 @@ sudo apt-get install fzf
 
 # Symlinking ~/.zshrc to xxx/dotties/zshrc
 ln /home/agriffin/.zshrc /home/agriffin/dotties/zshrc
-# Symlinking ~/.zsh_history to xxx/dotties/zsh_history
-ln /home/agriffin/.zsh_history /home/agriffin/dotties/zsh_history
 
 # Docker Engine install
 sudo apt-get remove docker docker-engine docker.io containerd runc -y
@@ -59,21 +57,22 @@ sudo apt-get install exa -y
 
 # tldr install
 sudo apt-get install tldr -y
+tldr --update
 
 # ripgrep install
 sudo apt-get install ripgrep -y
 
 
 # Nerd font install
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Hack.zip
-unzip Hack.zip -d ~/.fonts
-fc-cache -fv
+#wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Hack.zip
+#unzip Hack.zip -d ~/.fonts
+#fc-cache -fv
 
 # Starship install
-curl -sS https://starship.rs/install.sh | sh
+#curl -sS https://starship.rs/install.sh | sh
 
 # Starship configuration
-mkdir -p ~/.config && touch ~/.config/starship.toml
+#mkdir -p ~/.config && touch ~/.config/starship.toml
 
 
 # LazyDocker install

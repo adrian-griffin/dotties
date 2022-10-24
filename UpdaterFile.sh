@@ -20,8 +20,6 @@ sudo apt-get install fzf
 
 # Symlinking ~/.zshrc to xxx/dotties/zshrc
 ln /home/agriffin/.zshrc /home/agriffin/dotties/zshrc
-# Symlinking ~/.zsh_history to xxx/dotties/zsh_history
-ln /home/agriffin/.zsh_history /home/agriffin/dotties/zsh_history
 
 # Docker Engine install
 sudo apt-get remove docker docker-engine docker.io containerd runc -y

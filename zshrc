@@ -113,34 +113,26 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 alias 'pdigi'='echo "TfoK%55s2#&24%!a"'
 alias 'srcz'='source ~/.zshrc'
 alias 'ts'='sudo tailscale'
-alias 'fug'='sudo apt full-upgrade -y'
-alias 'updog'='sudo apt-get update -y && sudo apt-get upgrade -y'
-alias 'cup'='curl ifconfig.me/all'
+alias 'cip'='curl ifconfig.me/all'
 alias 'tss'='sudo tailscale status'
-
-alias 'virc'='sudo vim ~/.zshrc'
-
+alias 'virc'='sudo vim ~/dotties/zshrc'
 alias 'ngcr'='sudo docker cp ~/NGINXconf/default.conf nginx-base:/etc/nginx/conf.d/ && sudo docker exec nginx-base nginx -s reload'
 alias 'ngini'='vim ~/NGINXconf/default.conf'
 
 alias 'smh'='python3 ~/Smartaira-noc-tools/smh/smh.py'
 
 alias 'sad'='sudo docker'
-
 alias 'tshee'='sudo tailscale up --ssh --exit-node=100.73.164.92 --exit-node-allow-lan-access=true --accept-risk=lose-ssh'
-
 alias 'tsr'='sudo tailscale up --reset'
-
 alias 'tsh'='sudo tailscale up --ssh --accept-risk=lose-ssh'
-
 alias 'gacp'='git add * && git commit -m "null" && echo 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 && git push'
-
 
 
 export PATH="~/Smartaira-noc-tools:$PATH"
 
-
-## Test alias
-alias 'ooga'='echo fuck'
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval "$(zoxide init zsh)"
+alias 'ls'='exa'
+alias 'cd'='z'
+alias 'uu'='sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt full-upgrade -y'
+
