@@ -109,6 +109,8 @@ source $ZSH/oh-my-zsh.sh
 #
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+export PATH="/root/.local/bin:$PATH"
+
 
 alias 'pdigi'='echo "TfoK%55s2#&24%!a"'
 alias 'srcz'='source ~/.zshrc'
@@ -135,4 +137,5 @@ eval "$(zoxide init zsh)"
 alias 'ls'='exa'
 alias 'cd'='z'
 alias 'uu'='sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt full-upgrade -y'
-
+alias 'dkra'='docker restart $(docker ps -a -q)'
+alias 'dksa'='docker stop $(docker ps -a -q)'
