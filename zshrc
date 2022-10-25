@@ -139,3 +139,7 @@ alias 'cd'='z'
 alias 'uu'='sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt full-upgrade -y'
 alias 'dkra'='docker restart $(docker ps -a -q)'
 alias 'dksa'='docker stop $(docker ps -a -q)'
+
+
+# FOR NEBLIX-EDGE NAT PREROUTING:
+alias 'pfpn'='sudo iptables -t nat -A PREROUTING -d 137.184.3.254 -p tcp --dport 39115 -j DNAT --to-dest 100.74.73.98:32400 && sudo iptables -t nat -A PREROUTING -d 137.184.3.254 -p udp --dport 39115 -j DNAT --to-dest 100.74.73.98:32400'
