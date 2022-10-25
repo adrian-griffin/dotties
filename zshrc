@@ -137,8 +137,8 @@ eval "$(zoxide init zsh)"
 alias 'ls'='exa'
 alias 'cd'='z'
 alias 'uu'='sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt full-upgrade -y'
-alias 'dkra'='docker restart $(docker ps -a -q)'
-alias 'dksa'='docker stop $(docker ps -a -q)'
+alias 'dkra'='sudo docker restart $(docker ps -a -q)'
+alias 'dksa'='sudo docker stop $(docker ps -a -q)'
 alias 'dkps'='sudo docker ps'
 alias 'dkpsa'='sudo docker ps -a'
 
