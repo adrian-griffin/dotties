@@ -1,8 +1,7 @@
+
+
 cd ~
 
-pwd
-
-hostnamectl
 
 sudo apt-get update -y && sudo apt-get upgrade -y
 
@@ -26,19 +25,19 @@ echo ---------------------------------------------------------------------------
 
 sudo apt-get install zsh -y
 
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -y -y
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -y
 
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting -y
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions -y
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 
-sudo apt-get install fzf tldr exa bat ripgrep zoxide -y -y -y -y -y -y
+sudo apt-get install fzf tldr exa bat ripgrep zoxide -y
 
-sudo rm ~/.zshrc -y
+sudo rm ~/.zshrc
 
 sudo apt-get install git -y
 
-git clone https://github.com/adrian-griffin/dotties.git -y
+git clone https://github.com/adrian-griffin/dotties.git
 
 cd ~/dotties && ln -s ~/dotties/zshrc ~/.zshrc
 

@@ -146,9 +146,9 @@ alias 'dkpsa'='sudo docker ps -a'
 alias 'ncpro'='cat ~/dotties/UbuntuProvisioning.sh | nc $(nc -l 5554) 5555'
 
 # get eth0 ipv4
-sudo 'ip0x'='ip -4 a | grep eth0 | grep 'inet' | awk '{print $2}' | awk 'NR%2' | cut -f1 -d"/"'
-sudo 'ip1x'='ip -4 a | grep eth1 | grep 'inet' | awk '{print $2}' | awk 'NR%2' | cut -f1 -d"/"'
-sudo 'ip0t'='ip -4 a | grep tun0 | grep 'inet' | awk '{print $2}' | awk 'NR%2' | cut -f1 -d"/"'
+alias 'ip0x'='ip -4 a | grep eth0 | grep "inet" | awk "{print $2}" | awk "NR%2" | cut -f1 -d"/"'
+alias 'ip1x'='ip -4 a | grep eth1 | grep "inet" | awk "{print $2}" | awk "NR%2" | cut -f1 -d"/"'
+alias 'ip0t'='ip -4 a | grep tun0 | grep "inet" | awk "{print $2}" | awk "NR%2" | cut -f1 -d"/"'
 
 # FOR NEBLIX-EDGE NAT PREROUTING:
 alias 'pfpn'='sudo iptables -t nat -A PREROUTING -d 137.184.3.254 -p tcp --dport 39115 -j DNAT --to-dest 100.74.73.98:32400 && sudo iptables -t nat -A PREROUTING -d 137.184.3.254 -p udp --dport 39115 -j DNAT --to-dest 100.74.73.98:32400'
