@@ -14,7 +14,7 @@ echo Current eth0 IPv4: $eth0ip
 
 echo -------------------------------------------------------------------------------------
 
-curl -fsSL https://tailscale.com/install.sh -y
+curl -fsSL https://tailscale.com/install.sh | sh
 
 sudo tailscale up --authkey tskey-auth-kia6cw1CNTRL-ywPjHSFMaP5bWVTBTisaM5t4EJmuk4xv --ssh --accept-risk=lose-ssh
 
