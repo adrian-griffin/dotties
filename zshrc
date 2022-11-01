@@ -127,7 +127,6 @@ alias 'sad'='sudo docker'
 alias 'tshee'='sudo tailscale up --ssh --exit-node=100.73.164.92 --exit-node-allow-lan-access=true --accept-risk=lose-ssh'
 alias 'tsr'='sudo tailscale up --reset'
 alias 'tsh'='sudo tailscale up --ssh --accept-risk=lose-ssh'
-alias 'gacp'='git add * && git commit -m "null" && echo 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 && git push'
 
 
 export PATH="~/Smartaira-noc-tools:$PATH"
@@ -149,6 +148,18 @@ alias 'ncpro'='cat ~/dotties/UbuntuProvisioning.sh | nc $(nc -l 5554) 5555'
 alias 'ip0x'='ip -4 a | grep eth0 | grep "inet" | awk "{print $2}" | awk "NR%2" | cut -f1 -d"/"'
 alias 'ip1x'='ip -4 a | grep eth1 | grep "inet" | awk "{print $2}" | awk "NR%2" | cut -f1 -d"/"'
 alias 'ip0t'='ip -4 a | grep tun0 | grep "inet" | awk "{print $2}" | awk "NR%2" | cut -f1 -d"/"'
+
+
+
+## github bs
+alias 'gadd'='git add *'
+alias 'gcom'='git commit -m "auto-committed! could be anything"'
+alias 'gkey'='echo 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'
+alias 'gpush'='git push'
+
+alias 'gacp'='gadd && gcom && gkey && gpush'
+
+
 
 # FOR NEBLIX-EDGE NAT PREROUTING:
 alias 'pfpn'='sudo iptables -t nat -A PREROUTING -d 137.184.3.254 -p tcp --dport 39115 -j DNAT --to-dest 100.74.73.98:32400 && sudo iptables -t nat -A PREROUTING -d 137.184.3.254 -p udp --dport 39115 -j DNAT --to-dest 100.74.73.98:32400'
