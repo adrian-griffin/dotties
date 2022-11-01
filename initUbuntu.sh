@@ -2,6 +2,7 @@
 
 cd ~
 
+sudo apt-get install curl
 
 sudo apt-get update -y && sudo apt-get upgrade -y
 
@@ -50,7 +51,7 @@ sudo apt-get install docker -y && sudo apt-get install docker-compose -y
 
 sudo apt-get install net-tools -y
 sudo apt-get install iperf3 -y
-curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash -y
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
 sudo apt-get install speedtest -y
 
 cd ~/dotties/LZD/ && sudo docker-compose up -d && cd ~/dotties
@@ -60,3 +61,5 @@ sudo docker ps
 echo ---------------------
 
 sudo docker ps -a
+
+
