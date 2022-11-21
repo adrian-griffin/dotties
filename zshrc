@@ -140,6 +140,9 @@ alias 'dkra'='sudo docker restart $(docker ps -a -q)'
 alias 'dksa'='sudo docker stop $(docker ps -a -q)'
 alias 'dkps'='sudo docker ps'
 alias 'dkpsa'='sudo docker ps -a'
+alias 'catd'='cat'
+alias 'cat'='batcat'
+
 
 # netcat shit
 alias 'ncpro'='cat ~/dotties/UbuntuProvisioning.sh | nc $(nc -l 5554) 5555'
